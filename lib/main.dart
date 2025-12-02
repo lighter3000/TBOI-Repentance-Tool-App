@@ -8,6 +8,8 @@ import 'package:application/settingPage.dart';
 
 import 'package:application/data/items.dart';
 
+import 'package:application/backgroundWrapper.dart';
+
 
 
 void main() async{
@@ -32,7 +34,33 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Spindown Dice App',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme(
+            brightness: Brightness.dark,
+
+          // Primary = main UI accent (buttons, sliders etc.)
+          primary: const Color(0xFF8F6D57),       // stone border color
+          onPrimary: const Color(0xFF2C1A14),
+
+          // Secondary = supporting accents
+          secondary: const Color(0xFF7E4A37),     // inner wood tone
+          onSecondary: const Color(0xFF2C1A14),
+
+          // Tertiary = optional accents (e.g. highlights)
+          tertiary: const Color(0xFFC59A7A),      // light beige highlights
+          onTertiary: const Color(0xFF3C1F16),
+
+          // Background colors (app-level background)
+          background: const Color(0xFF3C1F16),    // deep dark brown (shadow)
+          onBackground: const Color(0xFFE5D3C0),
+
+          // Surface = cards, sheets, panels
+          surface: const Color(0xFF6C3A2C),       // inner panel color
+          onSurface: const Color(0xFFE8D2C0),
+
+          // Error colors (you can keep defaults or theme them too)
+          error: Colors.red,
+          onError: Colors.black,
+          ),
         ),
         home: MyHomePage(title: 'Spindown Dice App Home Page', items: items),
       ),
@@ -131,13 +159,15 @@ class MainPage extends StatelessWidget {
     //var appState = context.watch<MyAppState>();
     var emails = 20;
 
-    return ListView(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Text("You have ${emails} Emails") 
-        ),
-      ],
+    return Backgroundwrapper(
+      child: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Text("You have ${emails} Emails") 
+          ),
+        ],
+    ),
     );
   }
 

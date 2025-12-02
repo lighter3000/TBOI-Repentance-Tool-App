@@ -1,9 +1,11 @@
 import 'dart:isolate';
 
+import 'package:application/backgroundWrapper.dart';
 import 'package:application/data/items.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import "package:application/main.dart";
+import "package:application/itemController.dart";
 
 
 class SpindownPage extends StatefulWidget {
@@ -22,18 +24,19 @@ class _SpindownPageState extends State<SpindownPage> {
 
   final ScrollController _scrollController = ScrollController();
   final _imageCache = <String, ImageProvider>{};
-  final TextEditingController _ItemDescriptionController = TextEditingController();
+
+  final ItemController _selectedItem = ItemController();
 
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
     
 
-    return SingleChildScrollView(
+    return Backgroundwrapper(
       child: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.fromLTRB(30, 30, 30, 30),
 
             child: Column(
               children: [
@@ -52,7 +55,8 @@ class _SpindownPageState extends State<SpindownPage> {
                           SizedBox(height: 8,),
                           TextField(
                             decoration: InputDecoration(
-                              border: OutlineInputBorder()
+                              border: OutlineInputBorder(),
+                              
                             ),
                             onSubmitted: (value) {
                               final itemName = value;
@@ -116,20 +120,20 @@ class _SpindownPageState extends State<SpindownPage> {
                                     width: 150,
                                     //margin: EdgeInsets.symmetric(horizontal: 8),
                                     decoration: BoxDecoration(
-                                      color: Colors.blue.shade100,
+                                      color: const Color.fromARGB(255, 121, 92, 74),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
                                     child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
-                                        Text(widget.items[index].name),
+                                        Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
                                         SizedBox(height: 2,),
                                         Image(
                                           image: getCachedImage(widget.items[index].imagePath)
                                         ),
                                         SizedBox(height: 2,),
                                         if(appState.showItemId)
-                                          Text("Item id: ${widget.items[index].id}"),
+                                          Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
                                       ],
                                     )
                                   )
@@ -142,21 +146,55 @@ class _SpindownPageState extends State<SpindownPage> {
                   ],
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    children: [
-                      Text("Description:\n", textAlign: TextAlign.center,),
-                      if(true)
-                        TextField(
-                          controller: _ItemDescriptionController,
-                          readOnly: true,
-                          maxLines: null,
-                        ),
-                    ],
-                  ),
+                  padding: const EdgeInsets.fromLTRB(8, 10, 8, 8),
+                  child: Container(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if(true)
+                          Padding(
+                            padding: const EdgeInsets.only(left: 22.0), // shift TextField too
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text("Name: \t${_selectedItem.name}"),
+                                          Text("ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}"),
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                      constraints: BoxConstraints(
+                                        maxHeight: 100,
+                                        maxWidth: 100,
+                                        minHeight: 99,
+                                        minWidth: 99
+                                      ),
+                                      child: Image(
+                                        fit: BoxFit.contain,
+                                        image: getCachedImage(
+                                          widget.items[_selectedItem.index].imagePath,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(height: 4,),
+                                Text("Description: ${_selectedItem.desc}"), // Desc
+                                SizedBox(height: 8,),
+                                Text("Effect: ${_selectedItem.effect}") // Effect
+                                ],
+                            )
+                          ),
+                      ],
+                    ),
+                  )
                 ),
-
-                Placeholder(),
               ],
             ),
           ),
@@ -195,18 +233,11 @@ class _SpindownPageState extends State<SpindownPage> {
     );
   }
 
-  void showDescription(int itemId) {
-    _ItemDescriptionController.text = """
-      Id: 
-      ${widget.items[itemId].id}\n
-      Name: 
-      ${widget.items[itemId].name}\n
-      Description: 
-      ${widget.items[itemId].desc}\n
-      Effect: 
-      ${widget.items[itemId].effect}\n
-    """;
-
+  void showDescription(int index) {
+    _selectedItem.setItem(index, widget.items[index]);
+    setState(() {
+      
+    });
   }
 
   ImageProvider getCachedImage(String path) {
@@ -216,3 +247,13 @@ class _SpindownPageState extends State<SpindownPage> {
     return _imageCache[path]!;
   }
 }
+
+/*
+
+TextField(
+                                controller: _ItemDescriptionController,
+                                readOnly: true,
+                                maxLines: null,
+                              ),
+
+                              */

@@ -11,6 +11,8 @@ import 'package:application/data/items.dart';
 
 import 'package:application/backgroundWrapper.dart';
 
+import 'package:google_fonts/google_fonts.dart';
+
 
 
 void main() async{
@@ -168,8 +170,27 @@ class MainPage extends StatelessWidget {
       child: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.all(20),
-            child: Text("You have ${emails} Emails") 
+            padding: const EdgeInsets.fromLTRB(60, 30, 30, 30),
+            child: Stack(
+              children: [
+                
+                Text(
+                  "You have ${emails} Emails",
+                  style: GoogleFonts.oswald(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w400,
+                    color: Color.fromARGB(255, 70, 57, 59), // #46393b
+                    shadows: [
+                        Shadow(
+                            blurRadius: 4.0,  // shadow blur
+                              color: Color.fromARGB(255, 82, 70, 72), // shadow color
+                              offset: Offset(2.0,2.0), // how much shadow will be shown
+                        ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
     ),

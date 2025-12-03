@@ -7,6 +7,8 @@ import 'package:provider/provider.dart';
 import "package:application/main.dart";
 import "package:application/itemController.dart";
 
+import 'package:google_fonts/google_fonts.dart';
+
 
 class SpindownPage extends StatefulWidget {
   
@@ -32,173 +34,238 @@ class _SpindownPageState extends State<SpindownPage> {
     var appState = context.watch<MyAppState>();
     
 
-    return Backgroundwrapper(
-      child: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(30, 30, 30, 30),
-
-            child: Column(
-              children: [
-                SizedBox(height: 24),
-                Text("What Item do you search for?\nEnter either one", textAlign: TextAlign.center,),
-                SizedBox(height: 12,),
-                Row(
-                
+    return SingleChildScrollView(
+      child: ConstrainedBox(
+        constraints: BoxConstraints(
+          minHeight: MediaQuery.of(context).size.height - 100, // I know, no magic numbers, i dont know why 100 works, but it works  
+        ),
+        child: Backgroundwrapper(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(40, 40, 40, 60),
+        
+                child: Column(
                   children: [
-                
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("Search by Item Name"),
-                          SizedBox(height: 8,),
-                          TextField(
-                            decoration: InputDecoration(
-                              border: OutlineInputBorder(),
-                              
-                            ),
-                            onSubmitted: (value) {
-                              final itemName = value;
-                              if (itemName != null){
-                                scrollToItemName(itemName);
-                              }
-                            },
-                          ),
-                        ],
-                      ),
-                    ),
-                    
-                    SizedBox(width: 20,),
-                    
-                    
-                    
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("Search by Item Id:"),
-                          SizedBox(height: 8,),
-                          TextField(
-                            decoration: InputDecoration(
-                              border: OutlineInputBorder()
-                            ),
-                            onSubmitted: (value) {
-                              final itemId = int.tryParse(value);
-                              if (itemId != null) {
-                                scrollToItemId(itemId);
-                              }
-                            },
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(height: 30,),
-
-                Column(
-                  children: [
-                    SizedBox(
-                      height: 240,
-                      child: ListView.builder(
-                        controller: _scrollController,
-                        scrollDirection: Axis.horizontal,
-                        cacheExtent: 500,
-                        itemCount: widget.items.length,
-                        itemBuilder: (context, index) {
-                          return Container(
-                            margin: EdgeInsets.symmetric(horizontal: 8),
-                            child: Material(
-                              color: Colors.transparent,
-                              child: InkWell(
-                                borderRadius: BorderRadius.circular(12),
-                                onTap: () {
-                                    showDescription(index); // widget.items[index].id wont work, because some ids arent taken
-                                  },
-                                  child: Ink(
-                                    width: 150,
-                                    //margin: EdgeInsets.symmetric(horizontal: 8),
-                                    decoration: BoxDecoration(
-                                      color: const Color.fromARGB(255, 121, 92, 74),
-                                      borderRadius: BorderRadius.circular(12),
-                                    ),
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
-                                        Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
-                                        SizedBox(height: 2,),
-                                        Image(
-                                          image: getCachedImage(widget.items[index].imagePath)
-                                        ),
-                                        SizedBox(height: 2,),
-                                        if(appState.showItemId)
-                                          Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
-                                      ],
-                                    )
-                                  )
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(8, 10, 8, 8),
-                  child: Container(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                    SizedBox(height: 24),
+                    Text("What Item do you search for?\nEnter either one", textAlign: TextAlign.center,),
+                    SizedBox(height: 12,),
+                    Row(
                       children: [
-                        if(true)
-                          Padding(
-                            padding: const EdgeInsets.only(left: 22.0), // shift TextField too
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Search by Item Name"),
+                              SizedBox(height: 8,),
+                              TextField(
+                                decoration: InputDecoration(
+                                  border: OutlineInputBorder(),
+                                  
+                                ),
+                                onSubmitted: (value) {
+                                  final itemName = value;
+                                  if (itemName != null){
+                                    scrollToItemName(itemName);
+                                  }
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+                        
+                        SizedBox(width: 20,),
+                        
+                        
+                        
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Search by Item Id:"),
+                              SizedBox(height: 8,),
+                              TextField(
+                                decoration: InputDecoration(
+                                  border: OutlineInputBorder()
+                                ),
+                                onSubmitted: (value) {
+                                  final itemId = int.tryParse(value);
+                                  if (itemId != null) {
+                                    scrollToItemId(itemId);
+                                  }
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 30,),
+        
+                    Column(
+                      children: [
+                        SizedBox(
+                          height: 240,
+                          child: ListView.builder(
+                            controller: _scrollController,
+                            scrollDirection: Axis.horizontal,
+                            cacheExtent: 500,
+                            itemCount: widget.items.length,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                margin: EdgeInsets.symmetric(horizontal: 8),
+                                child: Material(
+                                  color: Colors.transparent,
+                                  child: InkWell(
+                                    borderRadius: BorderRadius.circular(12),
+                                    onTap: () {
+                                        showDescription(index); // widget.items[index].id wont work, because some ids arent taken
+                                      },
+                                      child: Ink(
+                                        width: 150,
+                                        //margin: EdgeInsets.symmetric(horizontal: 8),
+                                        decoration: BoxDecoration(
+                                          color: const Color.fromARGB(255, 121, 92, 74),
+                                          borderRadius: BorderRadius.circular(12),
+                                        ),
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
+                                            SizedBox(height: 2,),
+                                            Image(
+                                              image: getCachedImage(widget.items[index].imagePath)
+                                            ),
+                                            SizedBox(height: 2,),
+                                            if(appState.showItemId)
+                                              Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
+                                          ],
+                                        )
+                                      )
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(8, 10, 8, 8),
+                      child: Container(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            if(true)
+                              Padding(
+                                padding: const EdgeInsets.only(left: 22.0), // shift TextField too
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Expanded(
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Text("Name: \t${_selectedItem.name}"),
-                                          Text("ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}"),
+                                    Row(
+                                      children: [
+                                        Expanded(
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                "Name: \t${_selectedItem.name}",
+                                                style: GoogleFonts.oswald(
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.w400,
+                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  shadows: [
+                                                      Shadow(
+                                                          blurRadius: 4.0,  // shadow blur
+                                                            color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                            offset: Offset(2.0,2.0), // how much shadow will be shown
+                                                      ),
+                                                  ],
+                                                ),
+                                              ),
+                                              Text(
+                                                "ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}",
+                                                style: GoogleFonts.oswald(
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.w400,
+                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  shadows: [
+                                                      Shadow(
+                                                          blurRadius: 4.0,  // shadow blur
+                                                            color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                            offset: Offset(2.0,2.0), // how much shadow will be shown
+                                                      ),
+                                                  ],
+                                                ),
+                                              ),
+                                              //Text("Name: \t${_selectedItem.name}"),
+                                              //Text("ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}"),
+                                            ],
+                                          ),
+                                        ),
+                                        Container(
+                                          constraints: BoxConstraints(
+                                            maxHeight: 100,
+                                            maxWidth: 100,
+                                            minHeight: 99,
+                                            minWidth: 99
+                                          ),
+                                          child: Image(
+                                            fit: BoxFit.contain,
+                                            image: getCachedImage(
+                                              widget.items[_selectedItem.index].imagePath,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    SizedBox(height: 4,),
+                                    Text(
+                                      "Description: ${_selectedItem.desc}",
+                                      style: GoogleFonts.oswald(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w400,
+                                        color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                        shadows: [
+                                            Shadow(
+                                                blurRadius: 4.0,  // shadow blur
+                                                  color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                  offset: Offset(2.0,2.0), // how much shadow will be shown
+                                            ),
                                         ],
                                       ),
                                     ),
-                                    Container(
-                                      constraints: BoxConstraints(
-                                        maxHeight: 100,
-                                        maxWidth: 100,
-                                        minHeight: 99,
-                                        minWidth: 99
-                                      ),
-                                      child: Image(
-                                        fit: BoxFit.contain,
-                                        image: getCachedImage(
-                                          widget.items[_selectedItem.index].imagePath,
-                                        ),
+                                    //Text("Description: ${_selectedItem.desc}"), // Desc
+                                    SizedBox(height: 8,),
+                                    Text(
+                                      "Effect: ${_selectedItem.effect}",
+                                      style: GoogleFonts.oswald(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w400,
+                                        color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                        shadows: [
+                                            Shadow(
+                                                blurRadius: 4.0,  // shadow blur
+                                                  color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                  offset: Offset(2.0,2.0), // how much shadow will be shown
+                                            ),
+                                        ],
                                       ),
                                     ),
-                                  ],
-                                ),
-                                SizedBox(height: 4,),
-                                Text("Description: ${_selectedItem.desc}"), // Desc
-                                SizedBox(height: 8,),
-                                Text("Effect: ${_selectedItem.effect}") // Effect
-                                ],
-                            )
-                          ),
-                      ],
+                                    //Text("Effect: ${_selectedItem.effect}") // Effect
+                                    ],
+                                )
+                              ),
+                          ],
+                        ),
+                      )
                     ),
-                  )
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }

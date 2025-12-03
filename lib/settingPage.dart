@@ -16,7 +16,7 @@ class SettingPage extends StatelessWidget {
     
     return Backgroundwrapper(
       child: ListView(
-        padding: (const EdgeInsets.all(20)),
+        padding: (const EdgeInsets.fromLTRB(60, 50, 40, 40)),
         children: [
           Column(
             children: [
@@ -31,20 +31,8 @@ class SettingPage extends StatelessWidget {
                   ),
                 ],
               ),
-              Row(
-                children: [
-                  Text("Show Item description:"),
-                  Checkbox(
-                    value: appState.showItemDesc, 
-                    onChanged: (bool? value) {
-                        appState.toggleShowItemDesc(value!);
-                    },
-                  ),
-                ],
-              ),
             ],
           ),
-          Placeholder(),
 
           const SizedBox(height: 30,),
 

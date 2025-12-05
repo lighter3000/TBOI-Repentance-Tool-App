@@ -9,6 +9,9 @@ import "package:application/itemController.dart";
 
 import 'package:google_fonts/google_fonts.dart';
 
+import 'globals.dart' as globals;
+
+
 
 class SpindownPage extends StatefulWidget {
   
@@ -32,6 +35,8 @@ class _SpindownPageState extends State<SpindownPage> {
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
+
+    Color textColor = appState.showDarkText ? globals.textColorDark : globals.textColorLight;
     
 
     return SingleChildScrollView(
@@ -44,61 +49,118 @@ class _SpindownPageState extends State<SpindownPage> {
             children: [
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 40, 40, 60),
-        
                 child: Column(
                   children: [
                     SizedBox(height: 24),
-                    Text("What Item do you search for?\nEnter either one", textAlign: TextAlign.center,),
+                    Text(
+                      "What Item do you search for?\nEnter either one",
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.oswald(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w400,
+                        color: textColor, // #46393b #e1dcbf
+                        shadows: [
+                            Shadow(
+                                blurRadius: 4.0,  // shadow blur
+                                  color: globals.shadowColor, // shadow color
+                                  offset: Offset(2.0,2.0), // how much shadow will be shown
+                            ),
+                        ],
+                      ),
+                    ),
+                    //Text("What Item do you search for?\nEnter either one", textAlign: TextAlign.center,),
                     SizedBox(height: 12,),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Search by Item Name"),
-                              SizedBox(height: 8,),
-                              TextField(
-                                decoration: InputDecoration(
-                                  border: OutlineInputBorder(),
-                                  
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Stack(
+                                  children: [
+                                    Text(
+                                      "Search by Item Name:",
+                                      style: GoogleFonts.oswald(
+                                        fontSize: 15, // 15
+                                        fontWeight: FontWeight.w400,
+                                        color: textColor, // #46393b
+                                        decorationColor: Colors.green,
+                                        shadows: [
+                                            Shadow(
+                                                blurRadius: 4.0,  // shadow blur
+                                                  color: globals.shadowColor, // shadow color
+                                                  offset: Offset(2.0,2.0), // how much shadow will be shown
+                                            ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
                                 ),
-                                onSubmitted: (value) {
-                                  final itemName = value;
-                                  if (itemName != null){
-                                    scrollToItemName(itemName);
-                                  }
-                                },
-                              ),
-                            ],
-                          ),
-                        ),
-                        
-                        SizedBox(width: 20,),
-                        
-                        
-                        
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Search by Item Id:"),
-                              SizedBox(height: 8,),
-                              TextField(
-                                decoration: InputDecoration(
-                                  border: OutlineInputBorder()
+                                SizedBox(height: 8,),
+                                TextField(
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(color: Color.fromARGB(255, 75, 64, 50), width: 2)
+                                    )
+                                    
+                                  ),
+                                  onSubmitted: (value) {
+                                    final itemName = value;
+                                    if (itemName != null){
+                                      scrollToItemName(itemName);
+                                    }
+                                  },
                                 ),
-                                onSubmitted: (value) {
-                                  final itemId = int.tryParse(value);
-                                  if (itemId != null) {
-                                    scrollToItemId(itemId);
-                                  }
-                                },
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
-                        ),
-                      ],
+                          
+                          SizedBox(width: 20,),
+                          
+                          
+                          
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Search by Item Id:",
+                                  style: GoogleFonts.oswald(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.w400,
+                                    color: textColor, // #46393b
+                                    shadows: [
+                                        Shadow(
+                                            blurRadius: 4.0,  // shadow blur
+                                              color: globals.shadowColor, // shadow color
+                                              offset: Offset(2.0,2.0), // how much shadow will be shown
+                                        ),
+                                    ],
+                                  ),
+                                ),
+                                SizedBox(height: 8,),
+                                TextField(
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(color: Color.fromARGB(255, 75, 64, 50), width: 2)
+                                    )
+                                  ),
+                                  onSubmitted: (value) {
+                                    final itemId = int.tryParse(value);
+                                    if (itemId != null) {
+                                      scrollToItemId(itemId);
+                                    }
+                                  },
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                     SizedBox(height: 30,),
         
@@ -131,14 +193,44 @@ class _SpindownPageState extends State<SpindownPage> {
                                         child: Column(
                                           mainAxisAlignment: MainAxisAlignment.center,
                                           children: [
-                                            Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
+                                            Text(
+                                              widget.items[index].name,
+                                              style: GoogleFonts.oswald(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.w400,
+                                                color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                shadows: [
+                                                    Shadow(
+                                                        blurRadius: 4.0,  // shadow blur
+                                                          color: globals.shadowColor, // shadow color
+                                                          offset: Offset(2.0,2.0), // how much shadow will be shown
+                                                    ),
+                                                ],
+                                              ),
+                                            ),
+                                            //Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
                                             SizedBox(height: 2,),
                                             Image(
                                               image: getCachedImage(widget.items[index].imagePath)
                                             ),
                                             SizedBox(height: 2,),
                                             if(appState.showItemId)
-                                              Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
+                                              Text(
+                                                "Item Id: ${widget.items[index].id}",
+                                                style: GoogleFonts.oswald(
+                                                  fontSize: 15,
+                                                  fontWeight: FontWeight.w400,
+                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  shadows: [
+                                                      Shadow(
+                                                          blurRadius: 4.0,  // shadow blur
+                                                            color: globals.shadowColor, // shadow color
+                                                            offset: Offset(2.0,2.0), // how much shadow will be shown
+                                                      ),
+                                                  ],
+                                                ),
+                                              ),
+                                              //Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
                                           ],
                                         )
                                       )
@@ -173,11 +265,11 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 style: GoogleFonts.oswald(
                                                   fontSize: 20,
                                                   fontWeight: FontWeight.w400,
-                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  color: textColor, // #46393b
                                                   shadows: [
                                                       Shadow(
                                                           blurRadius: 4.0,  // shadow blur
-                                                            color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                            color: globals.shadowColor, // shadow color
                                                             offset: Offset(2.0,2.0), // how much shadow will be shown
                                                       ),
                                                   ],
@@ -188,11 +280,11 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 style: GoogleFonts.oswald(
                                                   fontSize: 20,
                                                   fontWeight: FontWeight.w400,
-                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  color: textColor, // #46393b
                                                   shadows: [
                                                       Shadow(
                                                           blurRadius: 4.0,  // shadow blur
-                                                            color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                            color: globals.shadowColor, // shadow color
                                                             offset: Offset(2.0,2.0), // how much shadow will be shown
                                                       ),
                                                   ],
@@ -225,11 +317,11 @@ class _SpindownPageState extends State<SpindownPage> {
                                       style: GoogleFonts.oswald(
                                         fontSize: 20,
                                         fontWeight: FontWeight.w400,
-                                        color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                        color: textColor, // #46393b
                                         shadows: [
                                             Shadow(
                                                 blurRadius: 4.0,  // shadow blur
-                                                  color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                  color: globals.shadowColor, // shadow color
                                                   offset: Offset(2.0,2.0), // how much shadow will be shown
                                             ),
                                         ],
@@ -242,11 +334,11 @@ class _SpindownPageState extends State<SpindownPage> {
                                       style: GoogleFonts.oswald(
                                         fontSize: 20,
                                         fontWeight: FontWeight.w400,
-                                        color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                        color: textColor, // #46393b
                                         shadows: [
                                             Shadow(
                                                 blurRadius: 4.0,  // shadow blur
-                                                  color: Color.fromARGB(255, 105, 94, 96), // shadow color
+                                                  color: globals.shadowColor, // shadow color
                                                   offset: Offset(2.0,2.0), // how much shadow will be shown
                                             ),
                                         ],

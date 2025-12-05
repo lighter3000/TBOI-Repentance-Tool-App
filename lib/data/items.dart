@@ -26,7 +26,7 @@ List<Item> loadItems() {
     Item(id: 12, name: "Magic Mushroom", imagePath: "assets/images/Magic Mushroom.png", desc: "All stats up!", effect: "Makes Isaac bigger. Adds one Red Heart Container, +0.3 Damage, x1.5 damage multiplier, +2.5 Range, +0.3 Speed, and restores all Health."),
     Item(id: 13, name: "The Virus", imagePath: "assets/images/The Virus.png", desc: "Poison touch + speed up", effect: "Isaac poisons enemies on contact. +0.2 speed"),
     Item(id: 14, name: "Roid Rage", imagePath: "assets/images/Roid Rage.png", desc: "Speed and range up", effect: "+0.3 speed, +2.5 range"),
-    Item(id: 15, name: "Less Than Three", imagePath: "assets/images/Less Than Three.png", desc: "HP up", effect: "Grants Isaac one Red Heart container and fully restores Isaac's health."),
+    Item(id: 15, name: "<3", imagePath: "assets/images/Less Than Three.png", desc: "HP up", effect: "Grants Isaac one Red Heart container and fully restores Isaac's health."),
     Item(id: 16, name: "Raw Liver", imagePath: "assets/images/Raw Liver.png", desc: "HP up", effect: "Grants 2 Red Heart containers and completely restores health."),
     Item(id: 17, name: "Skeleton Key", imagePath: "assets/images/Skeleton Key.png", desc: "99 keys", effect: "Gives Isaac 99 Keys."),
     Item(id: 18, name: "A Dollar", imagePath: "assets/images/A Dollar.png", desc: "\$\$\$", effect: "Gives Isaac 100 Pennies."),

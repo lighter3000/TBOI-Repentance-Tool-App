@@ -29,6 +29,13 @@ class SettingPage extends StatelessWidget {
                         appState.toggleShowItemId(value!);
                     },
                   ),
+                  Text("Dark Text:"),
+                  Checkbox(
+                    value: appState.showDarkText, 
+                    onChanged: (bool? value) {
+                        appState.toggleTextColor(value!);
+                    },
+                  ),
                 ],
               ),
             ],

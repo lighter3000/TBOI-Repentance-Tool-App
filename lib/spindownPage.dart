@@ -99,20 +99,40 @@ class _SpindownPageState extends State<SpindownPage> {
                                   ],
                                 ),
                                 SizedBox(height: 8,),
-                                TextField(
-                                  decoration: InputDecoration(
-                                    border: OutlineInputBorder(),
-                                    enabledBorder: OutlineInputBorder(
-                                      borderSide: BorderSide(color: Color.fromARGB(255, 75, 64, 50), width: 2)
-                                    )
-                                    
+                                Padding(
+                                  padding: const EdgeInsets.fromLTRB(15,5,0,0),
+                                  child: Stack(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(0,5,0,0),
+                                        child: FittedBox(
+                                          fit: BoxFit.fill,
+                                          child: Transform.scale(
+                                            scaleX: 1.25,
+                                            scaleY: 1.5,
+                                            child: Image(
+                                              image: AssetImage("assets/textures/selectionwidget.png"),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(0,0,0,0),
+                                        child: TextField(
+                                          style: TextStyle(color: globals.textColorDark),
+                                          decoration: InputDecoration(
+                                            border: InputBorder.none,
+                                          ),
+                                          onSubmitted: (value) {
+                                            final itemName = value;
+                                            if (itemName != null){
+                                              scrollToItemName(itemName);
+                                            }
+                                          },
+                                        ),
+                                      ),
+                                    ]
                                   ),
-                                  onSubmitted: (value) {
-                                    final itemName = value;
-                                    if (itemName != null){
-                                      scrollToItemName(itemName);
-                                    }
-                                  },
                                 ),
                               ],
                             ),
@@ -142,19 +162,41 @@ class _SpindownPageState extends State<SpindownPage> {
                                   ),
                                 ),
                                 SizedBox(height: 8,),
-                                TextField(
-                                  decoration: InputDecoration(
-                                    border: OutlineInputBorder(),
-                                    enabledBorder: OutlineInputBorder(
-                                      borderSide: BorderSide(color: Color.fromARGB(255, 75, 64, 50), width: 2)
-                                    )
+                                Padding(
+                                  padding: const EdgeInsets.fromLTRB(15,5,0,0),
+                                  child: Stack(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(0,5,0,0),
+                                        child: FittedBox(
+                                          fit: BoxFit.fill,
+                                          child: Transform.scale(
+                                            scaleX: 1.25,
+                                            scaleY: 1.5,
+                                            child: Image(
+                                              image: AssetImage("assets/textures/selectionwidget.png"),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(0,0,0,0),
+                                        child: TextField(
+                                          style: TextStyle(color: globals.textColorDark),
+                                          keyboardType: TextInputType.number,
+                                          decoration: InputDecoration(
+                                            border: InputBorder.none,
+                                          ),
+                                          onSubmitted: (value) {
+                                            final itemId = int.tryParse(value);
+                                            if (itemId != null) {
+                                              scrollToItemId(itemId);
+                                            }
+                                          },
+                                        ),
+                                      ),
+                                    ]
                                   ),
-                                  onSubmitted: (value) {
-                                    final itemId = int.tryParse(value);
-                                    if (itemId != null) {
-                                      scrollToItemId(itemId);
-                                    }
-                                  },
                                 ),
                               ],
                             ),
@@ -180,6 +222,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                   color: Colors.transparent,
                                   child: InkWell(
                                     borderRadius: BorderRadius.circular(12),
+                                    splashColor: Colors.transparent,
                                     onTap: () {
                                         showDescription(index); // widget.items[index].id wont work, because some ids arent taken
                                       },
@@ -187,8 +230,12 @@ class _SpindownPageState extends State<SpindownPage> {
                                         width: 150,
                                         //margin: EdgeInsets.symmetric(horizontal: 8),
                                         decoration: BoxDecoration(
-                                          color: const Color.fromARGB(255, 121, 92, 74),
                                           borderRadius: BorderRadius.circular(12),
+                                          // before color: const Color.fromARGB(255, 121, 92, 74),
+                                          image: DecorationImage(
+                                            image: AssetImage("assets/textures/itemshow_widget.png"),
+                                            fit: BoxFit.fill,
+                                          ),
                                         ),
                                         child: Column(
                                           mainAxisAlignment: MainAxisAlignment.center,
@@ -198,7 +245,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                               style: GoogleFonts.oswald(
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.w400,
-                                                color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                color: globals.textColorDark, // #46393b textColor Color.fromARGB(255, 63, 48, 29)
                                                 shadows: [
                                                     Shadow(
                                                         blurRadius: 4.0,  // shadow blur
@@ -220,7 +267,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 style: GoogleFonts.oswald(
                                                   fontSize: 15,
                                                   fontWeight: FontWeight.w400,
-                                                  color: Color.fromARGB(255, 63, 48, 29), // #46393b
+                                                  color: globals.textColorDark, // #46393b
                                                   shadows: [
                                                       Shadow(
                                                           blurRadius: 4.0,  // shadow blur
@@ -233,7 +280,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                               //Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
                                           ],
                                         )
-                                      )
+                                      ),
                                   ),
                                 ),
                               );
@@ -295,20 +342,29 @@ class _SpindownPageState extends State<SpindownPage> {
                                             ],
                                           ),
                                         ),
-                                        Container(
-                                          constraints: BoxConstraints(
-                                            maxHeight: 100,
-                                            maxWidth: 100,
-                                            minHeight: 99,
-                                            minWidth: 99
+                                        SizedBox(
+                                          width: 100,
+                                          height: 100,
+                                          child: Stack(
+                                            clipBehavior: Clip.none,   // THIS allows overflow
+                                            children: [
+                                              /*
+                                              Positioned(
+                                                top: 65,
+                                                left: -10,
+                                                child: Transform.scale(
+                                                  scale: 0.5,
+                                                  child: Image.asset("assets/textures/item_pedestal_widget_test.png"),
+                                                ),
+                                              ),
+                                              */ // Not fully right yet
+                                              Image(
+                                                fit: BoxFit.contain,
+                                                image: getCachedImage(widget.items[_selectedItem.index].imagePath),
+                                              ),
+                                            ],
                                           ),
-                                          child: Image(
-                                            fit: BoxFit.contain,
-                                            image: getCachedImage(
-                                              widget.items[_selectedItem.index].imagePath,
-                                            ),
-                                          ),
-                                        ),
+                                        )
                                       ],
                                     ),
                                     SizedBox(height: 4,),

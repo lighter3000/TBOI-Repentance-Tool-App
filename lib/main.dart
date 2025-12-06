@@ -13,6 +13,8 @@ import 'package:application/backgroundWrapper.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
+import 'globals.dart' as globals;
+
 
 
 void main() async{
@@ -172,29 +174,80 @@ class MainPage extends StatelessWidget {
     //var appState = context.watch<MyAppState>();
     var emails = 20;
 
+    var appState = context.watch<MyAppState>();
+    Color textColor = appState.showDarkText ? globals.textColorDark : globals.textColorLight;
+
     return Backgroundwrapper(
       child: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(60, 30, 30, 30),
-            child: Stack(
+            padding: const EdgeInsets.fromLTRB(0, 40, 30, 30),
+            child: Column(
               children: [
-                
-                Text(
-                  "You have ${emails} Emails",
-                  style: GoogleFonts.oswald(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w400,
-                    color: Color.fromARGB(255, 70, 57, 59), // #46393b
-                    shadows: [
-                        Shadow(
-                            blurRadius: 4.0,  // shadow blur
-                              color: Color.fromARGB(255, 82, 70, 72), // shadow color
-                              offset: Offset(2.0,2.0), // how much shadow will be shown
+                Stack(
+                  children: [
+                    FittedBox(
+                      fit: BoxFit.fill,
+                      child: Image(
+                        image: AssetImage("assets/textures/selectionwidget.png"),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
+                      child: Text(
+                        "Tools",
+                        style: GoogleFonts.oswald(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w400,
+                          color: globals.textColorDark, // #46393b
+                          shadows: [
+                              Shadow(
+                                  blurRadius: 4.0,  // shadow blur
+                                    color: Color.fromARGB(255, 82, 70, 72), // shadow color
+                                    offset: Offset(2.0,2.0), // how much shadow will be shown
+                              ),
+                          ],
                         ),
-                    ],
-                  ),
+                      ),
+                    )
+                  ],
                 ),
+                SizedBox(height: 40,),
+                Stack(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(80, 10, 0, 0),
+                      child: FittedBox(
+                        child: Transform.scale(
+                          scaleX: 2.5,
+                          scaleY: 2,
+                          child: Image(
+                            image: AssetImage("assets/textures/selectionwidget.png")
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(20, 0, 0, 0),
+                      child: Text(
+                        "Spindown Dice Tool",
+                        style: GoogleFonts.oswald(
+                          fontSize: 32,
+                          fontWeight: FontWeight.w400,
+                          color: globals.textColorDark, // #46393b
+                          shadows: [
+                              Shadow(
+                                  blurRadius: 4.0,  // shadow blur
+                                    color: Color.fromARGB(255, 82, 70, 72), // shadow color
+                                    offset: Offset(2.0,2.0), // how much shadow will be shown
+                              ),
+                          ],
+                        ),
+                      ), 
+                    )
+                  ]
+                ),
+
               ],
             ),
           ),

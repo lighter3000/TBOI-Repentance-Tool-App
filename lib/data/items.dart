@@ -1,3 +1,6 @@
+
+import 'dart:convert';
+
 class Item {
   final int id;
   final String name;
@@ -5,14 +8,37 @@ class Item {
   final String desc;
   final String effect;
 
-  Item({required this.id, required this.name, required this.imagePath, required this.desc, required this.effect});
+  Item({
+    required this.id, 
+    required this.name, 
+    required this.imagePath, 
+    required this.desc, 
+    required this.effect
+  });
+
+  factory Item.fromMap(Map<String, dynamic> map) => Item(
+    id: map["id"] as int,
+    name: map["name"] as String,
+    imagePath: map["imagePath"] as String,
+    desc: map["desc"] as String,
+    effect: map["effect"] as String,
+  );
+
+  Map<String, dynamic> toMap() => {
+    "id": id,
+    "name": name,
+    "imagePath": imagePath,
+    "desc": desc,
+    "effect": effect,
+  };
+
+  String toJson() => jsonEncode(toMap());
 }
 
-
-
+/*
 List<Item> loadItems() {
   return [
-    Item(id: 1, name: "The Sad Onion", imagePath: "assets/images/The Sad Onion.png", desc: "Tears Up", effect: "+0.7 tears."),
+    //Item(id: 1, name: "The Sad Onion", imagePath: "assets/images/The Sad Onion.png", desc: "Tears Up", effect: "+0.7 tears."),
     Item(id: 2, name: "The Inner Eye", imagePath: "assets/images/The Inner Eye.png", desc: "Triple Shot", effect: "Isaac shoots three tears at once with lower fire rate."),
     Item(id: 3, name: "Spoon Bender", imagePath: "assets/images/Spoon Bender.png", desc: "Homing Shots", effect: "Grants Isaac homing tears."),
     Item(id: 4, name: "Cricket's Head", imagePath: "assets/images/Cricket's Head.png", desc: "DMG Up", effect: "Increases Damage by 0.5, and increases damage multiplier by ×1.5."),
@@ -746,3 +772,4 @@ List<Item> loadItems() {
     Item(id: 732, name: "Mom's Ring", imagePath: "assets/images/Mom's Ring.png", desc: "DMG up", effect: "+1 Damage. Drops a random Rune or Soul Stone upon pickup."),
   ];
 }
+*/

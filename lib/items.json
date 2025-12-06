@@ -1,0 +1,5035 @@
+[
+  {
+    "id": 1,
+    "name": "The Sad Onion",
+    "imagePath": "assets/images/The Sad Onion.png",
+    "desc": "Tears Up",
+    "effect": "+0.7 tears."
+  },
+  {
+    "id": 2,
+    "name": "The Inner Eye",
+    "imagePath": "assets/images/The Inner Eye.png",
+    "desc": "Triple Shot",
+    "effect": "Isaac shoots three tears at once with lower fire rate."
+  },
+  {
+    "id": 3,
+    "name": "Spoon Bender",
+    "imagePath": "assets/images/Spoon Bender.png",
+    "desc": "Homing Shots",
+    "effect": "Grants Isaac homing tears."
+  },
+  {
+    "id": 4,
+    "name": "Cricket's Head",
+    "imagePath": "assets/images/Cricket's Head.png",
+    "desc": "DMG Up",
+    "effect": "Increases Damage by 0.5, and increases damage multiplier by ×1.5."
+  },
+  {
+    "id": 5,
+    "name": "My Reflection",
+    "imagePath": "assets/images/My Reflection.png",
+    "desc": "Boomerang Tears + DMG Up + Luck Down",
+    "effect": "Gives Isaac's tears a boomerang effect. \n  2x + 1.5 range, +1.5 damage, -1 luck, 1.6x shot speed multiplier."
+  },
+  {
+    "id": 6,
+    "name": "Number One",
+    "imagePath": "assets/images/Number One.png",
+    "desc": "Tears Up + Range Down",
+    "effect": "Grants +1.5 tears, but severely reduces range."
+  },
+  {
+    "id": 7,
+    "name": "Blood of the Martyr",
+    "imagePath": "assets/images/Blood of the Martyr.png",
+    "desc": "DMG up",
+    "effect": "+1 damage. Isaac shoots blood tears. "
+  },
+  {
+    "id": 8,
+    "name": "Brother Bobby",
+    "imagePath": "assets/images/Brother Bobby.png",
+    "desc": "Friends 'till the end",
+    "effect": "Spawns a familiar that follows Isaac around shooting tears that deal 3.5 damage. He shoots more frequently than most familiars. "
+  },
+  {
+    "id": 9,
+    "name": "Skatole",
+    "imagePath": "assets/images/Skatole.png",
+    "desc": "Fly love",
+    "effect": "Flies become harmless or less dangerous depending on the type."
+  },
+  {
+    "id": 10,
+    "name": "Halo of Flies",
+    "imagePath": "assets/images/Halo of Flies.png",
+    "desc": "Projectile protection",
+    "effect": "Spawns two Pretty Flies that block enemy shots and deal contact damage to flies."
+  },
+  {
+    "id": 11,
+    "name": "1up!",
+    "imagePath": "assets/images/1up!.png",
+    "desc": "Extra life",
+    "effect": "Gives Isaac an extra life. Upon death, he will respawn in the previous room with full health, after which 1up! will disappear."
+  },
+  {
+    "id": 12,
+    "name": "Magic Mushroom",
+    "imagePath": "assets/images/Magic Mushroom.png",
+    "desc": "All stats up!",
+    "effect": "Makes Isaac bigger. Adds one Red Heart Container, +0.3 Damage, x1.5 damage multiplier, +2.5 Range, +0.3 Speed, and restores all Health."
+  },
+  {
+    "id": 13,
+    "name": "The Virus",
+    "imagePath": "assets/images/The Virus.png",
+    "desc": "Poison touch + speed up",
+    "effect": "Isaac poisons enemies on contact. +0.2 speed"
+  },
+  {
+    "id": 14,
+    "name": "Roid Rage",
+    "imagePath": "assets/images/Roid Rage.png",
+    "desc": "Speed and range up",
+    "effect": "+0.3 speed, +2.5 range"
+  },
+  {
+    "id": 15,
+    "name": "<3",
+    "imagePath": "assets/images/Less Than Three.png",
+    "desc": "HP up",
+    "effect": "Grants Isaac one Red Heart container and fully restores Isaac's health."
+  },
+  {
+    "id": 16,
+    "name": "Raw Liver",
+    "imagePath": "assets/images/Raw Liver.png",
+    "desc": "HP up",
+    "effect": "Grants 2 Red Heart containers and completely restores health."
+  },
+  {
+    "id": 17,
+    "name": "Skeleton Key",
+    "imagePath": "assets/images/Skeleton Key.png",
+    "desc": "99 keys",
+    "effect": "Gives Isaac 99 Keys."
+  },
+  {
+    "id": 18,
+    "name": "A Dollar",
+    "imagePath": "assets/images/A Dollar.png",
+    "desc": "$$$",
+    "effect": "Gives Isaac 100 Pennies."
+  },
+  {
+    "id": 19,
+    "name": "Boom!",
+    "imagePath": "assets/images/Boom!.png",
+    "desc": "10 bombs",
+    "effect": "Grants 10 Bombs."
+  },
+  {
+    "id": 20,
+    "name": "Transcendence",
+    "imagePath": "assets/images/Transcendence.png",
+    "desc": "We all float down here...",
+    "effect": "Grants flight."
+  },
+  {
+    "id": 21,
+    "name": "The Compass",
+    "imagePath": "assets/images/The Compass.png",
+    "desc": "The end is near",
+    "effect": "Reveals the locations and types of all special rooms on the map, except Secret Rooms and Super Secret Rooms. "
+  },
+  {
+    "id": 22,
+    "name": "Lunch",
+    "imagePath": "assets/images/Lunch.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 23,
+    "name": "Dinner",
+    "imagePath": "assets/images/Dinner.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 24,
+    "name": "Dessert",
+    "imagePath": "assets/images/Dessert.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 25,
+    "name": "Breakfast",
+    "imagePath": "assets/images/Breakfast.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 26,
+    "name": "Rotten Meat",
+    "imagePath": "assets/images/Rotten Meat.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 27,
+    "name": "Wooden Spoon",
+    "imagePath": "assets/images/Wooden Spoon.png",
+    "desc": "Speed up",
+    "effect": "+0.3 speed."
+  },
+  {
+    "id": 28,
+    "name": "The Belt",
+    "imagePath": "assets/images/The Belt.png",
+    "desc": "Speed up",
+    "effect": "+0.3 speed."
+  },
+  {
+    "id": 29,
+    "name": "Mom's Underwear",
+    "imagePath": "assets/images/Mom's Underwear.png",
+    "desc": "Range up",
+    "effect": "+2.5 range. Spawns 3-6 Blue Flies on pickup."
+  },
+  {
+    "id": 30,
+    "name": "Mom's Heels",
+    "imagePath": "assets/images/Mom's Heels.png",
+    "desc": "Range up",
+    "effect": "+2.5 range, enemies that touch Isaac take 12 damage."
+  },
+  {
+    "id": 31,
+    "name": "Mom's Lipstick",
+    "imagePath": "assets/images/Mom's Lipstick.png",
+    "desc": "Range up",
+    "effect": "+3.75 range. Spawns a Heart on pickup."
+  },
+  {
+    "id": 32,
+    "name": "Wire Coat Hanger",
+    "imagePath": "assets/images/Wire Coat Hanger.png",
+    "desc": "Tears up",
+    "effect": "+0.7 tears."
+  },
+  {
+    "id": 33,
+    "name": "The Bible",
+    "imagePath": "assets/images/The Bible.png",
+    "desc": "Temporary Flight",
+    "effect": "Grants flight for the current room. Instantly kills Mom, Mom's Heart, and It Lives when activated, but kills Isaac when used on Satan."
+  },
+  {
+    "id": 34,
+    "name": "The Book of Belial",
+    "imagePath": "assets/images/The Book of Belial.png",
+    "desc": "Temporary DMG up",
+    "effect": "Passively guarantees a Devil Room or Angel Room will appear while held.\n +2 damage for the current room. Passively increases the chance of finding a Devil Room or Angel Room while held."
+  },
+  {
+    "id": 35,
+    "name": "The Necronomicon",
+    "imagePath": "assets/images/The Necronomicon.png",
+    "desc": "Mass room damage",
+    "effect": "Deals 40 damage to every enemy in the room."
+  },
+  {
+    "id": 36,
+    "name": "The Poop",
+    "imagePath": "assets/images/The Poop.png",
+    "desc": "Plop!",
+    "effect": "Spawns a pile of Poop where Isaac is standing and knocks back nearby enemies. May yield pickups like regular poop."
+  },
+  {
+    "id": 37,
+    "name": "Mr. Boom",
+    "imagePath": "assets/images/Mr. Boom.png",
+    "desc": "Reusable bomb buddy",
+    "effect": " Places a Mr. Mega Bomb that deals 185 damage."
+  },
+  {
+    "id": 38,
+    "name": "Tammy's Head",
+    "imagePath": "assets/images/Tammy's Head.png",
+    "desc": "Reusable tear burst",
+    "effect": "Shoots 10 tears in a circle around Isaac, which retain the damage, range, shot speed, and special effects (such as poison) of Isaac's tears. Tears from this item have a +25 flat damage bonus."
+  },
+  {
+    "id": 39,
+    "name": "Mom's Bra",
+    "imagePath": "assets/images/Mom's Bra.png",
+    "desc": "Mass paralysis",
+    "effect": "Petrifies all enemies in the current room for 4 seconds. "
+  },
+  {
+    "id": 40,
+    "name": "Kamikaze!",
+    "imagePath": "assets/images/Kamikaze!.png",
+    "desc": "Become the bomb!",
+    "effect": "Creates an explosion around Isaac, damaging him and nearby enemies as well as destroying obstacles."
+  },
+  {
+    "id": 41,
+    "name": "Mom's Pad",
+    "imagePath": "assets/images/Mom's Pad.png",
+    "desc": "Mass fear",
+    "effect": "Inflicts fear to all enemies in the room for 4 seconds. Spawns a blue fly."
+  },
+  {
+    "id": 42,
+    "name": "Bob's Rotten Head",
+    "imagePath": "assets/images/Bob's Rotten Head.png",
+    "desc": "Reusable ranged bomb",
+    "effect": "Isaac holds a poison Bomb which can be thrown in the cardinal directions and explodes on impact."
+  },
+  {
+    "id": 44,
+    "name": "Teleport",
+    "imagePath": "assets/images/Teleport.png",
+    "desc": "Teleport!",
+    "effect": "Teleports Isaac to a random room on the current floor."
+  },
+  {
+    "id": 45,
+    "name": "Yum Heart",
+    "imagePath": "assets/images/Yum Heart.png",
+    "desc": "Reusable regeneration",
+    "effect": "Restores one full Red Heart."
+  },
+  {
+    "id": 46,
+    "name": "Lucky Foot",
+    "imagePath": "assets/images/Lucky Foot.png",
+    "desc": "Luck up",
+    "effect": "+1 luck. Improves Isaac's chances at various random events (independent from the luck stat). Converts all bad pills into good pills, without identifying them."
+  },
+  {
+    "id": 47,
+    "name": "Doctor's Remote",
+    "imagePath": "assets/images/Doctor's Remote.png",
+    "desc": "Reusable air strike!",
+    "effect": "Creates a crosshair on the ground that can be aimed with tear controls. A missile strikes the spot after 2 seconds, creating a heavy damage explosion."
+  },
+  {
+    "id": 48,
+    "name": "Cupid's Arrow",
+    "imagePath": "assets/images/Cupid's Arrow.png",
+    "desc": "Piercing shots",
+    "effect": "Grants Isaac piercing tears that travel through enemies (but not obstacles) instead of breaking on impact with them."
+  },
+  {
+    "id": 49,
+    "name": "Shoop Da Whoop!",
+    "imagePath": "assets/images/Shoop Da Whoop!.png",
+    "desc": "BLLLARRRRGGG!",
+    "effect": "Fires a laser from Isaac's mouth that deals twice Isaac's tear damage."
+  },
+  {
+    "id": 50,
+    "name": "Steven",
+    "imagePath": "assets/images/Steven.png",
+    "desc": "DMG up",
+    "effect": "+1 damage. "
+  },
+  {
+    "id": 51,
+    "name": "Pentagram",
+    "imagePath": "assets/images/Pentagram.png",
+    "desc": "DMG up",
+    "effect": "+1 damage, increases Devil Room / Angel Room chance by 10%. "
+  },
+  {
+    "id": 52,
+    "name": "Dr. Fetus",
+    "imagePath": "assets/images/Dr. Fetus.png",
+    "desc": "???",
+    "effect": "Tears are replaced by Bombs that benefit from bomb-enhancing effects and slide for a fixed time after being fired. "
+  },
+  {
+    "id": 53,
+    "name": "Magneto",
+    "imagePath": "assets/images/Magneto.png",
+    "desc": "Item snatcher",
+    "effect": "Pulls pickups towards Isaac"
+  },
+  {
+    "id": 54,
+    "name": "Treasure Map",
+    "imagePath": "assets/images/Treasure Map.png",
+    "desc": "Full visible map",
+    "effect": "Reveals the map of each floor. It does not identify special rooms and does not reveal the locations of Secret Rooms / Super Secret Rooms."
+  },
+  {
+    "id": 55,
+    "name": "Mom's Eye",
+    "imagePath": "assets/images/Mom's Eye.png",
+    "desc": "Eye in the back of your head",
+    "effect": "Gives Isaac a chance to fire tears from the back of his head. "
+  },
+  {
+    "id": 56,
+    "name": "Lemon Mishap",
+    "imagePath": "assets/images/Lemon Mishap.png",
+    "desc": "Oops...",
+    "effect": "Creates a tiny pool of yellow creep, damaging enemies that cross it."
+  },
+  {
+    "id": 57,
+    "name": "Distant Admiration",
+    "imagePath": "assets/images/Distant Admiration.png",
+    "desc": "Attack fly",
+    "effect": "Spawns an attack fly that circles further out than Halo of Flies, but closer than Forever Alone, dealing 75 damage per second."
+  },
+  {
+    "id": 58,
+    "name": "Book of Shadows",
+    "imagePath": "assets/images/Book of Shadows.png",
+    "desc": "Temporary invincibility",
+    "effect": "Creates a protective shield, nullifying all types of damage in the current room for 10 seconds. "
+  },
+  {
+    "id": 60,
+    "name": "The Ladder",
+    "imagePath": "assets/images/The Ladder.png",
+    "desc": "Building bridges",
+    "effect": "Allows Isaac to walk across gaps one square across by automatically placing a ladder between the two walkable sections."
+  },
+  {
+    "id": 62,
+    "name": "Charm of the Vampire",
+    "imagePath": "assets/images/Charm of the Vampire.png",
+    "desc": "DMG up + kills heal",
+    "effect": "Heals Isaac for a Half Red Heart for every 13 enemies killed. +0.3 damage."
+  },
+  {
+    "id": 63,
+    "name": "The Battery",
+    "imagePath": "assets/images/The Battery.png",
+    "desc": "Stores energy",
+    "effect": "Activated items can be overcharged, allowing them to store up to one extra use."
+  },
+  {
+    "id": 64,
+    "name": "Steam Sale",
+    "imagePath": "assets/images/Steam Sale.png",
+    "desc": "50% off",
+    "effect": "Reduces all Shop prices by 50%, rounded down to 7 coins for an item, rounded up to 2-3 coins for a pickup."
+  },
+  {
+    "id": 65,
+    "name": "Anarchist Cookbook",
+    "imagePath": "assets/images/Anarchist Cookbook.png",
+    "desc": "Summon bombs",
+    "effect": "Spawns six Troll Bombs around the room."
+  },
+  {
+    "id": 66,
+    "name": "The Hourglass",
+    "imagePath": "assets/images/The Hourglass.png",
+    "desc": "Temporary enemy slowdown",
+    "effect": "All enemies in the room are slowed for 8 seconds"
+  },
+  {
+    "id": 67,
+    "name": "Sister Maggy",
+    "imagePath": "assets/images/Sister Maggy.png",
+    "desc": "Friends 'till the end",
+    "effect": "Spawns a familiar that follows Isaac around shooting tears that deal 6 damage."
+  },
+  {
+    "id": 68,
+    "name": "Technology",
+    "imagePath": "assets/images/Technology.png",
+    "desc": "Laser tears",
+    "effect": "Replaces tears with a piercing laser with unlimited range."
+  },
+  {
+    "id": 69,
+    "name": "Chocolate Milk",
+    "imagePath": "assets/images/Chocolate Milk.png",
+    "desc": "Charge shots",
+    "effect": "Grants charged tears that deal greater damage when fully charged."
+  },
+  {
+    "id": 70,
+    "name": "Growth Hormones",
+    "imagePath": "assets/images/Growth Hormones.png",
+    "desc": "Speed + DMG up",
+    "effect": "+1 damage, +0.2 speed."
+  },
+  {
+    "id": 71,
+    "name": "Mini Mush",
+    "imagePath": "assets/images/Mini Mush.png",
+    "desc": "Speed + range up",
+    "effect": "Decreases Isaac's size, making him less likely to be hit.\n +0.3 speed, +2.5 range."
+  },
+  {
+    "id": 72,
+    "name": "Rosary",
+    "imagePath": "assets/images/Rosary.png",
+    "desc": "Tears + faith up",
+    "effect": "Grants 3 Soul Hearts. Causes The Bible to appear in any item pool. +0.5 tears. "
+  },
+  {
+    "id": 73,
+    "name": "Cube of Meat",
+    "imagePath": "assets/images/Cube of Meat.png",
+    "desc": "Gotta meat 'em all!",
+    "effect": "Creates an orbital familiar. Collecting additional copies gives it the ability to shoot tears, then chase enemies to deal contact damage, then deal even more contact damage. "
+  },
+  {
+    "id": 74,
+    "name": "A Quarter",
+    "imagePath": "assets/images/A Quarter.png",
+    "desc": "+25 coins",
+    "effect": "Gives Isaac 25 coins."
+  },
+  {
+    "id": 75,
+    "name": "PHD",
+    "imagePath": "assets/images/PHD.png",
+    "desc": "Better pills",
+    "effect": "Converts all bad pills into good pills, spawns one pill pickup, and identifies all pills. Restores two Red Hearts and increases the payout of Blood Donation Machines."
+  },
+  {
+    "id": 76,
+    "name": "X-Ray Vision",
+    "imagePath": "assets/images/X-Ray Vision.png",
+    "desc": "I've seen everything",
+    "effect": "Reveals and opens all Secret Room and Super Secret Room entrances."
+  },
+  {
+    "id": 77,
+    "name": "My Little Unicorn",
+    "imagePath": "assets/images/My Little Unicorn.png",
+    "desc": "Temporary badass",
+    "effect": "Gives invulnerability and +0.28 speed for six seconds, removing the ability to shoot tears and replacing it with the ability to deal contact damage to enemies."
+  },
+  {
+    "id": 78,
+    "name": "Book of Revelations",
+    "imagePath": "assets/images/Book of Revelations.png",
+    "desc": "Reusable soul protection",
+    "effect": "Increases the chance of a Devil Room / Angel Room appearing while held. Upon use, gives one Soul Heart, and replaces the boss of the current floor with a Harbinger if possible."
+  },
+  {
+    "id": 79,
+    "name": "The Mark",
+    "imagePath": "assets/images/The Mark.png",
+    "desc": "DMG + speed up",
+    "effect": "Grants one Black Heart, +1 damage, and +0.2 speed."
+  },
+  {
+    "id": 80,
+    "name": "The Pact",
+    "imagePath": "assets/images/The Pact.png",
+    "desc": "DMG + tears up",
+    "effect": "Grants two Black Hearts, +0.5 damage, and +0.7 tears."
+  },
+  {
+    "id": 81,
+    "name": "Dead Cat",
+    "imagePath": "assets/images/Dead Cat.png",
+    "desc": "9 lives",
+    "effect": "Sets Isaac's Red Heart Containers to 1, but grants 9 extra lives. After dying, Isaac respawns with 1 Red Heart Container."
+  },
+  {
+    "id": 82,
+    "name": "Lord of the Pit",
+    "imagePath": "assets/images/Lord of the Pit.png",
+    "desc": "Demon wings",
+    "effect": "Grants flight and +0.3 speed."
+  },
+  {
+    "id": 83,
+    "name": "The Nail",
+    "imagePath": "assets/images/The Nail.png",
+    "desc": "Temporary demon form",
+    "effect": "Gives half a Black Heart. For the current room; +2 damage, -0.18 speed, Isaac breaks rocks and deals contact damage."
+  },
+  {
+    "id": 84,
+    "name": "We Need to Go Deeper!",
+    "imagePath": "assets/images/We Need to Go Deeper!.png",
+    "desc": "Reusable level skip",
+    "effect": "Creates a trapdoor to go to the next floor. Once per floor, using it on tiles with special graphics will instead create a Crawl Space."
+  },
+  {
+    "id": 85,
+    "name": "Deck of Cards",
+    "imagePath": "assets/images/Deck of Cards.png",
+    "desc": "Reusable card generator",
+    "effect": "Gives Isaac a random card."
+  },
+  {
+    "id": 86,
+    "name": "Monstro's Tooth",
+    "imagePath": "assets/images/Monstro's Tooth.png",
+    "desc": "Summon Monstro",
+    "effect": "A friendly Monstro jumps on a random enemy, dealing 120 area damage. Targets Isaac if used in a room without enemies."
+  },
+  {
+    "id": 87,
+    "name": "Loki's Horns",
+    "imagePath": "assets/images/Loki's Horns.png",
+    "desc": "Cross tears",
+    "effect": "Gives a random chance for projectiles to fire in all 4 cardinal directions."
+  },
+  {
+    "id": 88,
+    "name": "Little Chubby",
+    "imagePath": "assets/images/Little Chubby.png",
+    "desc": "Attack buddy",
+    "effect": "Spawns a Charger familiar that charges forward and deals contact damage to any enemies in its path."
+  },
+  {
+    "id": 89,
+    "name": "Spider Bite",
+    "imagePath": "assets/images/Spider Bite.png",
+    "desc": "Slow effect",
+    "effect": "Adds a chance to shoot slowing tears, reducing speed of enemy movement and any projectile fired by them."
+  },
+  {
+    "id": 90,
+    "name": "The Small Rock",
+    "imagePath": "assets/images/The Small Rock.png",
+    "desc": "DMG up + speed down",
+    "effect": "+1 damage, +0.2 tears, -0.2 speed."
+  },
+  {
+    "id": 91,
+    "name": "Spelunker Hat",
+    "imagePath": "assets/images/Spelunker Hat.png",
+    "desc": "See-through doors",
+    "effect": "Reveals type of adjacent rooms, including location for Secret Rooms and Super Secret Rooms. Reveals rooms up to 2 rooms away and blocks projectiles falling from above."
+  },
+  {
+    "id": 92,
+    "name": "Super Bandage",
+    "imagePath": "assets/images/Super Bandage.png",
+    "desc": "+2 hearts",
+    "effect": "Grants one full Red Heart container and 2 Soul Hearts."
+  },
+  {
+    "id": 93,
+    "name": "The Gamekid",
+    "imagePath": "assets/images/The Gamekid.png",
+    "desc": "Temporary Man-Pac",
+    "effect": "Turns Isaac into a Pac-Man-like creature for 6.5 seconds, granting invulnerability, inflicting fear on all enemies, and has a chance of replenishing a Half Red Heart every time an enemy is killed."
+  },
+  {
+    "id": 94,
+    "name": "Sack of Pennies",
+    "imagePath": "assets/images/Sack of Pennies.png",
+    "desc": "Gives money",
+    "effect": "Spawns a familiar that drops a coin every 2 rooms."
+  },
+  {
+    "id": 95,
+    "name": "Robo-Baby",
+    "imagePath": "assets/images/Robo-Baby.png",
+    "desc": "Friends 'till the bbbbzzzt",
+    "effect": "Spawns a familiar that shoots Technology lasers."
+  },
+  {
+    "id": 96,
+    "name": "Little C.H.A.D.",
+    "imagePath": "assets/images/Little C.H.A.D..png",
+    "desc": "Gives kisses",
+    "effect": "Spawns a familiar who drops a Half Red Heart every 3 rooms."
+  },
+  {
+    "id": 97,
+    "name": "The Book of Sin",
+    "imagePath": "assets/images/The Book of Sin.png",
+    "desc": "Reusable item generator",
+    "effect": "Spawns a random coin, heart, bomb, key, battery, pill or card near Isaac"
+  },
+  {
+    "id": 98,
+    "name": "The Relic",
+    "imagePath": "assets/images/The Relic.png",
+    "desc": "Soul generator",
+    "effect": "Spawns a cross familiar that drops a Soul Heart after clearing enough rooms."
+  },
+  {
+    "id": 99,
+    "name": "Little Gish",
+    "imagePath": "assets/images/Little Gish.png",
+    "desc": "Sticky friend",
+    "effect": "Spawns a familiar that follows Isaac around and fires slowing tears, impeding enemies' speed."
+  },
+  {
+    "id": 100,
+    "name": "Little Steven",
+    "imagePath": "assets/images/Little Steven.png",
+    "desc": "Psychic friend",
+    "effect": "Spawns a familiar who follows Isaac around and fires homing tears."
+  },
+  {
+    "id": 101,
+    "name": "The Halo",
+    "imagePath": "assets/images/The Halo.png",
+    "desc": "All stats up",
+    "effect": "Grants one full Red Heart container, +0.3 damage, +0.2 tears, +1.5 range, and +0.3 speed. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 102,
+    "name": "Mom's Bottle of Pills",
+    "imagePath": "assets/images/Mom's Bottle of Pills.png",
+    "desc": "Reusable pill generator",
+    "effect": "Gives Isaac a random pill."
+  },
+  {
+    "id": 103,
+    "name": "The Common Cold",
+    "imagePath": "assets/images/The Common Cold.png",
+    "desc": "Poison damage",
+    "effect": "Adds a chance to shoot poison tears, dealing damage over time when inflicted."
+  },
+  {
+    "id": 104,
+    "name": "The Parasite",
+    "imagePath": "assets/images/The Parasite.png",
+    "desc": "Split shot",
+    "effect": "Isaac's tears split in two when they hit something."
+  },
+  {
+    "id": 105,
+    "name": "The D6",
+    "imagePath": "assets/images/The D6.png",
+    "desc": "Reroll your destiny",
+    "effect": "Re-rolls all items in the current room into other items, depending on the current room's Item Pool."
+  },
+  {
+    "id": 106,
+    "name": "Mr. Mega",
+    "imagePath": "assets/images/Mr. Mega.png",
+    "desc": "Bigger boom",
+    "effect": "+5 Bombs. Increases the size, blast radius, and damage of Isaac's bombs."
+  },
+  {
+    "id": 107,
+    "name": "The Pinking Shears",
+    "imagePath": "assets/images/The Pinking Shears.png",
+    "desc": "Cut and run",
+    "effect": "Separates Isaac's head from his body for the current room, granting flight and turning the body into a familiar that chases enemies."
+  },
+  {
+    "id": 108,
+    "name": "The Wafer",
+    "imagePath": "assets/images/The Wafer.png",
+    "desc": "Damage resistance",
+    "effect": "Most sources of damage that would cause more than one-half heart of damage are reduced to one-half heart instead."
+  },
+  {
+    "id": 109,
+    "name": "Money = Power",
+    "imagePath": "assets/images/Money = Power.png",
+    "desc": "$$$ = DMG",
+    "effect": "Increases damage by 0.04 for every coin Isaac has, up to +3.96 damage at 99 coins. "
+  },
+  {
+    "id": 110,
+    "name": "Mom's Contacts",
+    "imagePath": "assets/images/Mom's Contacts.png",
+    "desc": "Freeze effect",
+    "effect": "Adds a chance to shoot petrifying tears, which stop enemies in place and prevent them from moving or attacking.\n +1.5 Range"
+  },
+  {
+    "id": 111,
+    "name": "The Bean",
+    "imagePath": "assets/images/The Bean.png",
+    "desc": "Toot on command",
+    "effect": "Isaac farts, poisoning any enemy in close range."
+  },
+  {
+    "id": 112,
+    "name": "Guardian Angel",
+    "imagePath": "assets/images/Guardian Angel.png",
+    "desc": "Extra protection",
+    "effect": "Spawns an orbital familiar that blocks enemy shots, deals 7 damage per tick on contact, and increases the speed of all orbital familiars."
+  },
+  {
+    "id": 113,
+    "name": "Demon Baby",
+    "imagePath": "assets/images/Demon Baby.png",
+    "desc": "Auto-turret friend",
+    "effect": "Spawns a familiar that follows Isaac and automatically fires at enemies in its reach."
+  },
+  {
+    "id": 114,
+    "name": "Mom's Knife",
+    "imagePath": "assets/images/Mom's Knife.png",
+    "desc": "Stab stab stab",
+    "effect": "Isaac's tears are replaced by a knife that pierces enemies, can travel through obstacles, and can hurt enemies while Isaac is holding it. Holding down the fire button before firing increases its range and power."
+  },
+  {
+    "id": 115,
+    "name": "Ouija Board",
+    "imagePath": "assets/images/Ouija Board.png",
+    "desc": "Spectral tears + tears up",
+    "effect": "Grants spectral tears that travel through obstacles (but not enemies). +0.5 tears."
+  },
+  {
+    "id": 116,
+    "name": "9 Volt",
+    "imagePath": "assets/images/9 Volt.png",
+    "desc": "Quicker charge",
+    "effect": "Reduces the charge of any activated item by 1. Any 1 charge items instead have timed recharges."
+  },
+  {
+    "id": 117,
+    "name": "Dead Bird",
+    "imagePath": "assets/images/Dead Bird.png",
+    "desc": "Protective buddy",
+    "effect": "After Isaac takes damage, spawns a flying familiar that chases enemies for the current room, dealing ~4 damage per second."
+  },
+  {
+    "id": 118,
+    "name": "Brimstone",
+    "imagePath": "assets/images/Brimstone.png",
+    "desc": "Blood laser barrage",
+    "effect": "Tears are replaced with a blood laser beam that pierces through all enemies and obstacles in its path and deals high damage. Can only be fired after a short charge-up period."
+  },
+  {
+    "id": 119,
+    "name": "Blood Bag",
+    "imagePath": "assets/images/Blood Bag.png",
+    "desc": "HP up",
+    "effect": "Grants one filled Red Heart container, restores 4 Red Hearts, and increases speed by 0.3."
+  },
+  {
+    "id": 120,
+    "name": "Odd Mushroom (skinny)",
+    "imagePath": "assets/images/Odd Mushroom (skinny).png",
+    "desc": "Tears + speed up, DMG down",
+    "effect": "+1.7 tears, +0.3 speed, slightly reduces damage."
+  },
+  {
+    "id": 121,
+    "name": "Odd Mushroom (fat)",
+    "imagePath": "assets/images/Odd Mushroom (fat).png",
+    "desc": "HP + DMG up, speed down",
+    "effect": "Grants one full Heart container, +1 damage, +1.5 range, and -0.2 speed"
+  },
+  {
+    "id": 122,
+    "name": "Whore of Babylon",
+    "imagePath": "assets/images/Whore of Babylon.png",
+    "desc": "Curse up",
+    "effect": "Grants +1.5 Damage and +0.3 Speed whenever Isaac has a Half Red Heart or less."
+  },
+  {
+    "id": 123,
+    "name": "Monster Manual",
+    "imagePath": "assets/images/Monster Manual.png",
+    "desc": "Temporary buddy generator",
+    "effect": "Spawns a familiar from a specific selection for the current floor."
+  },
+  {
+    "id": 124,
+    "name": "Dead Sea Scrolls",
+    "imagePath": "assets/images/Dead Sea Scrolls.png",
+    "desc": "It's a mystery",
+    "effect": "Triggers the effect of a random activated item from a list of possible options (not every activated item is included)."
+  },
+  {
+    "id": 125,
+    "name": "Bobby-Bomb",
+    "imagePath": "assets/images/Bobby-Bomb.png",
+    "desc": "Homing bombs!",
+    "effect": "+5 Bombs. Bombs gain a homing effect, slowly moving towards the nearest enemy."
+  },
+  {
+    "id": 126,
+    "name": "Razor Blade",
+    "imagePath": "assets/images/Razor Blade.png",
+    "desc": "Feel my pain",
+    "effect": "Takes one Heart of health and grants +1.2 damage for the current room. Repeated uses in the same room only take half a heart. "
+  },
+  {
+    "id": 127,
+    "name": "Forget Me Now",
+    "imagePath": "assets/images/Forget Me Now.png",
+    "desc": "I don't remember...",
+    "effect": "Restarts the current floor with a new layout. Isaac loses Forget Me Now, but keeps other items and consumables picked up on the original floor."
+  },
+  {
+    "id": 128,
+    "name": "Forever Alone",
+    "imagePath": "assets/images/Forever Alone.png",
+    "desc": "Attack fly",
+    "effect": "Spawns an attack fly that orbits a long distance from Isaac, dealing 30 damage per second."
+  },
+  {
+    "id": 129,
+    "name": "Bucket of Lard",
+    "imagePath": "assets/images/Bucket of Lard.png",
+    "desc": "HP up",
+    "effect": "Grants two Red Heart containers, -0.2 speed."
+  },
+  {
+    "id": 130,
+    "name": "A Pony",
+    "imagePath": "assets/images/A Pony.png",
+    "desc": "Flight + dash attack",
+    "effect": "Passively grants flight and increases speed to 1.5. Upon use, Isaac charges in the direction the pony is facing, giving invulnerability during the charge and dealing damage to enemies hit."
+  },
+  {
+    "id": 131,
+    "name": "Bomb Bag",
+    "imagePath": "assets/images/Bomb Bag.png",
+    "desc": "Gives bombs",
+    "effect": "Spawns a familiar that drops a Bomb every 3 rooms."
+  },
+  {
+    "id": 132,
+    "name": "A Lump of Coal",
+    "imagePath": "assets/images/A Lump of Coal.png",
+    "desc": "My Xmas present",
+    "effect": "The more distance tears travel, the more damage they will do."
+  },
+  {
+    "id": 133,
+    "name": "Guppy's Paw",
+    "imagePath": "assets/images/Guppy's Paw.png",
+    "desc": "Soul converter",
+    "effect": "Converts one Red Heart Container into three Soul Hearts."
+  },
+  {
+    "id": 134,
+    "name": "Guppy's Tail",
+    "imagePath": "assets/images/Guppy's Tail.png",
+    "desc": "Cursed?",
+    "effect": "Room Clear Awards have a 1/3 chance of being replaced with a Chest and a 2/9 chance being replaced with nothing."
+  },
+  {
+    "id": 135,
+    "name": "IV Bag",
+    "imagePath": "assets/images/IV Bag.png",
+    "desc": "Portable blood bank",
+    "effect": "Damages Isaac and spawns a random amount of coins, similar to a Blood Donation Machine."
+  },
+  {
+    "id": 136,
+    "name": "Best Friend",
+    "imagePath": "assets/images/Best Friend.png",
+    "desc": "Friends 'till the end",
+    "effect": "Spawns a decoy Isaac that explodes after 5 seconds. Enemies will always target the decoy and ignore Isaac."
+  },
+  {
+    "id": 137,
+    "name": "Remote Detonator",
+    "imagePath": "assets/images/Remote Detonator.png",
+    "desc": "Remote bomb detonation",
+    "effect": "Bombs placed by Isaac only explode when Remote Detonator is used. Gives 5 bombs."
+  },
+  {
+    "id": 138,
+    "name": "Stigmata",
+    "imagePath": "assets/images/Stigmata.png",
+    "desc": "DMG + HP up",
+    "effect": "+0.3 damage, grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 139,
+    "name": "Mom's Purse",
+    "imagePath": "assets/images/Mom's Purse.png",
+    "desc": "More trinket room",
+    "effect": "Allows Isaac to hold one additional trinket. Drops a random trinket."
+  },
+  {
+    "id": 140,
+    "name": "Bob's Curse",
+    "imagePath": "assets/images/Bob's Curse.png",
+    "desc": "+5 poison bombs",
+    "effect": "+5 Bombs. Grants Isaac's bombs a poison effect. They also leave a lingering poison cloud, and Isaac becomes immune to poison."
+  },
+  {
+    "id": 141,
+    "name": "Pageant Boy",
+    "imagePath": "assets/images/Pageant Boy.png",
+    "desc": "Ultimate grand supreme",
+    "effect": "Spawns seven random coins and a coin trinket around Isaac."
+  },
+  {
+    "id": 142,
+    "name": "Scapular",
+    "imagePath": "assets/images/Scapular.png",
+    "desc": "Pray for a miracle",
+    "effect": "Once per room, when Isaac is reduced to his last half heart, he is granted one Soul Heart."
+  },
+  {
+    "id": 143,
+    "name": "Speed Ball",
+    "imagePath": "assets/images/Speed Ball.png",
+    "desc": "Speed + shot speed up",
+    "effect": "+0.3 speed, +0.2 shot speed."
+  },
+  {
+    "id": 144,
+    "name": "Bum Friend",
+    "imagePath": "assets/images/Bum Friend.png",
+    "desc": "He's greedy",
+    "effect": "Spawns a familiar that picks up coins for himself, giving random pickups in return. Can spawn Items from the Beggar Item Pool."
+  },
+  {
+    "id": 145,
+    "name": "Guppy's Head",
+    "imagePath": "assets/images/Guppy's Head.png",
+    "desc": "Reusable fly hive",
+    "effect": "Spawns 2-4 friendly Blue Flies that damage enemies."
+  },
+  {
+    "id": 146,
+    "name": "Prayer Card",
+    "imagePath": "assets/images/Prayer Card.png",
+    "desc": "Reusable eternity",
+    "effect": "Gives Isaac an Eternal Heart."
+  },
+  {
+    "id": 147,
+    "name": "Notched Axe",
+    "imagePath": "assets/images/Notched Axe.png",
+    "desc": "Rocks don't stand a chance",
+    "effect": " Toggles between tears and the pickaxe, which can be swung to attack and break obstacles. Using it depletes the charge, and it can't be used until next floor once the charge runs out."
+  },
+  {
+    "id": 148,
+    "name": "Infestation",
+    "imagePath": "assets/images/Infestation.png",
+    "desc": "Fly revenge",
+    "effect": "2-6 Blue Flies randomly spawn every time Isaac gets hit."
+  },
+  {
+    "id": 149,
+    "name": "Ipecac",
+    "imagePath": "assets/images/Ipecac.png",
+    "desc": "Explosive shots",
+    "effect": "Replaces tears with explosive and poisoning projectiles fired in an arc from the mouth."
+  },
+  {
+    "id": 150,
+    "name": "Tough Love",
+    "imagePath": "assets/images/Tough Love.png",
+    "desc": "Tooth shot",
+    "effect": "Adds a chance to shoot a tooth instead of a tear, which deals x3.2 Isaac's damage."
+  },
+  {
+    "id": 151,
+    "name": "The Mulligan",
+    "imagePath": "assets/images/The Mulligan.png",
+    "desc": "They grow inside",
+    "effect": "Tears have a 1/6 chance of spawning allied Blue Flies when they hit an enemy."
+  },
+  {
+    "id": 152,
+    "name": "Technology 2",
+    "imagePath": "assets/images/Technology 2.png",
+    "desc": "Extra laser",
+    "effect": "Replaces the tears fired from Isaac's right eye with a rapid-firing low damage piercing laser."
+  },
+  {
+    "id": 153,
+    "name": "Mutant Spider",
+    "imagePath": "assets/images/Mutant Spider.png",
+    "desc": "Quad shot",
+    "effect": "Isaac shoots four tears at once with lower fire rate."
+  },
+  {
+    "id": 154,
+    "name": "Chemical Peel",
+    "imagePath": "assets/images/Chemical Peel.png",
+    "desc": "DMG up",
+    "effect": "Tears fired from the left eye have +2 flat damage."
+  },
+  {
+    "id": 155,
+    "name": "The Peeper",
+    "imagePath": "assets/images/The Peeper.png",
+    "desc": "Plop!",
+    "effect": "Spawns a familiar that slowly floats around the room in a zig-zag pattern, damaging enemies it passes through. Increases the damage of tears from Isaac's left eye by 35%."
+  },
+  {
+    "id": 156,
+    "name": "Habit",
+    "imagePath": "assets/images/Habit.png",
+    "desc": "Item martyr",
+    "effect": "When Isaac is hit, his active item gains 1 room's worth of charge."
+  },
+  {
+    "id": 157,
+    "name": "Bloody Lust",
+    "imagePath": "assets/images/Bloody Lust.png",
+    "desc": "RAGE!",
+    "effect": "Increases Isaac's damage whenever he takes damage, up to six times. The bonus resets when entering a new floor."
+  },
+  {
+    "id": 158,
+    "name": "Crystal Ball",
+    "imagePath": "assets/images/Crystal Ball.png",
+    "desc": "I see my future",
+    "effect": "Reveals the map (except the Super Secret Room and Ultra Secret Room) and drops a Soul Heart or random card/rune. While held, increases the chance of finding a Planetarium."
+  },
+  {
+    "id": 159,
+    "name": "Spirit of the Night",
+    "imagePath": "assets/images/Spirit of the Night.png",
+    "desc": "Scary",
+    "effect": "Grants spectral tears and flight."
+  },
+  {
+    "id": 160,
+    "name": "Crack the Sky",
+    "imagePath": "assets/images/Crack the Sky.png",
+    "desc": "Holy white death",
+    "effect": "Summons 5 beams of light in random locations on the ground, dealing large amounts of damage to any enemies that touch them."
+  },
+  {
+    "id": 161,
+    "name": "Ankh",
+    "imagePath": "assets/images/Ankh.png",
+    "desc": "Eternal life?",
+    "effect": "Upon death, Isaac will respawn as ??? in the previous room, with 3 Soul Hearts."
+  },
+  {
+    "id": 162,
+    "name": "Celtic Cross",
+    "imagePath": "assets/images/Celtic Cross.png",
+    "desc": "Blessing of protection",
+    "effect": "Grants a chance to trigger the Book of Shadows effect upon taking damage, creating a shield that nullifies all types of damage for 7 seconds."
+  },
+  {
+    "id": 163,
+    "name": "Ghost Baby",
+    "imagePath": "assets/images/Ghost Baby.png",
+    "desc": "Spectral buddy",
+    "effect": "Spawns a familiar that follows Isaac around and fires spectral tears."
+  },
+  {
+    "id": 164,
+    "name": "The Candle",
+    "imagePath": "assets/images/The Candle.png",
+    "desc": "Reusable flames",
+    "effect": "Throws out a flame that damages everything in its path, diminishing in size as it travels."
+  },
+  {
+    "id": 165,
+    "name": "Cat-O-Nine-Tails",
+    "imagePath": "assets/images/Cat-O-Nine-Tails.png",
+    "desc": "Shot speed + damage up",
+    "effect": "+1 damage, +0.23 shot speed."
+  },
+  {
+    "id": 166,
+    "name": "D20",
+    "imagePath": "assets/images/D20.png",
+    "desc": "Reroll the basics",
+    "effect": "Rerolls all pickups in the current room."
+  },
+  {
+    "id": 167,
+    "name": "Harlequin Baby",
+    "imagePath": "assets/images/Harlequin Baby.png",
+    "desc": "Double shot buddy",
+    "effect": "Spawns a familiar that follows Isaac around and fires two tears at once in a V-pattern."
+  },
+  {
+    "id": 168,
+    "name": "Epic Fetus",
+    "imagePath": "assets/images/Epic Fetus.png",
+    "desc": "On-demand air strike",
+    "effect": "Isaac's tears are replaced with guided missiles, like those used by the Doctor's Remote."
+  },
+  {
+    "id": 169,
+    "name": "Polyphemus",
+    "imagePath": "assets/images/Polyphemus.png",
+    "desc": "Mega tears",
+    "effect": "Isaac fires huge tears that deal massive damage, but fire rate is greatly decreased. If a tear kills an enemy, it travels on with any leftover damage."
+  },
+  {
+    "id": 170,
+    "name": "Daddy Longlegs",
+    "imagePath": "assets/images/Daddy Longlegs.png",
+    "desc": "Daddy's love",
+    "effect": "Daddy Long Legs' shadow follows Isaac and occasionally stomps enemies for 40 damage total."
+  },
+  {
+    "id": 171,
+    "name": "Spider Butt",
+    "imagePath": "assets/images/Spider Butt.png",
+    "desc": "Mass enemy slowdown + damage",
+    "effect": "Deals 10 damage to all enemies in the room and slows them for 4 seconds. Enemies killed by Spider Butt spawn Blue Spiders."
+  },
+  {
+    "id": 172,
+    "name": "Sacrificial Dagger",
+    "imagePath": "assets/images/Sacrificial Dagger.png",
+    "desc": "My fate protects me",
+    "effect": "Spawns a dagger orbital familiar, blocking enemy shots and dealing a high amount of damage to enemies in contact."
+  },
+  {
+    "id": 173,
+    "name": "Mitre",
+    "imagePath": "assets/images/Mitre.png",
+    "desc": "Blessing of purity",
+    "effect": "Grants a chance of converting any Red Heart pickups that spawn into Soul Hearts instead."
+  },
+  {
+    "id": 174,
+    "name": "Rainbow Baby",
+    "imagePath": "assets/images/Rainbow Baby.png",
+    "desc": "Random buddy",
+    "effect": "Spawns a familiar that follows Isaac around and fires tears with random effects."
+  },
+  {
+    "id": 175,
+    "name": "Dad's Key",
+    "imagePath": "assets/images/Dad's Key.png",
+    "desc": "Opens all doors...",
+    "effect": "Opens all doors in the current room in almost all circumstances, including doors which require a Key to open, entrances to Secret Rooms, and the door to Mega Satan."
+  },
+  {
+    "id": 176,
+    "name": "Stem Cells",
+    "imagePath": "assets/images/Stem Cells.png",
+    "desc": "HP + shot speed up",
+    "effect": "Grants one full Red Heart container and +0.16 shot speed. Heals 1 additional Red Heart"
+  },
+  {
+    "id": 177,
+    "name": "Portable Slot",
+    "imagePath": "assets/images/Portable Slot.png",
+    "desc": "Gamble 24/7",
+    "effect": "Consumes 1 Penny and has a chance to drop a random pickup, like a Slot Machine."
+  },
+  {
+    "id": 178,
+    "name": "Holy Water",
+    "imagePath": "assets/images/Holy Water.png",
+    "desc": "Splash!",
+    "effect": "A bottle familiar that flies forward when Isaac shoots. It breaks upon hitting an enemy, leaving a puddle of blue creep that petrifies enemies."
+  },
+  {
+    "id": 179,
+    "name": "Fate",
+    "imagePath": "assets/images/Fate.png",
+    "desc": "Flight eternal",
+    "effect": "Grants flight and one Eternal Heart."
+  },
+  {
+    "id": 180,
+    "name": "The Black Bean",
+    "imagePath": "assets/images/The Black Bean.png",
+    "desc": "Toot on touch",
+    "effect": " When taking damage, Isaac farts five times, poisoning and knocking back nearby enemies and leaving lingering poison clouds."
+  },
+  {
+    "id": 181,
+    "name": "White Pony",
+    "imagePath": "assets/images/White Pony.png",
+    "desc": "Flight + holy death",
+    "effect": "Passively grants flight and increases speed to 1.5. Upon use, Isaac charges in the direction the pony is facing, giving invulnerability during the charge while also creating damaging beams of light."
+  },
+  {
+    "id": 182,
+    "name": "Sacred Heart",
+    "imagePath": "assets/images/Sacred Heart.png",
+    "desc": "Homing shots + DMG up",
+    "effect": " Adds a Red Heart Container. Grants homing tears, a x2.3 Damage multiplier, +1 flat Damage, -0.4 Tears, and -0.25 Shot Speed."
+  },
+  {
+    "id": 183,
+    "name": "Tooth Picks",
+    "imagePath": "assets/images/Tooth Picks.png",
+    "desc": "Tears + shot speed up",
+    "effect": "+0.7 tears, +0.16 shot speed."
+  },
+  {
+    "id": 184,
+    "name": "Holy Grail",
+    "imagePath": "assets/images/Holy Grail.png",
+    "desc": "Flight + HP up",
+    "effect": "Grants flight and one Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 185,
+    "name": "Dead Dove",
+    "imagePath": "assets/images/Dead Dove.png",
+    "desc": "Flight + spectral tears",
+    "effect": "Grants spectral tears and flight."
+  },
+  {
+    "id": 186,
+    "name": "Blood Rights",
+    "imagePath": "assets/images/Blood Rights.png",
+    "desc": "Mass enemy damage at a cost",
+    "effect": "Takes a full heart of health and deals 40 damage to all enemies in the room. Repeated uses in the same room only take half a heart."
+  },
+  {
+    "id": 187,
+    "name": "Guppy's Hair Ball",
+    "imagePath": "assets/images/Guppy's Hair Ball.png",
+    "desc": "Swing it",
+    "effect": "Spawns a familiar that loosely follows behind Isaac, which blocks shots can be swung like a flail to damage enemies. Grows bigger by killing enemies."
+  },
+  {
+    "id": 188,
+    "name": "Abel",
+    "imagePath": "assets/images/Abel.png",
+    "desc": "Mirrored buddy",
+    "effect": " Spawns a familiar that mirrors Isaac's movements and shoots towards him."
+  },
+  {
+    "id": 189,
+    "name": "SMB Super Fan",
+    "imagePath": "assets/images/SMB Super Fan.png",
+    "desc": "All stats up",
+    "effect": "+1 Red Heart container, +0.3 damage, +0.2 tears, +0.2 speed, +2.5 range. Fully restores all red hearts."
+  },
+  {
+    "id": 190,
+    "name": "Pyro",
+    "imagePath": "assets/images/Pyro.png",
+    "desc": "99 bombs",
+    "effect": "Grants 99 Bombs."
+  },
+  {
+    "id": 191,
+    "name": "3 Dollar Bill",
+    "imagePath": "assets/images/3 Dollar Bill.png",
+    "desc": "Rainbow tears",
+    "effect": "Gives Isaac a random tear effect every few seconds."
+  },
+  {
+    "id": 192,
+    "name": "Telepathy for Dummies",
+    "imagePath": "assets/images/Telepathy for Dummies.png",
+    "desc": "Temporary psychic shot",
+    "effect": "Gives homing tears for the current room. Also gives +3 range."
+  },
+  {
+    "id": 193,
+    "name": "MEAT!",
+    "imagePath": "assets/images/MEAT!.png",
+    "desc": "DMG + HP up",
+    "effect": "Grants one full Red Heart container, +0.3 damage. Heals 1 additional Red Heart"
+  },
+  {
+    "id": 194,
+    "name": "Magic 8 Ball",
+    "imagePath": "assets/images/Magic 8 Ball.png",
+    "desc": "Shot speed up",
+    "effect": "+0.16 shot speed, spawns a random tarot card. Increases the chance of finding a Planetarium."
+  },
+  {
+    "id": 195,
+    "name": "Mom's Coin Purse",
+    "imagePath": "assets/images/Mom's Coin Purse.png",
+    "desc": "What's all this...?",
+    "effect": "Spawns 4 random pills near Isaac."
+  },
+  {
+    "id": 196,
+    "name": "Squeezy",
+    "imagePath": "assets/images/Squeezy.png",
+    "desc": "Tears up",
+    "effect": "+0.4 tears, spawns 2 Soul Hearts."
+  },
+  {
+    "id": 197,
+    "name": "Jesus Juice",
+    "imagePath": "assets/images/Jesus Juice.png",
+    "desc": "Damage + range up",
+    "effect": " +0.5 damage, +1.5 range. "
+  },
+  {
+    "id": 198,
+    "name": "Box",
+    "imagePath": "assets/images/Box.png",
+    "desc": "Stuff",
+    "effect": "Spawns various pickups: 1 coin, 1 Key, 1 Bomb, 1 Heart, 1 card/rune, 1 pill and 1 trinket."
+  },
+  {
+    "id": 199,
+    "name": "Mom's Key",
+    "imagePath": "assets/images/Mom's Key.png",
+    "desc": "Better chest loot +2 keys",
+    "effect": "Adds 2 keys. Chests will drop additional pickups."
+  },
+  {
+    "id": 200,
+    "name": "Mom's Eyeshadow",
+    "imagePath": "assets/images/Mom's Eyeshadow.png",
+    "desc": "Charm tears",
+    "effect": "Tears have a chance to charm enemies."
+  },
+  {
+    "id": 201,
+    "name": "Iron Bar",
+    "imagePath": "assets/images/Iron Bar.png",
+    "desc": "DMG up + concussive tears",
+    "effect": "+0.3 damage. Adds a chance to shoot concussive tears, causing enemies to walk around randomly."
+  },
+  {
+    "id": 202,
+    "name": "Midas' Touch",
+    "imagePath": "assets/images/Midas' Touch.png",
+    "desc": "Golden touch",
+    "effect": "Enemies that touch Isaac are temporarily petrified and turn to gold. Any enemy killed while in this state will drop Pennies."
+  },
+  {
+    "id": 203,
+    "name": "Humbling Bundle",
+    "imagePath": "assets/images/Humbling Bundle.png",
+    "desc": "1+1 free 4Evar",
+    "effect": "Transforms Bombs, Keys, Pennies, and Red Hearts into their respective Double versions. This will occur 50% of the time. "
+  },
+  {
+    "id": 204,
+    "name": "Fanny Pack",
+    "imagePath": "assets/images/Fanny Pack.png",
+    "desc": "Filled with goodies",
+    "effect": "Has a chance to drop a random pickup when Isaac takes damage."
+  },
+  {
+    "id": 205,
+    "name": "Sharp Plug",
+    "imagePath": "assets/images/Sharp Plug.png",
+    "desc": "Infinite charge... at a cost",
+    "effect": "Damages Isaac in exchange for fully recharging Isaac's current activated item."
+  },
+  {
+    "id": 206,
+    "name": "Guillotine",
+    "imagePath": "assets/images/Guillotine.png",
+    "desc": "DMG + tears up. An out-of-body experience!",
+    "effect": "Isaac's head becomes an orbital familiar that blocks shots and deals contact damage. Tears are still fired from the rotating head. +1 damage, +0.5 fire rate."
+  },
+  {
+    "id": 207,
+    "name": "Ball of Bandages",
+    "imagePath": "assets/images/Ball of Bandages.png",
+    "desc": "Gotta lick 'em all!",
+    "effect": "Creates an orbital familiar. Collecting additional copies gives it the ability to shoot Charm tears, then chase enemies to deal contact damage, then deal even more contact damage."
+  },
+  {
+    "id": 208,
+    "name": "Champion Belt",
+    "imagePath": "assets/images/Champion Belt.png",
+    "desc": "DMG + challenge up",
+    "effect": "+1 damage. Increases the chance of champion enemies appearing by 15%."
+  },
+  {
+    "id": 209,
+    "name": "Butt Bombs",
+    "imagePath": "assets/images/Butt Bombs.png",
+    "desc": "Toxic blast +5 bombs",
+    "effect": "+5 Bombs. Bombs now cloud up the screen, briefly damaging and confusing all enemies."
+  },
+  {
+    "id": 210,
+    "name": "Gnawed Leaf",
+    "imagePath": "assets/images/Gnawed Leaf.png",
+    "desc": "Unbreakable",
+    "effect": "After standing still and not shooting for a short time, Isaac turns invincible until he moves or shoots."
+  },
+  {
+    "id": 211,
+    "name": "Spiderbaby",
+    "imagePath": "assets/images/Spiderbaby.png",
+    "desc": "Spider revenge",
+    "effect": "Spawns 3-5 Blue Spiders when Isaac takes damage."
+  },
+  {
+    "id": 212,
+    "name": "Guppy's Collar",
+    "imagePath": "assets/images/Guppy's Collar.png",
+    "desc": "Eternal life?",
+    "effect": "Grants a permanent 50% chance to respawn with 1/2 of a Red Heart after death."
+  },
+  {
+    "id": 213,
+    "name": "Lost Contact",
+    "imagePath": "assets/images/Lost Contact.png",
+    "desc": "Shielded tears",
+    "effect": "Isaac's tears can hit and destroy enemy projectiles. -0.15 shot speed."
+  },
+  {
+    "id": 214,
+    "name": "Anemic",
+    "imagePath": "assets/images/Anemic.png",
+    "desc": "Toxic blood",
+    "effect": "After Isaac is damaged, a trail of red creep will be left behind him until he leaves the current room. +1.5 range."
+  },
+  {
+    "id": 215,
+    "name": "Goat Head",
+    "imagePath": "assets/images/Goat Head.png",
+    "desc": "He accepts your offering",
+    "effect": "A Devil Room / Angel Room will always spawn after every boss fight, excluding the first floor and floors after Chapter 4."
+  },
+  {
+    "id": 216,
+    "name": "Ceremonial Robes",
+    "imagePath": "assets/images/Ceremonial Robes.png",
+    "desc": "DMG + evil up",
+    "effect": "Grants 3 Black Hearts and +1 damage."
+  },
+  {
+    "id": 217,
+    "name": "Mom's Wig",
+    "imagePath": "assets/images/Mom's Wig.png",
+    "desc": "You feel itchy...",
+    "effect": "Adds a chance to spawn Blue Spiders when firing tears. Restores 1 Red Heart."
+  },
+  {
+    "id": 218,
+    "name": "Placenta",
+    "imagePath": "assets/images/Placenta.png",
+    "desc": "Regeneration + HP up",
+    "effect": "Grants one full Red Heart container, and a chance to regenerate a Half Red Heart of health every minute of gameplay."
+  },
+  {
+    "id": 219,
+    "name": "Old Bandage",
+    "imagePath": "assets/images/Old Bandage.png",
+    "desc": "HP up",
+    "effect": "Grants an empty Red Heart container. Adds a chance of dropping a Red Heart after taking damage."
+  },
+  {
+    "id": 220,
+    "name": "Sad Bombs",
+    "imagePath": "assets/images/Sad Bombs.png",
+    "desc": "Tear blasts +5 bombs",
+    "effect": "+5 Bombs. Upon exploding, bombs shoot 10 tears around them, affected by tear modifiers."
+  },
+  {
+    "id": 221,
+    "name": "Rubber Cement",
+    "imagePath": "assets/images/Rubber Cement.png",
+    "desc": "Bouncing tears",
+    "effect": "Tears bounce off walls, enemies, and environmental objects."
+  },
+  {
+    "id": 222,
+    "name": "Anti-Gravity",
+    "imagePath": "assets/images/Anti-Gravity.png",
+    "desc": "Anti-gravity tears + tears up",
+    "effect": "Tears float in position until firing ceases, after which they will fly off in the direction they were shot in. +1 Fire Rate."
+  },
+  {
+    "id": 223,
+    "name": "Pyromaniac",
+    "imagePath": "assets/images/Pyromaniac.png",
+    "desc": "It hurts so good +5 bombs",
+    "effect": "+5 bombs. Grants immunity to explosion damage and causes explosions to heal Isaac. Also grants immunity to fire."
+  },
+  {
+    "id": 224,
+    "name": "Cricket's Body",
+    "imagePath": "assets/images/Cricket's Body.png",
+    "desc": "Bursting shots + tears up",
+    "effect": "When tears hit an object or deplete their range, they spawn 4 smaller tears, whose range and damage scale with Isaac's. Grants +0.5 fire rate and reduces range."
+  },
+  {
+    "id": 225,
+    "name": "Gimpy",
+    "imagePath": "assets/images/Gimpy.png",
+    "desc": "Sweet suffering",
+    "effect": "Gives chance of spawning a Soul Heart when taking damage. Enemies have a chance to drop a Half Red Heart after being killed."
+  },
+  {
+    "id": 226,
+    "name": "Black Lotus",
+    "imagePath": "assets/images/Black Lotus.png",
+    "desc": "HP up x3!",
+    "effect": "Grants one Red Heart Container, one Soul Heart, and one Black Heart."
+  },
+  {
+    "id": 227,
+    "name": "Piggy Bank",
+    "imagePath": "assets/images/Piggy Bank.png",
+    "desc": "My life savings",
+    "effect": "Gives 3 Pennies on pick-up. Every time Isaac is damaged, he will drop one or two additional pennies."
+  },
+  {
+    "id": 228,
+    "name": "Mom's Perfume",
+    "imagePath": "assets/images/Mom's Perfume.png",
+    "desc": "Fear shot + tears up",
+    "effect": "Adds a chance to shoot fear tears. +0.5 fire rate."
+  },
+  {
+    "id": 229,
+    "name": "Monstro's Lung",
+    "imagePath": "assets/images/Monstro's Lung.png",
+    "desc": "Charged burst attack",
+    "effect": "Replaces normal tears with a charged shot that fires 14 tears in the same fashion as Monstro."
+  },
+  {
+    "id": 230,
+    "name": "Abaddon",
+    "imagePath": "assets/images/Abaddon.png",
+    "desc": "Evil + DMG up + fear shot",
+    "effect": "+1.5 damage, +0.2 speed. Grants two Black Hearts, converts all Red Heart Containers into Black Hearts, and adds a chance to shoot fear tears."
+  },
+  {
+    "id": 231,
+    "name": "Ball of Tar",
+    "imagePath": "assets/images/Ball of Tar.png",
+    "desc": "Sticky feet...",
+    "effect": "Adds a chance to shoot slowing tears. Isaac leaves a trail of slowing creep behind as he moves, impeding enemies' speed."
+  },
+  {
+    "id": 232,
+    "name": "Stop Watch",
+    "imagePath": "assets/images/Stop Watch.png",
+    "desc": "Let's slow this down a bit...",
+    "effect": "+0.3 speed. Slows all enemies in every room to 80% speed."
+  },
+  {
+    "id": 233,
+    "name": "Tiny Planet",
+    "imagePath": "assets/images/Tiny Planet.png",
+    "desc": "Orbiting tears + range up",
+    "effect": "Massively increases Range and grants spectral tears. Tears orbit around Isaac at a fixed distance until they hit the ground."
+  },
+  {
+    "id": 234,
+    "name": "Infestation 2",
+    "imagePath": "assets/images/Infestation 2.png",
+    "desc": "Infestation shot",
+    "effect": "Spawns allied Blue Spiders from killed enemies."
+  },
+  {
+    "id": 236,
+    "name": "E. Coli",
+    "imagePath": "assets/images/E. Coli.png",
+    "desc": "Turdy touch",
+    "effect": "Enemies that touch Isaac are transformed into Poop."
+  },
+  {
+    "id": 237,
+    "name": "Death's Touch",
+    "imagePath": "assets/images/Death's Touch.png",
+    "desc": "Piercing shots + DMG up",
+    "effect": "+1.5 damage, -0.3 tears. Tears are replaced with large piercing scythes."
+  },
+  {
+    "id": 238,
+    "name": "Key Piece 1 (loop end)",
+    "imagePath": "assets/images/Key Piece 1 (loop end).png",
+    "desc": "???",
+    "effect": "Combined with Key Piece 2, unlocks the golden gate in the starting room of Chest and Dark Room to fight Mega Satan."
+  },
+  {
+    "id": 239,
+    "name": "Key Piece 2 (tooth end)",
+    "imagePath": "assets/images/Key Piece 2 (tooth end).png",
+    "desc": "???",
+    "effect": "Combined with Key Piece 1, unlocks the golden gate in the starting room of Chest and Dark Room to fight Mega Satan."
+  },
+  {
+    "id": 240,
+    "name": "Experimental Treatment",
+    "imagePath": "assets/images/Experimental Treatment.png",
+    "desc": "Some stats up, some stats down",
+    "effect": "Increases four random stats and decreases the other two."
+  },
+  {
+    "id": 241,
+    "name": "Contract From Below",
+    "imagePath": "assets/images/Contract From Below.png",
+    "desc": "Wealth... but at what cost?",
+    "effect": "Doubles the number of most room clear awards, but reduces the overall chance of getting one by 1/3."
+  },
+  {
+    "id": 242,
+    "name": "Infamy",
+    "imagePath": "assets/images/Infamy.png",
+    "desc": "Blocks damage... sometimes",
+    "effect": "Gives Isaac a 50% chance to block projectiles coming from any direction."
+  },
+  {
+    "id": 243,
+    "name": "Trinity Shield",
+    "imagePath": "assets/images/Trinity Shield.png",
+    "desc": "You feel guarded",
+    "effect": "Isaac gains a shield that protects him from enemy shots. It aims in the direction Isaac fires from."
+  },
+  {
+    "id": 244,
+    "name": "Tech.5",
+    "imagePath": "assets/images/Tech.5.png",
+    "desc": "It's still being tested...",
+    "effect": "Isaac occasionally fires an unlimited range piercing laser alongside his normal tears. The laser can glitch, mimicking the effects of certain items and trinkets."
+  },
+  {
+    "id": 245,
+    "name": "20 20",
+    "imagePath": "assets/images/20 20.png",
+    "desc": "Double shot",
+    "effect": "Isaac fires two tears at once, one from each eye. 0.8× damage multiplier."
+  },
+  {
+    "id": 246,
+    "name": "Blue Map",
+    "imagePath": "assets/images/Blue Map.png",
+    "desc": "Secrets",
+    "effect": "Reveals the locations of Secret Rooms and Super Secret Rooms on the map."
+  },
+  {
+    "id": 247,
+    "name": "BFFS!",
+    "imagePath": "assets/images/BFFS!.png",
+    "desc": "Your friends rule!",
+    "effect": "Increases the size and effectiveness of most familiars."
+  },
+  {
+    "id": 248,
+    "name": "Hive Mind",
+    "imagePath": "assets/images/Hive Mind.png",
+    "desc": "Giant spiders and flies",
+    "effect": "Increases the size of Blue Spiders and Blue Flies and doubles the amount of damage they deal. Also increases the effectiveness of fly and spider familiars."
+  },
+  {
+    "id": 249,
+    "name": "There's Options",
+    "imagePath": "assets/images/There's Options.png",
+    "desc": "More options",
+    "effect": "Two items appear after defeating a Boss. Only one can be taken; the other will disappear."
+  },
+  {
+    "id": 250,
+    "name": "Bogo Bombs",
+    "imagePath": "assets/images/Bogo Bombs.png",
+    "desc": "1+1 BOOM!",
+    "effect": "All normal Bombs become Double Bombs."
+  },
+  {
+    "id": 251,
+    "name": "Starter Deck",
+    "imagePath": "assets/images/Starter Deck.png",
+    "desc": "Extra card room",
+    "effect": "Isaac can hold 2 cards at once and all pills are replaced by cards."
+  },
+  {
+    "id": 252,
+    "name": "Little Baggy",
+    "imagePath": "assets/images/Little Baggy.png",
+    "desc": "Extra pill room",
+    "effect": "Isaac can hold 2 pills at once and all cards and runes are replaced by pills."
+  },
+  {
+    "id": 253,
+    "name": "Magic Scab",
+    "imagePath": "assets/images/Magic Scab.png",
+    "desc": "HP + luck up",
+    "effect": "Grants one full Red Heart container, +1 luck. Heals 1 additional Red Heart. "
+  },
+  {
+    "id": 254,
+    "name": "Blood Clot",
+    "imagePath": "assets/images/Blood Clot.png",
+    "desc": "DMG + range up",
+    "effect": "Tears fired from the left eye have +1 flat damage and +2.75 range."
+  },
+  {
+    "id": 255,
+    "name": "Screw",
+    "imagePath": "assets/images/Screw.png",
+    "desc": "Tears + shot speed up",
+    "effect": "+0.5 tears, +0.2 shot speed."
+  },
+  {
+    "id": 256,
+    "name": "Hot Bombs",
+    "imagePath": "assets/images/Hot Bombs.png",
+    "desc": "Burning blast +5 bombs",
+    "effect": "+5 Bombs. Isaac's bombs leave behind fire that damages enemies upon contact."
+  },
+  {
+    "id": 257,
+    "name": "Fire Mind",
+    "imagePath": "assets/images/Fire Mind.png",
+    "desc": "Flaming tears",
+    "effect": "Grants flaming tears that deal burning damage over time. Tears have a chance to explode on impact with an enemy, which creates a fire at the location of the explosion."
+  },
+  {
+    "id": 258,
+    "name": "Missing No.",
+    "imagePath": "assets/images/Missing No..png",
+    "desc": "Syntax error",
+    "effect": "Randomizes all passive items and stats upon pickup and at the start of each succeeding floor."
+  },
+  {
+    "id": 259,
+    "name": "Dark Matter",
+    "imagePath": "assets/images/Dark Matter.png",
+    "desc": "DMG up + fear shot",
+    "effect": "+1 damage, adds a chance to shoot fear tears."
+  },
+  {
+    "id": 260,
+    "name": "Black Candle",
+    "imagePath": "assets/images/Black Candle.png",
+    "desc": "Curse immunity + evil up",
+    "effect": "Prevents curses. Grants one Black Heart. Increases the chance for a Devil Room or Angel Room to appear."
+  },
+  {
+    "id": 261,
+    "name": "Proptosis",
+    "imagePath": "assets/images/Proptosis.png",
+    "desc": "Short range mega tears",
+    "effect": "Tears start out massive with high damage, and then shrink down and become weaker over a short range."
+  },
+  {
+    "id": 262,
+    "name": "Missing Page 2",
+    "imagePath": "assets/images/Missing Page 2.png",
+    "desc": "Evil up. Your enemies will pay!",
+    "effect": "Grants one Black Heart. Upon taking damage that reduces Isaac's health to one heart or less, deals damage to all enemies in the room. Increases the damage of Black Hearts and The Necronomicon-like effects by 40."
+  },
+  {
+    "id": 263,
+    "name": "Clear Rune",
+    "imagePath": "assets/images/Clear Rune.png",
+    "desc": "Rune mimic",
+    "effect": "Has the same effect as the rune or soul stone currently held by Isaac. The charge time is based on the power of the rune."
+  },
+  {
+    "id": 264,
+    "name": "Smart Fly",
+    "imagePath": "assets/images/Smart Fly.png",
+    "desc": "Revenge fly",
+    "effect": "Spawns an orbital familiar that blocks enemy shots. Upon taking damage, the familiar will pursue enemies for the rest of the room, dealing 22.5 damage per second."
+  },
+  {
+    "id": 265,
+    "name": "Dry Baby",
+    "imagePath": "assets/images/Dry Baby.png",
+    "desc": "Immortal friend",
+    "effect": "Spawns a familiar that follows Isaac around and blocks enemy projectiles. Upon blocking a shot, it has a chance of triggering The Necronomicon effect."
+  },
+  {
+    "id": 266,
+    "name": "Juicy Sack",
+    "imagePath": "assets/images/Juicy Sack.png",
+    "desc": "Sticky babies",
+    "effect": "Spawns a familiar that follows Isaac and drips a trail of slow creep, spawning 1-2 Blue Spiders after each room."
+  },
+  {
+    "id": 267,
+    "name": "Robo-Baby 2.0",
+    "imagePath": "assets/images/Robo-Baby 2.0.png",
+    "desc": "We worked out all the kinks",
+    "effect": "Spawns a familiar that fires lasers at any enemy in its line of sight and moves based on the direction Isaac is firing tears."
+  },
+  {
+    "id": 268,
+    "name": "Rotten Baby",
+    "imagePath": "assets/images/Rotten Baby.png",
+    "desc": "Infested friend",
+    "effect": "Spawns a familiar that spawns a Blue Fly when Isaac shoots. It can only have one Fly at a time."
+  },
+  {
+    "id": 269,
+    "name": "Headless Baby",
+    "imagePath": "assets/images/Headless Baby.png",
+    "desc": "Bloody friend",
+    "effect": "Spawns a familiar that follows Isaac, leaving blood creep on the ground."
+  },
+  {
+    "id": 270,
+    "name": "Leech",
+    "imagePath": "assets/images/Leech.png",
+    "desc": "Blood sucker",
+    "effect": "Spawns a leech familiar that chases enemies, dealing ~3 damage per second. Heals a Half Red Heart whenever Leech kills an enemy."
+  },
+  {
+    "id": 271,
+    "name": "Mystery Sack",
+    "imagePath": "assets/images/Mystery Sack.png",
+    "desc": "?",
+    "effect": "Spawns a familiar that drops a Heart, coin, Bomb, or Key every 5-6 rooms."
+  },
+  {
+    "id": 272,
+    "name": "BBF",
+    "imagePath": "assets/images/BBF.png",
+    "desc": "Big Beautiful Fly",
+    "effect": "Spawns a familiar that flies around the room in a zig-zag pattern and explodes on contact with an enemy. Respawns after ten seconds."
+  },
+  {
+    "id": 273,
+    "name": "Bob's Brain",
+    "imagePath": "assets/images/Bob's Brain.png",
+    "desc": "Explosive thoughts",
+    "effect": "Spawns a familiar that charges forward when shooting tears and explodes upon contact with an enemy, damaging and poisoning them. The familiar respawns after a few seconds."
+  },
+  {
+    "id": 274,
+    "name": "Best Bud",
+    "imagePath": "assets/images/Best Bud.png",
+    "desc": "Sworn protector",
+    "effect": "When hit, spawns a quickly orbiting attack fly similar to Forever alone for the current room that deals high damage."
+  },
+  {
+    "id": 275,
+    "name": "Lil Brimstone",
+    "imagePath": "assets/images/Lil Brimstone.png",
+    "desc": "Evil friend",
+    "effect": "Grants a familiar that charges a thin Brimstone laser while Isaac is shooting."
+  },
+  {
+    "id": 276,
+    "name": "Isaac's Heart",
+    "imagePath": "assets/images/Isaac's Heart.png",
+    "desc": "Protect it",
+    "effect": "Isaac himself is now immune to all damage, and a heart familiar follows him. If the heart is hurt, Isaac is hurt. The heart charges up as Isaac shoots, firing 8 blood shots, knocking back enemies, and leaving a puddle of creep when released."
+  },
+  {
+    "id": 277,
+    "name": "Lil Haunt",
+    "imagePath": "assets/images/Lil Haunt.png",
+    "desc": "Fear him",
+    "effect": "Spawns a familiar that chases down enemies, dealing 4 damage per second and inflicting fear."
+  },
+  {
+    "id": 278,
+    "name": "Dark Bum",
+    "imagePath": "assets/images/Dark Bum.png",
+    "desc": "He wants to take your life",
+    "effect": "Spawns a familiar that follows Isaac around and collects Red Hearts. For every 1½ Red Hearts collected, Dark Bum will give a reward."
+  },
+  {
+    "id": 279,
+    "name": "Big Fan",
+    "imagePath": "assets/images/Big Fan.png",
+    "desc": "Fat protector",
+    "effect": "Spawns a large, slow-moving orbital familiar that blocks enemy shots and deals 30 damage per second to enemies. Reduces the speed other orbitals rotate at."
+  },
+  {
+    "id": 280,
+    "name": "Sissy Longlegs",
+    "imagePath": "assets/images/Sissy Longlegs.png",
+    "desc": "She loves you",
+    "effect": "Spawns a familiar that wanders randomly, occasionally spawning Blue Spiders. Briefly charms enemies on contact."
+  },
+  {
+    "id": 281,
+    "name": "Punching Bag",
+    "imagePath": "assets/images/Punching Bag.png",
+    "desc": "Scape goat",
+    "effect": "Spawns a Mulligan familiar that wanders randomly. Enemies will attack the Mulligan if it's closer."
+  },
+  {
+    "id": 282,
+    "name": "How to Jump",
+    "imagePath": "assets/images/How to Jump.png",
+    "desc": "It's time you learned how",
+    "effect": "Isaac jumps in the direction he is currently moving, allowing travel over obstacles and enemies."
+  },
+  {
+    "id": 283,
+    "name": "D100",
+    "imagePath": "assets/images/D100.png",
+    "desc": "REEROLLLLL!",
+    "effect": "Combines the effects of D1, D4, The D6, D7, D8, D10, D12, and D20."
+  },
+  {
+    "id": 284,
+    "name": "D4",
+    "imagePath": "assets/images/D4.png",
+    "desc": "Reroll into something else",
+    "effect": "Rerolls all of Isaac's passive items."
+  },
+  {
+    "id": 285,
+    "name": "D10",
+    "imagePath": "assets/images/D10.png",
+    "desc": "Reroll enemies",
+    "effect": "Replaces all monsters in the room with weaker monsters."
+  },
+  {
+    "id": 286,
+    "name": "Blank Card",
+    "imagePath": "assets/images/Blank Card.png",
+    "desc": "Card mimic",
+    "effect": "Copies the effect of the card currently held by Isaac. The charge time is based on the power of the card."
+  },
+  {
+    "id": 287,
+    "name": "Book of Secrets",
+    "imagePath": "assets/images/Book of Secrets.png",
+    "desc": "Tome of knowledge",
+    "effect": "Gives the effect of Treasure Map, The Compass, or Blue Map for the duration of the current floor. If all effects are active, X-Ray Vision is provided for the floor instead. Highlights any Tinted Rocks and rocks with Crawl Space in the room."
+  },
+  {
+    "id": 288,
+    "name": "Box of Spiders",
+    "imagePath": "assets/images/Box of Spiders.png",
+    "desc": "It's a box of spiders",
+    "effect": "Spawns 4-8 Blue Spiders that deal 2× Isaac's damage to enemies."
+  },
+  {
+    "id": 289,
+    "name": "Red Candle",
+    "imagePath": "assets/images/Red Candle.png",
+    "desc": "Flame on",
+    "effect": "Throws out a flame that damages everything in its path, diminishing in size as it hits enemies or blocks shots."
+  },
+  {
+    "id": 290,
+    "name": "The Jar",
+    "imagePath": "assets/images/The Jar.png",
+    "desc": "Save your life",
+    "effect": "When at full health, up to 4 extra Red Hearts can be stored in The Jar. Activating drops the stored hearts on the ground."
+  },
+  {
+    "id": 291,
+    "name": "Flush!",
+    "imagePath": "assets/images/Flush!.png",
+    "desc": "...",
+    "effect": "Turns all non-boss monsters in the room into Poop. Instantly kills poop-themed bosses. Floods the current room."
+  },
+  {
+    "id": 292,
+    "name": "Satanic Bible",
+    "imagePath": "assets/images/Satanic Bible.png",
+    "desc": "Reusable evil... but at what cost?",
+    "effect": "Gives one Black Heart. Replaces the boss room item on the current floor with a Devil Deal."
+  },
+  {
+    "id": 293,
+    "name": "Head of Krampus",
+    "imagePath": "assets/images/Head of Krampus.png",
+    "desc": "Krampus rage",
+    "effect": "Fires a powerful Brimstone beam in four cardinal directions, much like Krampus shoots, with a 50% chance to rotate all beams around Isaac 90 degrees"
+  },
+  {
+    "id": 294,
+    "name": "Butter Bean",
+    "imagePath": "assets/images/Butter Bean.png",
+    "desc": "Reusable knock-back",
+    "effect": "Isaac farts and knocks back nearby enemies and projectiles. Enemies pushed into walls or obstacles take 12 damage. "
+  },
+  {
+    "id": 295,
+    "name": "Magic Fingers",
+    "imagePath": "assets/images/Magic Fingers.png",
+    "desc": "Pay to win",
+    "effect": "Uses 1 Penny to deal damage to all enemies in the room. "
+  },
+  {
+    "id": 296,
+    "name": "Converter",
+    "imagePath": "assets/images/Converter.png",
+    "desc": "Convert your soul",
+    "effect": "Converts one Soul Heart or Black Heart into one filled Red Heart Container."
+  },
+  {
+    "id": 297,
+    "name": "Pandora's Box",
+    "imagePath": "assets/images/Pandora's Box.png",
+    "desc": "? ?",
+    "effect": "Spawns specific pickups or items depending on the floor it is used on. Disappears after use."
+  },
+  {
+    "id": 298,
+    "name": "Unicorn Stump",
+    "imagePath": "assets/images/Unicorn Stump.png",
+    "desc": "You feel stumped",
+    "effect": "Gives invulnerability and increased speed for six seconds, but removes the ability to shoot tears."
+  },
+  {
+    "id": 299,
+    "name": "Taurus",
+    "imagePath": "assets/images/Taurus.png",
+    "desc": "Speed down + rage is building",
+    "effect": "-0.3 Speed. Isaac builds speed while in a room with enemies. At max speed, he gains the My Little Unicorn effect for 5 seconds."
+  },
+  {
+    "id": 300,
+    "name": "Aries",
+    "imagePath": "assets/images/Aries.png",
+    "desc": "Ramming speed",
+    "effect": "+0.25 Speed. Running into enemies while at a high speed will deal damage. Prevents Isaac from taking contact damage while moving at high speed."
+  },
+  {
+    "id": 301,
+    "name": "Cancer",
+    "imagePath": "assets/images/Cancer.png",
+    "desc": "HP up + you feel protected",
+    "effect": "Adds 3 Soul Hearts. Grants The Wafer effect for the current room after taking damage."
+  },
+  {
+    "id": 302,
+    "name": "Leo",
+    "imagePath": "assets/images/Leo.png",
+    "desc": "Stompy",
+    "effect": "Isaac can destroy rocks by walking into them."
+  },
+  {
+    "id": 303,
+    "name": "Virgo",
+    "imagePath": "assets/images/Virgo.png",
+    "desc": "You feel refreshed and protected",
+    "effect": "Adds a chance to give a shield that nullifies all incoming damage for 10 seconds upon taking damage. Also converts bad pills into good pills."
+  },
+  {
+    "id": 304,
+    "name": "Libra",
+    "imagePath": "assets/images/Libra.png",
+    "desc": "You feel balanced",
+    "effect": "Gives 6 Coins, 6 Bombs, and 6 Keys and balances out all attributes."
+  },
+  {
+    "id": 305,
+    "name": "Scorpio",
+    "imagePath": "assets/images/Scorpio.png",
+    "desc": "Poison tears",
+    "effect": "Grants poison tears, which deal damage over time when inflicted."
+  },
+  {
+    "id": 306,
+    "name": "Sagittarius",
+    "imagePath": "assets/images/Sagittarius.png",
+    "desc": "Piercing shots + speed up",
+    "effect": "Increases speed by +0.2 and grants piercing tears."
+  },
+  {
+    "id": 307,
+    "name": "Capricorn",
+    "imagePath": "assets/images/Capricorn.png",
+    "desc": "All stats up",
+    "effect": "Adds 1 Red Heart Container, gives +0.5 Damage, +0.1 Speed, +0.75 Range, and +0.5 Fire Rate, and gives 1 Bomb, Penny, and Key."
+  },
+  {
+    "id": 308,
+    "name": "Aquarius",
+    "imagePath": "assets/images/Aquarius.png",
+    "desc": "Trail of tears",
+    "effect": "A trail of blue creep is left behind Isaac, which damages enemies. The creep scales with damage and inherits most tear effects. "
+  },
+  {
+    "id": 309,
+    "name": "Pisces",
+    "imagePath": "assets/images/Pisces.png",
+    "desc": "Tears up + knock-back shots",
+    "effect": "+0.5 Fire Rate, adds knock-back shots and increases tear size."
+  },
+  {
+    "id": 310,
+    "name": "Eve's Mascara",
+    "imagePath": "assets/images/Eve's Mascara.png",
+    "desc": "DMG up, tears + shot speed down",
+    "effect": "Doubles damage, 0.66x tears multiplier, and greatly reduces shot speed."
+  },
+  {
+    "id": 311,
+    "name": "Judas' Shadow",
+    "imagePath": "assets/images/Judas' Shadow.png",
+    "desc": "Sweet revenge",
+    "effect": "Upon death, respawns Isaac as Dark Judas with two Black Hearts in the previous room."
+  },
+  {
+    "id": 312,
+    "name": "Maggy's Bow",
+    "imagePath": "assets/images/Maggy's Bow.png",
+    "desc": "HP up + you feel healthy",
+    "effect": "Gives one Red Heart Container and doubles the healing provided by Red Hearts. Also heals 1 Red Heart when obtained."
+  },
+  {
+    "id": 313,
+    "name": "Holy Mantle",
+    "imagePath": "assets/images/Holy Mantle.png",
+    "desc": "Holy shield",
+    "effect": "Grants a shield that negates the first instance of damage taken from a hostile source once per room."
+  },
+  {
+    "id": 314,
+    "name": "Thunder Thighs",
+    "imagePath": "assets/images/Thunder Thighs.png",
+    "desc": "HP up + speed down + you feel stompy",
+    "effect": "Destroys rocks upon contact with Isaac. Adds one Red Heart container and lowers Speed."
+  },
+  {
+    "id": 315,
+    "name": "Strange Attractor",
+    "imagePath": "assets/images/Strange Attractor.png",
+    "desc": "Magnetic tears",
+    "effect": "Pickups, trinkets, and monsters are magnetically attracted to Isaac's tears."
+  },
+  {
+    "id": 316,
+    "name": "Cursed Eye",
+    "imagePath": "assets/images/Cursed Eye.png",
+    "desc": "Cursed charge shot",
+    "effect": "Grants charged tears that can be fired in a tight burst. Getting hit while charging will teleport Isaac to another room."
+  },
+  {
+    "id": 317,
+    "name": "Mysterious Liquid",
+    "imagePath": "assets/images/Mysterious Liquid.png",
+    "desc": "Toxic splash damage",
+    "effect": "Tears leave a small, short lasting pool of creep on impact or when their range is depleted."
+  },
+  {
+    "id": 318,
+    "name": "Gemini",
+    "imagePath": "assets/images/Gemini.png",
+    "desc": "Conjoined friend",
+    "effect": "Spawns a conjoined familiar which chases enemies close to Isaac, dealing ~6.43 damage per second."
+  },
+  {
+    "id": 319,
+    "name": "Cain's Other Eye",
+    "imagePath": "assets/images/Cain's Other Eye.png",
+    "desc": "Near-sighted friend",
+    "effect": "Spawns a familiar that follows Isaac and fires tears in random cardinal directions that copy Isaac's tears and tear effects and scale with damage."
+  },
+  {
+    "id": 320,
+    "name": "Blue Baby's Only Friend",
+    "imagePath": "assets/images/Blue Baby's Only Friend.png",
+    "desc": "Controlled friend",
+    "effect": "Spawns a controllable familiar that deals 37.5 damage per second on touch. It can be moved using the shooting directional keys"
+  },
+  {
+    "id": 321,
+    "name": "Samson's Chains",
+    "imagePath": "assets/images/Samson's Chains.png",
+    "desc": "The ol' ball and chain",
+    "effect": "Attaches a ball and chain to Isaac that pulls behind him that damages enemies, blocks shots, and destroys most Obstacles."
+  },
+  {
+    "id": 322,
+    "name": "Mongo Baby",
+    "imagePath": "assets/images/Mongo Baby.png",
+    "desc": "Mongo friend",
+    "effect": "Spawns a familiar that copies the tears of Isaac's other familiars."
+  },
+  {
+    "id": 323,
+    "name": "Isaac's Tears",
+    "imagePath": "assets/images/Isaac's Tears.png",
+    "desc": "Collected tears",
+    "effect": "Fires 8 tears around Isaac, which retain the damage, range, shot speed, and special tear effects of his tears. Each tear shot by Isaac increases item charge by one. (in Repentance) Tears from this item have a +5 flat damage bonus."
+  },
+  {
+    "id": 324,
+    "name": "Undefined",
+    "imagePath": "assets/images/Undefined.png",
+    "desc": "Undefined",
+    "effect": "Teleports Isaac to the Secret Room, Super Secret Room, Treasure Room, or I AM ERROR."
+  },
+  {
+    "id": 325,
+    "name": "Scissors",
+    "imagePath": "assets/images/Scissors.png",
+    "desc": "Lose your head",
+    "effect": "Turns Isaac's head into a stationary familiar for the current room which fires tears automatically. Isaac's body also shoots a controllable fountain of blood shots for the room."
+  },
+  {
+    "id": 326,
+    "name": "Breath of Life",
+    "imagePath": "assets/images/Breath of Life.png",
+    "desc": "Invincibility at a cost",
+    "effect": "Grants a brief moment of invincibility when the charge bar hits zero. Isaac begins taking damage if the item is held any longer. (in Repentance) Isaac creates beams of light when touching enemies while invulnerable, and creates a powerful 4-way beam if blocking damage exactly as the invincibility starts."
+  },
+  {
+    "id": 327,
+    "name": "The Polaroid",
+    "imagePath": "assets/images/The Polaroid.png",
+    "desc": "Fate chosen",
+    "effect": "If Isaac has half a red heart or no red hearts after taking damage, he gains a shield that nullifies all types of damage for 5 seconds. Allows entrance into Chest. Also allows access to Home."
+  },
+  {
+    "id": 328,
+    "name": "The Negative",
+    "imagePath": "assets/images/The Negative.png",
+    "desc": "Fate chosen",
+    "effect": "If Isaac has half a red heart or no red hearts after taking damage, all enemies in the room take significant damage. Allows entrance into the Dark Room. +1 Damage and also allows access to Home."
+  },
+  {
+    "id": 329,
+    "name": "The Ludovico Technique",
+    "imagePath": "assets/images/The Ludovico Technique.png",
+    "desc": "Controlled tears",
+    "effect": "Instead of firing tears, Isaac controls one floating tear that hover over obstacles. This tear deals constant damage when held in place over an enemy."
+  },
+  {
+    "id": 330,
+    "name": "Soy Milk",
+    "imagePath": "assets/images/Soy Milk.png",
+    "desc": "DMG down + tears way up",
+    "effect": "Tears are smaller and do much less damage, but fire in very rapid succession."
+  },
+  {
+    "id": 331,
+    "name": "Godhead",
+    "imagePath": "assets/images/Godhead.png",
+    "desc": "God tears",
+    "effect": "Grants homing tears with a damaging halo. +0.5 Damage, -0.3 Tears, and -0.3 Shot Speed."
+  },
+  {
+    "id": 332,
+    "name": "Lazarus' Rags",
+    "imagePath": "assets/images/Lazarus' Rags.png",
+    "desc": "Eternal life?",
+    "effect": "Upon dying, resurrect as Lazarus Risen in the current room with one less Red Heart container, Anemic, and +0.5 Damage. Transform into Lazarus when reaching the next floor."
+  },
+  {
+    "id": 333,
+    "name": "The Mind",
+    "imagePath": "assets/images/The Mind.png",
+    "desc": "I know all",
+    "effect": "Reveals the entire map, including all special rooms and Secret Rooms."
+  },
+  {
+    "id": 334,
+    "name": "The Body",
+    "imagePath": "assets/images/The Body.png",
+    "desc": "I feel all",
+    "effect": "Adds 3 Red Heart Containers."
+  },
+  {
+    "id": 335,
+    "name": "The Soul",
+    "imagePath": "assets/images/The Soul.png",
+    "desc": "I am all",
+    "effect": "Grants two Soul Hearts. Isaac gains a pulsing aura that repels enemies and projectiles."
+  },
+  {
+    "id": 336,
+    "name": "Dead Onion",
+    "imagePath": "assets/images/Dead Onion.png",
+    "desc": "Toxic aura tears",
+    "effect": "Grants piercing and spectral tears. Increases tear size (without increasing damage) while greatly reducing range and shot speed."
+  },
+  {
+    "id": 337,
+    "name": "Broken Watch",
+    "imagePath": "assets/images/Broken Watch.png",
+    "desc": "I think it's broken",
+    "effect": "Slows all enemies in every fourth newly-discovered room, with a small chance to speed them up instead."
+  },
+  {
+    "id": 338,
+    "name": "The Boomerang",
+    "imagePath": "assets/images/The Boomerang.png",
+    "desc": "It will never leave you",
+    "effect": "Throws a boomerang which retrieves pickups, as well as damages and petrifies enemies hit for 2 seconds."
+  },
+  {
+    "id": 339,
+    "name": "Safety Pin",
+    "imagePath": "assets/images/Safety Pin.png",
+    "desc": "Evil + range + shot speed up",
+    "effect": "Grants one Black Heart, +2.5 range, +0.16 shot speed."
+  },
+  {
+    "id": 340,
+    "name": "Caffeine Pill",
+    "imagePath": "assets/images/Caffeine Pill.png",
+    "desc": "Speed up + size down",
+    "effect": "Grants +0.3 speed, reduces Isaac's size, and gives a random pill."
+  },
+  {
+    "id": 341,
+    "name": "Torn Photo",
+    "imagePath": "assets/images/Torn Photo.png",
+    "desc": "Tears + shot speed up",
+    "effect": "+0.7 tears, +0.16 shot speed."
+  },
+  {
+    "id": 342,
+    "name": "Blue Cap",
+    "imagePath": "assets/images/Blue Cap.png",
+    "desc": "HP + tears up + shot speed down",
+    "effect": "Gives one full Red Heart container, +0.7 tears, and -0.16 shot speed. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 343,
+    "name": "Latch Key",
+    "imagePath": "assets/images/Latch Key.png",
+    "desc": "Luck up",
+    "effect": "Grants 1 Soul Heart and +1 luck. Spawns 2 Keys."
+  },
+  {
+    "id": 344,
+    "name": "Match Book",
+    "imagePath": "assets/images/Match Book.png",
+    "desc": "Evil up",
+    "effect": "Grants Isaac one Black Heart, spawns two or three Bombs. Also spawns Match Stick if it hasn't been encountered yet."
+  },
+  {
+    "id": 345,
+    "name": "Synthoil",
+    "imagePath": "assets/images/Synthoil.png",
+    "desc": "DMG + range up",
+    "effect": "+1 damage, +2.5 range."
+  },
+  {
+    "id": 346,
+    "name": "A Snack",
+    "imagePath": "assets/images/A Snack.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 347,
+    "name": "Diplopia",
+    "imagePath": "assets/images/Diplopia.png",
+    "desc": "Double item vision",
+    "effect": "Duplicates all pickups and item pedestals in the room."
+  },
+  {
+    "id": 348,
+    "name": "Placebo",
+    "imagePath": "assets/images/Placebo.png",
+    "desc": "Pill mimic",
+    "effect": "Has the same effect as the Pill currently held by Isaac. The charge time is based on the power of the pill."
+  },
+  {
+    "id": 349,
+    "name": "Wooden Nickel",
+    "imagePath": "assets/images/Wooden Nickel.png",
+    "desc": "Flip a coin",
+    "effect": "Has a roughly 50% chance to drop a penny, nickel or dime, and a roughly 50% chance to do nothing."
+  },
+  {
+    "id": 350,
+    "name": "Toxic Shock",
+    "imagePath": "assets/images/Toxic Shock.png",
+    "desc": "Mass poison",
+    "effect": "Upon entering a room, poisons all enemies, dealing double Isaac's tear damage. Killing enemies leaves a small, short-lasting pool of green creep on the ground."
+  },
+  {
+    "id": 351,
+    "name": "Mega Bean",
+    "imagePath": "assets/images/Mega Bean.png",
+    "desc": "Giga fart!",
+    "effect": "Petrifies all enemies in the current room for about 1.5 seconds, poisons any enemies near Isaac, and sends a rock wave across the room in the direction Isaac is facing."
+  },
+  {
+    "id": 352,
+    "name": "Glass Cannon (fixed)",
+    "imagePath": "assets/images/Glass Cannon (fixed).png",
+    "desc": "Be gentle...",
+    "effect": "Fires a high-damage piercing spectral tear. If Isaac takes damage while holding this, he takes extra damage and it becomes Broken Glass Cannon."
+  },
+  {
+    "id": 353,
+    "name": "Bomber Boy",
+    "imagePath": "assets/images/Bomber Boy.png",
+    "desc": "Cross blast + 5 bombs",
+    "effect": "+5 Bombs. Isaac's bombs will now explode in a large cross-shaped pattern (roughly 5 bombs explosions wide). This also affects player-spawned Troll Bombs."
+  },
+  {
+    "id": 354,
+    "name": "Crack Jacks",
+    "imagePath": "assets/images/Crack Jacks.png",
+    "desc": "HP up. Don't swallow the prize!",
+    "effect": "Grants one full Red Heart container and drops a random trinket. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 355,
+    "name": "Mom's Pearls",
+    "imagePath": "assets/images/Mom's Pearls.png",
+    "desc": "Range + luck up",
+    "effect": "+2.5 range, +1 luck. Grants one Soul Heart."
+  },
+  {
+    "id": 356,
+    "name": "Car Battery",
+    "imagePath": "assets/images/Car Battery.png",
+    "desc": "Active power up",
+    "effect": "Causes Isaac's activated item to activate twice on each use."
+  },
+  {
+    "id": 357,
+    "name": "Box of Friends",
+    "imagePath": "assets/images/Box of Friends.png",
+    "desc": "Double your friends",
+    "effect": "Duplicates all of Isaac's familiars for the current room. If Isaac has no familiars, spawns a Demon Baby for the room instead."
+  },
+  {
+    "id": 358,
+    "name": "The Wiz",
+    "imagePath": "assets/images/The Wiz.png",
+    "desc": "Double wiz shot!",
+    "effect": "Grants spectral tears. Tears simultaneously fire out of both eyes diagonally, similar to the effect of the R U a Wizard? pill."
+  },
+  {
+    "id": 359,
+    "name": "8 Inch Nails",
+    "imagePath": "assets/images/8 Inch Nails.png",
+    "desc": "Stick it to 'em!",
+    "effect": "+1.5 damage. Replaces Isaac's tears with nails, which have increased knockback."
+  },
+  {
+    "id": 360,
+    "name": "Incubus",
+    "imagePath": "assets/images/Incubus.png",
+    "desc": "Dark friend",
+    "effect": "Spawns a demonic familiar that shoots tears identical to Isaac's in terms of damage, tears, and tear effects."
+  },
+  {
+    "id": 361,
+    "name": "Fate's Reward",
+    "imagePath": "assets/images/Fate's Reward.png",
+    "desc": "Your fate beside you",
+    "effect": "A blue head familiar that will follow Isaac and fire tears copying his tear effects and damage."
+  },
+  {
+    "id": 362,
+    "name": "Lil Chest",
+    "imagePath": "assets/images/Lil Chest.png",
+    "desc": "What's in the box?",
+    "effect": "Spawns a chest familiar that spawns a random pickup (25% chance) or trinket (10% chance) upon clearing a room."
+  },
+  {
+    "id": 363,
+    "name": "Sworn Protector",
+    "imagePath": "assets/images/Sworn Protector.png",
+    "desc": "Protective friend",
+    "effect": "Spawns an orbital familiar which does 105 damage per second and attracts and blocks enemy shots. Upon blocking 10 shots in a room, it drops an Eternal Heart."
+  },
+  {
+    "id": 364,
+    "name": "Friend Zone",
+    "imagePath": "assets/images/Friend Zone.png",
+    "desc": "Friendly fly",
+    "effect": "Spawns a white attack fly that orbits somewhere between Distant Admiration and Forever Alone, dealing 45 damage per second."
+  },
+  {
+    "id": 365,
+    "name": "Lost Fly",
+    "imagePath": "assets/images/Lost Fly.png",
+    "desc": "Lost protector",
+    "effect": "Spawns a fly familiar that moves in a straight line and circles around the first wall or obstacle it hits. It deals 105 damage per second on contact. It deals 56 damage per second and forces nearby enemies to attack it."
+  },
+  {
+    "id": 366,
+    "name": "Scatter Bombs",
+    "imagePath": "assets/images/Scatter Bombs.png",
+    "desc": "We put bombs in your bombs!",
+    "effect": "+5 Bombs. Isaac's bombs explode into 2-4 tiny bombs."
+  },
+  {
+    "id": 367,
+    "name": "Sticky Bombs",
+    "imagePath": "assets/images/Sticky Bombs.png",
+    "desc": "Egg sack bombs!",
+    "effect": "+5 Bombs. Bombs stick to enemies and spawn 2-4 Blue Spiders if they kill an enemy. They also leave a long-lasting puddle of slowing white creep."
+  },
+  {
+    "id": 368,
+    "name": "Epiphora",
+    "imagePath": "assets/images/Epiphora.png",
+    "desc": "Intensifying tears",
+    "effect": "Shooting in one direction increases Isaac's rate of fire until the cap is reached. As soon as Isaac changes direction or stops shooting, rate of fire is reset to its normal amount."
+  },
+  {
+    "id": 369,
+    "name": "Continuum",
+    "imagePath": "assets/images/Continuum.png",
+    "desc": "Transcendent tears",
+    "effect": "Grants spectral tears and increases range. Tears travel through walls and appear at the opposite side of the room."
+  },
+  {
+    "id": 370,
+    "name": "Mr. Dolly",
+    "imagePath": "assets/images/Mr. Dolly.png",
+    "desc": "Range + tears up",
+    "effect": "+0.7 tears, +2.5 range, spawns 3 random types of Hearts on the floor when picked up."
+  },
+  {
+    "id": 371,
+    "name": "Curse of the Tower",
+    "imagePath": "assets/images/Curse of the Tower.png",
+    "desc": "Embrace chaos",
+    "effect": "Upon taking damage, spawns six Troll Bombs around the room, similar to the effect of XVI - The Tower."
+  },
+  {
+    "id": 372,
+    "name": "Charged Baby",
+    "imagePath": "assets/images/Charged Baby.png",
+    "desc": "Bbbzzzzzt!",
+    "effect": "Spawns a familiar that occasionally drops a Lil' Battery, gives an active item charge, or petrifies all enemies in the room."
+  },
+  {
+    "id": 373,
+    "name": "Dead Eye",
+    "imagePath": "assets/images/Dead Eye.png",
+    "desc": "Accuracy brings power!",
+    "effect": "Isaac's damage increases each time an enemy is hit. Damage is reset upon missing a shot."
+  },
+  {
+    "id": 374,
+    "name": "Holy Light",
+    "imagePath": "assets/images/Holy Light.png",
+    "desc": "Holy death shot",
+    "effect": "Adds a chance to fire holy tears, which will create a damaging light beam in the area if they hit an enemy."
+  },
+  {
+    "id": 375,
+    "name": "Host Hat",
+    "imagePath": "assets/images/Host Hat.png",
+    "desc": "Blast resistance",
+    "effect": "A host familiar that sits on Isaac's head and has a random chance to block enemy shots and retaliate with 3 tears. Grants immunity to explosions."
+  },
+  {
+    "id": 376,
+    "name": "Restock",
+    "imagePath": "assets/images/Restock.png",
+    "desc": "Never ending stores!",
+    "effect": "Shops to instantly restock their items when they are bought. Outside of Greed Mode, the restocked item's cost is increased after each purchase."
+  },
+  {
+    "id": 377,
+    "name": "Bursting Sack",
+    "imagePath": "assets/images/Bursting Sack.png",
+    "desc": "Spider love",
+    "effect": "Spider enemies no longer target or deal contact damage to Isaac."
+  },
+  {
+    "id": 378,
+    "name": "Number Two",
+    "imagePath": "assets/images/Number Two.png",
+    "desc": "Uh oh...",
+    "effect": "Continuously firing tears for three seconds causes Isaac to drop a Butt Bomb, which damages and confuses all enemies in the room when it explodes."
+  },
+  {
+    "id": 379,
+    "name": "Pupula Duplex",
+    "imagePath": "assets/images/Pupula Duplex.png",
+    "desc": "Wide shot",
+    "effect": "Gives Isaac spectral tears and gives his tears a wide arc shape, increasing their size."
+  },
+  {
+    "id": 380,
+    "name": "Pay to Play",
+    "imagePath": "assets/images/Pay to Play.png",
+    "desc": "Money talks",
+    "effect": "+5 Coins. All locked doors, Locked Chests, and Key Blocks must be opened with one Penny instead of Keys."
+  },
+  {
+    "id": 381,
+    "name": "Eden's Blessing",
+    "imagePath": "assets/images/Eden's Blessing.png",
+    "desc": "Tears up + your future shines brighter",
+    "effect": "+0.7 tears up. Grants a random item at the start of the next run."
+  },
+  {
+    "id": 382,
+    "name": "Friendly Ball",
+    "imagePath": "assets/images/Friendly Ball.png",
+    "desc": "Gotta fetch 'em all!",
+    "effect": "Throwing the ball at a monster instantly kills and captures it. The captured enemy can later be released and will be friendly, fighting for Isaac and persisting between rooms."
+  },
+  {
+    "id": 383,
+    "name": "Tear Detonator",
+    "imagePath": "assets/images/Tear Detonator.png",
+    "desc": "Remote tear detonation!",
+    "effect": "Splits all of Isaac's tears that are currently in the air into 6 tears that fire in all directions, which retain their damage and shot speed."
+  },
+  {
+    "id": 384,
+    "name": "Lil Gurdy",
+    "imagePath": "assets/images/Lil Gurdy.png",
+    "desc": "A gurd of your own!",
+    "effect": "A Gurdy Jr. familiar that charges up while Isaac is firing, bouncing around the room when released and dealing contact damage based on its speed."
+  },
+  {
+    "id": 385,
+    "name": "Bumbo",
+    "imagePath": "assets/images/Bumbo.png",
+    "desc": "Bumbo want coin!",
+    "effect": "Spawns a beggar familiar which picks up any nearby coins, leveling up after collecting several coins. At level 2, Bumbo gains a body. At level 3, it begins to fire tears. At level 4, Bumbo follows enemies and gains contact damage."
+  },
+  {
+    "id": 386,
+    "name": "D12",
+    "imagePath": "assets/images/D12.png",
+    "desc": "Rerolls rocks",
+    "effect": "Re-rolls most types of Obstacles in the current room into other random obstacles."
+  },
+  {
+    "id": 387,
+    "name": "Censer",
+    "imagePath": "assets/images/Censer.png",
+    "desc": "Peace be with you",
+    "effect": "Spawns a familiar which creates a circular aura that slows down enemies and enemy shots inside."
+  },
+  {
+    "id": 388,
+    "name": "Key Bum",
+    "imagePath": "assets/images/Key Bum.png",
+    "desc": "He wants your keys!",
+    "effect": "Spawns a familiar that follows Isaac and collects Keys for himself, giving random Chests in return."
+  },
+  {
+    "id": 389,
+    "name": "Rune Bag",
+    "imagePath": "assets/images/Rune Bag.png",
+    "desc": "Rune generator",
+    "effect": "Spawns a familiar that drops a random rune after clearing enough rooms."
+  },
+  {
+    "id": 390,
+    "name": "Seraphim",
+    "imagePath": "assets/images/Seraphim.png",
+    "desc": "Sworn friend",
+    "effect": "Spawns an angel familiar who follows Isaac and fires homing tears which deal 10 damage and have 75% shot speed."
+  },
+  {
+    "id": 391,
+    "name": "Betrayal",
+    "imagePath": "assets/images/Betrayal.png",
+    "desc": "Turn your enemy",
+    "effect": "Enemies are able to damage each other. If an enemy is damaged by another enemy, they will attack that enemy instead of Isaac."
+  },
+  {
+    "id": 392,
+    "name": "Zodiac",
+    "imagePath": "assets/images/Zodiac.png",
+    "desc": "The heavens will change you",
+    "effect": "Gives Isaac a random zodiac item effect that changes every floor."
+  },
+  {
+    "id": 393,
+    "name": "Serpent's Kiss",
+    "imagePath": "assets/images/Serpent's Kiss.png",
+    "desc": "The kiss of death",
+    "effect": "Tears have a chance to apply a poison effect to enemies. Isaac poisons enemies on contact. Poisoned enemies have a chance to drop a Black Heart when killed."
+  },
+  {
+    "id": 394,
+    "name": "Marked",
+    "imagePath": "assets/images/Marked.png",
+    "desc": "Directed tears",
+    "effect": "Isaac will automatically fire tears directed at a red target on the ground. The target can be moved with tear controls. +0.7 tears, increases range."
+  },
+  {
+    "id": 395,
+    "name": "Tech X",
+    "imagePath": "assets/images/Tech X.png",
+    "desc": "Laser ring tears",
+    "effect": "Tears are replaced with laser rings that pierce through enemies and deal damage to enemies within them. Can be charged to increase the effectiveness of the ring."
+  },
+  {
+    "id": 396,
+    "name": "Ventricle Razor",
+    "imagePath": "assets/images/Ventricle Razor.png",
+    "desc": "Short cutter",
+    "effect": "Creates up to two portals that remain even if Isaac leaves the room. Upon entering a portal, Isaac is teleported to the other portal."
+  },
+  {
+    "id": 397,
+    "name": "Tractor Beam",
+    "imagePath": "assets/images/Tractor Beam.png",
+    "desc": "Controlled tears",
+    "effect": "Isaac's tears are bound to a beam emitting in the direction he's firing. \n +1 Fire Rate, +2.5 Range, +0.16 Shot Speed. "
+  },
+  {
+    "id": 398,
+    "name": "God's Flesh",
+    "imagePath": "assets/images/God's Flesh.png",
+    "desc": "Shrink shot!",
+    "effect": "Tears have a chance to shrink enemies, making them run away from Isaac. Shrunk enemies can be crushed and killed by walking over them."
+  },
+  {
+    "id": 399,
+    "name": "Maw of the Void",
+    "imagePath": "assets/images/Maw of the Void.png",
+    "desc": "Consume thy enemy!",
+    "effect": "Isaac can charge and unleash a black ring that rapidly deals damage around him."
+  },
+  {
+    "id": 400,
+    "name": "Spear of Destiny",
+    "imagePath": "assets/images/Spear of Destiny.png",
+    "desc": "Your destiny",
+    "effect": "In addition to tears, Isaac holds a spear in front of him which deals contact damage equal to 2× his tear damage, and occasionally inflicts fear."
+  },
+  {
+    "id": 401,
+    "name": "Explosivo",
+    "imagePath": "assets/images/Explosivo.png",
+    "desc": "Sticky bomb shot!",
+    "effect": "Isaac's tears have a chance to stick to enemies and explode."
+  },
+  {
+    "id": 402,
+    "name": "Chaos",
+    "imagePath": "assets/images/Chaos.png",
+    "desc": "!!!",
+    "effect": "Drops 1-6 random pickups on the floor. Causes items to be chosen from random item pools."
+  },
+  {
+    "id": 403,
+    "name": "Spider Mod",
+    "imagePath": "assets/images/Spider Mod.png",
+    "desc": "Mod buddy!",
+    "effect": "Displays Isaac's tear damage and enemy health bars. Spawns a familiar that wanders around and inflicts random status effects on enemies it touches. Can spawn a Lil' Battery/Blue spider upon clearing a room."
+  },
+  {
+    "id": 404,
+    "name": "Farting Baby",
+    "imagePath": "assets/images/Farting Baby.png",
+    "desc": "He farts!",
+    "effect": "Spawns a familiar that follows Isaac and blocks enemy shots. If a shot hits Farting Baby, it has a chance to fart, which charms, poisons, or knocks back nearby enemies."
+  },
+  {
+    "id": 405,
+    "name": "GB Bug",
+    "imagePath": "assets/images/GB Bug.png",
+    "desc": "Double tap glitch",
+    "effect": "Spawns a familiar that follows Isaac. Double tapping the fire button launches it forward, causing it to reroll the first monster or pickup it hits."
+  },
+  {
+    "id": 406,
+    "name": "D8",
+    "imagePath": "assets/images/D8.png",
+    "desc": "Reroll stats",
+    "effect": "Re-rolls Isaac's damage, tears, range, and speed."
+  },
+  {
+    "id": 407,
+    "name": "Purity",
+    "imagePath": "assets/images/Purity.png",
+    "desc": "Aura stat boost",
+    "effect": "Boosts one of Isaac's stats depending on the color of the aura around him. The aura disappears upon taking damage and reappears with a random color upon entering a new room. Red boosts damage, blue boosts tears, yellow boosts speed, and orange boosts range."
+  },
+  {
+    "id": 408,
+    "name": "Athame",
+    "imagePath": "assets/images/Athame.png",
+    "desc": "Call to the void",
+    "effect": "After Isaac kills an enemy, adds a luck-based chance to spawn a damaging black ring around them."
+  },
+  {
+    "id": 409,
+    "name": "Empty Vessel",
+    "imagePath": "assets/images/Empty Vessel.png",
+    "desc": "I reward an empty vessel",
+    "effect": "Grants two Black Hearts. While Isaac has no red hearts, grants flight and periodically grants an invincibility shield for a few seconds."
+  },
+  {
+    "id": 410,
+    "name": "Evil Eye",
+    "imagePath": "assets/images/Evil Eye.png",
+    "desc": "Eye shot!",
+    "effect": "Adds a chance to fire a slow-moving eye that fires tears in the same direction as Isaac. The eye is destroyed when it hits an enemy or obstacle."
+  },
+  {
+    "id": 411,
+    "name": "Lusty Blood",
+    "imagePath": "assets/images/Lusty Blood.png",
+    "desc": "Their blood brings rage!",
+    "effect": "Isaac's damage increases for the current room each time he kills an enemy."
+  },
+  {
+    "id": 412,
+    "name": "Cambion Conception",
+    "imagePath": "assets/images/Cambion Conception.png",
+    "desc": "Feed them hate",
+    "effect": "After taking damage a certain amount of times, a permanent demonic familiar spawns."
+  },
+  {
+    "id": 413,
+    "name": "Immaculate Conception",
+    "imagePath": "assets/images/Immaculate Conception.png",
+    "desc": "Feed them love",
+    "effect": "Upon picking up a certain amount of health, spawn a permanent angelic familiar."
+  },
+  {
+    "id": 414,
+    "name": "More Options",
+    "imagePath": "assets/images/More Options.png",
+    "desc": "There's options",
+    "effect": "Two item pedestals are presented in every Treasure Room. Only one can be taken; the other will disappear."
+  },
+  {
+    "id": 415,
+    "name": "Crown of Light",
+    "imagePath": "assets/images/Crown of Light.png",
+    "desc": "The untainted gain power",
+    "effect": "+2 Soul Hearts. While Isaac has no empty red hearts, grants 2x damage, increased range, and -0.3 shot speed. Regardless of health, the crown deactivates for the current room when Isaac takes damage."
+  },
+  {
+    "id": 416,
+    "name": "Deep Pockets",
+    "imagePath": "assets/images/Deep Pockets.png",
+    "desc": "More money!",
+    "effect": "Increases the coin cap to 999. If a room would otherwise yield no reward, 1-3 coins will spawn."
+  },
+  {
+    "id": 417,
+    "name": "Succubus",
+    "imagePath": "assets/images/Succubus.png",
+    "desc": "Damage booster",
+    "effect": "Spawns a flying familiar that bounces around the room with a black aura, dealing rapid damage to any enemies inside it. While standing in the aura, Isaac gains a 1.5× tear damage multiplier."
+  },
+  {
+    "id": 418,
+    "name": "Fruit Cake",
+    "imagePath": "assets/images/Fruit Cake.png",
+    "desc": "Rainbow effects!",
+    "effect": "Isaac's tears gain a random effect that changes every shot."
+  },
+  {
+    "id": 419,
+    "name": "Teleport 2.0",
+    "imagePath": "assets/images/Teleport 2.0.png",
+    "desc": "I-Teleport!",
+    "effect": "Teleports Isaac to a room that has not been explored yet. Normal rooms are prioritized over special rooms, and common special rooms take priority over rarer ones."
+  },
+  {
+    "id": 420,
+    "name": "Black Powder",
+    "imagePath": "assets/images/Black Powder.png",
+    "desc": "Spin the black circle!",
+    "effect": "Isaac leaves a trail of black powder on the floor. Walking in a circle will spawn a pentagram symbol on the floor, which deals 10 damage per tick to any enemies inside it."
+  },
+  {
+    "id": 421,
+    "name": "Kidney Bean",
+    "imagePath": "assets/images/Kidney Bean.png",
+    "desc": "Love toots!",
+    "effect": "Isaac farts, charming all nearby enemies."
+  },
+  {
+    "id": 422,
+    "name": "Glowing Hourglass",
+    "imagePath": "assets/images/Glowing Hourglass.png",
+    "desc": "Turn back time",
+    "effect": "Rewinds time, putting Isaac back in the previous room and undoing anything that happened in the current room. Can only be used three times per floor, after which it functions like The Hourglass until the next floor."
+  },
+  {
+    "id": 423,
+    "name": "Circle of Protection",
+    "imagePath": "assets/images/Circle of Protection.png",
+    "desc": "Protect me from myself",
+    "effect": "Surrounds Isaac with a large white halo that occasionally deals Isaac's tear damage to enemies inside it, and can convert enemy shots into friendly homing tears."
+  },
+  {
+    "id": 424,
+    "name": "Sack Head",
+    "imagePath": "assets/images/Sack Head.png",
+    "desc": "More sacks!",
+    "effect": "Spawns a Grab Bag on pickup. Coins, Bombs, Keys, cards, runes and batteries have a chance to become Grab Bags."
+  },
+  {
+    "id": 425,
+    "name": "Night Light",
+    "imagePath": "assets/images/Night Light.png",
+    "desc": "Scared of the dark?",
+    "effect": "A cone of light shines in the direction Isaac is moving that slows enemies and enemy shots. "
+  },
+  {
+    "id": 426,
+    "name": "Obsessed Fan",
+    "imagePath": "assets/images/Obsessed Fan.png",
+    "desc": "Follows my every move...",
+    "effect": "Spawns a familiar that follows Isaac's movements on a delay and deals 30 contact damage per second to enemies."
+  },
+  {
+    "id": 427,
+    "name": "Mine Crafter",
+    "imagePath": "assets/images/Mine Crafter.png",
+    "desc": "Booom!",
+    "effect": "Places a Movable TNT barrel that can be pushed and used to destroy rocks or damage enemies. If used again in the same room while the previous TNT barrel is still intact, remotely detonates the TNT."
+  },
+  {
+    "id": 428,
+    "name": "PJs",
+    "imagePath": "assets/images/PJs.png",
+    "desc": "You feel cozy",
+    "effect": "Grants 4 Soul Hearts and fully restores Isaac's health."
+  },
+  {
+    "id": 429,
+    "name": "Head of the Keeper",
+    "imagePath": "assets/images/Head of the Keeper.png",
+    "desc": "Penny tears!",
+    "effect": "Isaac's tears become coins. Hitting an enemy has a 5% chance to drop a Penny."
+  },
+  {
+    "id": 430,
+    "name": "Papa Fly",
+    "imagePath": "assets/images/Papa Fly.png",
+    "desc": "Turret follower",
+    "effect": "Spawns a familiar that follows Isaac's movements on a 3 second delay, firing tears at nearby enemies."
+  },
+  {
+    "id": 431,
+    "name": "Multidimensional Baby",
+    "imagePath": "assets/images/Multidimensional Baby.png",
+    "desc": "ydduB Buddy",
+    "effect": "Spawns a familiar that will follow Isaac's movements on a 2.5-second delay. Tears that pass through the baby will be doubled and increase in speed."
+  },
+  {
+    "id": 432,
+    "name": "Glitter Bombs",
+    "imagePath": "assets/images/Glitter Bombs.png",
+    "desc": "Prize bombs!",
+    "effect": "+5 Bombs. Bombs have a chance to drop random pickups or charm enemies when they explode."
+  },
+  {
+    "id": 433,
+    "name": "My Shadow",
+    "imagePath": "assets/images/My Shadow.png",
+    "desc": "Me! And my shaaaadow!",
+    "effect": "Spawns a shadow familiar that closely follows behind Isaac. It spawns a black friendly Charger whenever an enemy touches it."
+  },
+  {
+    "id": 434,
+    "name": "Jar of Flies",
+    "imagePath": "assets/images/Jar of Flies.png",
+    "desc": "Bug catcher",
+    "effect": "Killing an enemy adds a fly to the jar, up to a maximum of 20. On use, releases Blue Flies equal to the number of flies in the jar."
+  },
+  {
+    "id": 435,
+    "name": "Lil Loki",
+    "imagePath": "assets/images/Lil Loki.png",
+    "desc": "4-way buddy!",
+    "effect": "Spawns a Loki familiar that follows Isaac and fires 4 tears in a cross pattern."
+  },
+  {
+    "id": 436,
+    "name": "Milk!",
+    "imagePath": "assets/images/Milk!.png",
+    "desc": "Don't cry over it...",
+    "effect": "Spawns a glass familiar that spills on the floor upon taking damage. After the milk spills, Isaac's tear delay is decreased by 2 for the current room. After the milk spills, Isaac's fire rate is increased by 1 for the current room."
+  },
+  {
+    "id": 437,
+    "name": "D7",
+    "imagePath": "assets/images/D7.png",
+    "desc": "Roll again",
+    "effect": "Restarts the current room and brings back all enemies, allowing more rewards to be acquired by completing the room."
+  },
+  {
+    "id": 438,
+    "name": "Binky",
+    "imagePath": "assets/images/Binky.png",
+    "desc": "Tears up",
+    "effect": "Grants one Soul Heart, +0.75 tears and decreases Isaac's size."
+  },
+  {
+    "id": 439,
+    "name": "Mom's Box",
+    "imagePath": "assets/images/Mom's Box.png",
+    "desc": "What's inside?",
+    "effect": "Increases luck by 1 and doubles the effects of trinkets while held. When used, drops a random trinket on the ground."
+  },
+  {
+    "id": 440,
+    "name": "Kidney Stone",
+    "imagePath": "assets/images/Kidney Stone.png",
+    "desc": "Edmund's kidney stone",
+    "effect": "Isaac is occasionally forced to stop firing and charge an attack that launches a massive piercing, spectral kidney stone and a barrage of tears."
+  },
+  {
+    "id": 441,
+    "name": "Mega Blast",
+    "imagePath": "assets/images/Mega Blast.png",
+    "desc": "Laser breath",
+    "effect": "Isaac fires a giant laser for approximately 15 seconds. This laser deals massive damage, pushes Isaac backwards, and persists between rooms and floors."
+  },
+  {
+    "id": 442,
+    "name": "Dark Prince's Crown",
+    "imagePath": "assets/images/Dark Prince's Crown.png",
+    "desc": "Loss is power",
+    "effect": "When at exactly one Red Heart, +2 fire rate, +1.5 range, and +0.2 shot speed."
+  },
+  {
+    "id": 443,
+    "name": "Apple!",
+    "imagePath": "assets/images/Apple!.png",
+    "desc": "Trick or treat?",
+    "effect": "+0.3 tears. Adds a chance to fire a razor blade that deals 4× Isaac's damage."
+  },
+  {
+    "id": 444,
+    "name": "Lead Pencil",
+    "imagePath": "assets/images/Lead Pencil.png",
+    "desc": "He's a bleeder!",
+    "effect": "After every 15 tears fired, Isaac will fire a high-damage cluster of tears."
+  },
+  {
+    "id": 445,
+    "name": "Dog Tooth",
+    "imagePath": "assets/images/Dog Tooth.png",
+    "desc": "Bark at the moon!",
+    "effect": "+0.3 damage, +0.1 speed. Plays a howl or bark sound when entering a room with undiscovered Secret Rooms or Crawl Spaces."
+  },
+  {
+    "id": 446,
+    "name": "Dead Tooth",
+    "imagePath": "assets/images/Dead Tooth.png",
+    "desc": "Toxic breath",
+    "effect": "While firing, Isaac gains a green aura that poisons nearby enemies."
+  },
+  {
+    "id": 447,
+    "name": "Linger Bean",
+    "imagePath": "assets/images/Linger Bean.png",
+    "desc": "Crying makes me toot",
+    "effect": "Constantly shooting causes Isaac to release gas clouds that can be pushed by his tears and damage nearby enemies."
+  },
+  {
+    "id": 448,
+    "name": "Shard of Glass",
+    "imagePath": "assets/images/Shard of Glass.png",
+    "desc": "Blood and guts!",
+    "effect": "Taking damage causes Isaac to bleed, spraying a volley of blood in the direction he fires. Bleeding will eventually damage him, but it can be stopped by picking up a Red Heart."
+  },
+  {
+    "id": 449,
+    "name": "Metal Plate",
+    "imagePath": "assets/images/Metal Plate.png",
+    "desc": "It itches...",
+    "effect": "Grants one Soul Heart. Enemy shots have a chance to be reflected at the shooter as confusing tears."
+  },
+  {
+    "id": 450,
+    "name": "Eye of Greed",
+    "imagePath": "assets/images/Eye of Greed.png",
+    "desc": "Gold tears!",
+    "effect": "Every 20 tears, Isaac loses 1 Penny and shoots an additional gold tear that petrifies enemies and turns them into gold. Any enemy killed while in this state will drop coins."
+  },
+  {
+    "id": 451,
+    "name": "Tarot Cloth",
+    "imagePath": "assets/images/Tarot Cloth.png",
+    "desc": "I see the future",
+    "effect": "Drops a random card or rune. Doubles the effects of tarot cards."
+  },
+  {
+    "id": 452,
+    "name": "Varicose Veins",
+    "imagePath": "assets/images/Varicose Veins.png",
+    "desc": "I'm leaking...",
+    "effect": "Taking damage releases a ring of 10 high damage tears."
+  },
+  {
+    "id": 453,
+    "name": "Compound Fracture",
+    "imagePath": "assets/images/Compound Fracture.png",
+    "desc": "Bone tears!",
+    "effect": "Increases Range. Tears turn into bones, which shatter into 1-3 bone shards upon hitting an enemy or obstacle."
+  },
+  {
+    "id": 454,
+    "name": "Polydactyly",
+    "imagePath": "assets/images/Polydactyly.png",
+    "desc": "Hold me!",
+    "effect": "Allows Isaac to carry two cards, pills, or any combination of both. Spawns one random card, rune, or pill."
+  },
+  {
+    "id": 455,
+    "name": "Dad's Lost Coin",
+    "imagePath": "assets/images/Dad's Lost Coin.png",
+    "desc": "I remember this...",
+    "effect": "+2.5 range. Drops a Lucky Penny."
+  },
+  {
+    "id": 456,
+    "name": "Midnight Snack",
+    "imagePath": "assets/images/Midnight Snack.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 457,
+    "name": "Cone Head",
+    "imagePath": "assets/images/Cone Head.png",
+    "desc": "Hard headed!",
+    "effect": "Grants a Soul Heart. Gives Isaac a chance to ignore any damage taken."
+  },
+  {
+    "id": 458,
+    "name": "Belly Button",
+    "imagePath": "assets/images/Belly Button.png",
+    "desc": "What's in there?",
+    "effect": "Drops a random trinket. Grants a second trinket slot."
+  },
+  {
+    "id": 459,
+    "name": "Sinus Infection",
+    "imagePath": "assets/images/Sinus Infection.png",
+    "desc": "Booger tears!",
+    "effect": "Adds a chance to fire a booger that sticks to enemies and deals damage over time."
+  },
+  {
+    "id": 460,
+    "name": "Glaucoma",
+    "imagePath": "assets/images/Glaucoma.png",
+    "desc": "Blind tears!",
+    "effect": "Adds a chance to shoot tears that confuse enemies for an extremely long time."
+  },
+  {
+    "id": 461,
+    "name": "Parasitoid",
+    "imagePath": "assets/images/Parasitoid.png",
+    "desc": "Egg tears!",
+    "effect": "Adds a chance to fire an egg sack which creates slowing creep and spawns a Blue Fly or Blue Spider upon hitting an enemy."
+  },
+  {
+    "id": 462,
+    "name": "Eye of Belial",
+    "imagePath": "assets/images/Eye of Belial.png",
+    "desc": "Possessed tears!",
+    "effect": "Grants piercing tears. After piercing one enemy, tears start homing and deal double damage."
+  },
+  {
+    "id": 463,
+    "name": "Sulfuric Acid",
+    "imagePath": "assets/images/Sulfuric Acid.png",
+    "desc": "Acid tears!",
+    "effect": "+0.3 damage. Adds a chance to fire acidic tears which can destroy obstacles and open doors."
+  },
+  {
+    "id": 464,
+    "name": "Glyph of Balance",
+    "imagePath": "assets/images/Glyph of Balance.png",
+    "desc": "A gift from above",
+    "effect": "Grants 2 Soul Hearts and modifies drops from Champion monsters based on certain conditions. Also modifies room clear drops."
+  },
+  {
+    "id": 465,
+    "name": "Analog Stick",
+    "imagePath": "assets/images/Analog Stick.png",
+    "desc": "360 tears!",
+    "effect": "+0.35 tears up. Allows Isaac to fire tears diagonally."
+  },
+  {
+    "id": 466,
+    "name": "Contagion",
+    "imagePath": "assets/images/Contagion.png",
+    "desc": "Outbreak!",
+    "effect": "The first enemy killed in a room releases a gas cloud that poisons nearby enemies. Affected enemies will also release gas upon death, spreading the effect."
+  },
+  {
+    "id": 467,
+    "name": "Finger!",
+    "imagePath": "assets/images/Finger!.png",
+    "desc": "Watch where you point that!",
+    "effect": "Spawns a finger familiar that faces in the same direction as Isaac, rapidly damaging enemies it points at for 10% of Isaac's damage."
+  },
+  {
+    "id": 468,
+    "name": "Shade",
+    "imagePath": "assets/images/Shade.png",
+    "desc": "It follows",
+    "effect": "Spawns a shadow familiar that follows Isaac's movements on a 1 second delay and deals contact damage to enemies. After dealing enough damage, it is absorbed by Isaac and spawns friendly Chargers."
+  },
+  {
+    "id": 469,
+    "name": "Depression",
+    "imagePath": "assets/images/Depression.png",
+    "desc": ":(",
+    "effect": "Spawns a familiar that leaves a trail of creep that damages enemies at 6 damage per second. Has a chance to spawn damaging beams of light onto enemies that touch the cloud."
+  },
+  {
+    "id": 470,
+    "name": "Hushy",
+    "imagePath": "assets/images/Hushy.png",
+    "desc": "Lil hush!",
+    "effect": "Spawns a Hush familiar that bounces diagonally around the room and deals contact damage. While firing tears, it stops moving."
+  },
+  {
+    "id": 471,
+    "name": "Lil Monstro",
+    "imagePath": "assets/images/Lil Monstro.png",
+    "desc": "Ain't he cute?",
+    "effect": "Spawns a familiar that fires clusters of tears. Must be charged before shooting."
+  },
+  {
+    "id": 472,
+    "name": "King Baby",
+    "imagePath": "assets/images/King Baby.png",
+    "desc": "Hail to the king baby",
+    "effect": "Spawns a familiar that follows Isaac and makes other familiars follow it. While firing tears, other familiars stop moving."
+  },
+  {
+    "id": 473,
+    "name": "Big Chubby",
+    "imagePath": "assets/images/Big Chubby.png",
+    "desc": "Chub chub",
+    "effect": "Spawns a familiar that follows Isaac and charges across the room when Isaac fires, blocking shots and dealing 40.5 damage per second on contact."
+  },
+  {
+    "id": 474,
+    "name": "Broken Glass Canon",
+    "imagePath": "assets/images/Broken Glass Canon.png",
+    "desc": "You broke it!",
+    "effect": "Begins with no charges and turns into Glass Cannon when used. Only acquired by taking damage while holding Glass Cannon."
+  },
+  {
+    "id": 475,
+    "name": "Plan C",
+    "imagePath": "assets/images/Plan C.png",
+    "desc": "My last resort",
+    "effect": "Kills all enemies in the room, then kills Isaac three seconds later."
+  },
+  {
+    "id": 476,
+    "name": "D1",
+    "imagePath": "assets/images/D1.png",
+    "desc": "What will it be?",
+    "effect": "Duplicates a random pickup in the room. (in Repentance) The new pickup may be different than the original (i.e. a different card, etc)."
+  },
+  {
+    "id": 477,
+    "name": "Void",
+    "imagePath": "assets/images/Void.png",
+    "desc": "Consume",
+    "effect": "Consumes all pedestal items in the room. Active items will have their effects added to Void, and passive items will grant random stat upgrades."
+  },
+  {
+    "id": 478,
+    "name": "Pause",
+    "imagePath": "assets/images/Pause.png",
+    "desc": "Stop!",
+    "effect": "Freezes all enemies until a fire button is pressed."
+  },
+  {
+    "id": 479,
+    "name": "Smelter",
+    "imagePath": "assets/images/Smelter.png",
+    "desc": "Trinket melter!",
+    "effect": "Consumes Isaac's currently held trinket and applies its effect permanently."
+  },
+  {
+    "id": 480,
+    "name": "Compost",
+    "imagePath": "assets/images/Compost.png",
+    "desc": "Gain more friends!",
+    "effect": "Doubles Isaac's Blue Flies and Blue Spiders, or spawns one if Isaac has none. Converts pickups in the current room into Blue Flies or Blue Spiders."
+  },
+  {
+    "id": 481,
+    "name": "Dataminer",
+    "imagePath": "assets/images/Dataminer.png",
+    "desc": "109",
+    "effect": "Displaces enemy sprites for the current room, randomly increases one stat and decreases another."
+  },
+  {
+    "id": 482,
+    "name": "Clicker",
+    "imagePath": "assets/images/Clicker.png",
+    "desc": "Change",
+    "effect": "Transforms Isaac into a random character and removes the last item collected."
+  },
+  {
+    "id": 483,
+    "name": "Mama Mega!",
+    "imagePath": "assets/images/Mama Mega!.png",
+    "desc": "BOOOOOOOOOM!",
+    "effect": "Damages all enemies and destroys all obstacles. The effect occurs every time a new room is entered for the rest of the floor. Opens the doors to the floor's Secret Rooms and Super Secret Rooms."
+  },
+  {
+    "id": 484,
+    "name": "Wait What",
+    "imagePath": "assets/images/Wait What.png",
+    "desc": "I can't believe it's not butter bean!",
+    "effect": "Isaac farts, sending out a circular rock wave that destroys obstacles and hurts enemies."
+  },
+  {
+    "id": 485,
+    "name": "Crooked Penny",
+    "imagePath": "assets/images/Crooked Penny.png",
+    "desc": "50/50",
+    "effect": "Spawns a penny and has a 50% chance to double all items and pickups in the room. If the effect fails, the items and pickups disappear."
+  },
+  {
+    "id": 486,
+    "name": "Dull Razor",
+    "imagePath": "assets/images/Dull Razor.png",
+    "desc": "I feel numb...",
+    "effect": "Hurts Isaac without depleting health, activating any items that trigger upon taking damage."
+  },
+  {
+    "id": 487,
+    "name": "Potato Peeler",
+    "imagePath": "assets/images/Potato Peeler.png",
+    "desc": "A pound of flesh",
+    "effect": "Removes a Heart Container, increases damage and range, and grants a Cube of Meat."
+  },
+  {
+    "id": 488,
+    "name": "Metronome",
+    "imagePath": "assets/images/Metronome.png",
+    "desc": "Waggles a finger",
+    "effect": "Grants a random item effect for the current room."
+  },
+  {
+    "id": 489,
+    "name": "D Infinity",
+    "imagePath": "assets/images/D Infinity.png",
+    "desc": "Reroll forever",
+    "effect": "Acts as any die item, and can by cycled by pressing the drop key."
+  },
+  {
+    "id": 490,
+    "name": "Eden's Soul",
+    "imagePath": "assets/images/Eden's Soul.png",
+    "desc": "...",
+    "effect": "Spawns two item pedestals then is consumed. Begins with no charges."
+  },
+  {
+    "id": 491,
+    "name": "Acid Baby",
+    "imagePath": "assets/images/Acid Baby.png",
+    "desc": "Pills pills pills!",
+    "effect": "Spawns a familiar that drops a random pill every 3 rooms. Upon using a pill, all enemies in the room are poisoned."
+  },
+  {
+    "id": 492,
+    "name": "YO LISTEN!",
+    "imagePath": "assets/images/YO LISTEN!.png",
+    "desc": "Yo listen!",
+    "effect": "+1 luck. Spawns a fairy familiar that points out Secret Rooms, Crawl Space entrances, and tinted rocks. "
+  },
+  {
+    "id": 493,
+    "name": "Adrenaline",
+    "imagePath": "assets/images/Adrenaline.png",
+    "desc": "Panic = power",
+    "effect": "Increases damage based on how many empty Red Heart containers Isaac has."
+  },
+  {
+    "id": 494,
+    "name": "Jacob's Ladder",
+    "imagePath": "assets/images/Jacob's Ladder.png",
+    "desc": "Electric tears",
+    "effect": "Tears fire sparks of electricity in random directions upon hitting an obstacle or enemy."
+  },
+  {
+    "id": 495,
+    "name": "Ghost Pepper",
+    "imagePath": "assets/images/Ghost Pepper.png",
+    "desc": "Flame tears",
+    "effect": "Gives a chance to shoot blue fires alongside tears that become smaller as they travel."
+  },
+  {
+    "id": 496,
+    "name": "Euthanasia",
+    "imagePath": "assets/images/Euthanasia.png",
+    "desc": "Needle shot",
+    "effect": "Adds a luck-based chance to fire needles that instantly kill basic enemies and deal triple damage to bosses. If a needle kills an enemy, it bursts into more tears/needles."
+  },
+  {
+    "id": 497,
+    "name": "Camo Undies",
+    "imagePath": "assets/images/Camo Undies.png",
+    "desc": "Camo kid",
+    "effect": "Isaac becomes camouflaged at the beginning of each room. Until he shoots, all non-boss enemies will be confused. Isaac gains +0.5 Speed while camouflaged, and gains Tears and Damage upon breaking it."
+  },
+  {
+    "id": 498,
+    "name": "Duality",
+    "imagePath": "assets/images/Duality.png",
+    "desc": "You feel very balanced",
+    "effect": "Whenever a Devil Room or Angel Room would spawn after defeating a boss, both rooms spawn. Only one can be entered."
+  },
+  {
+    "id": 499,
+    "name": "Eucharist",
+    "imagePath": "assets/images/Eucharist.png",
+    "desc": "Peace be with you",
+    "effect": "An Angel Room will always spawn after every boss fight, excluding the first floor and floors after Chapter 4."
+  },
+  {
+    "id": 500,
+    "name": "Sack of Sacks",
+    "imagePath": "assets/images/Sack of Sacks.png",
+    "desc": "Gives sacks",
+    "effect": "Spawns a familiar that drops a Grab Bag every 5-6 rooms cleared."
+  },
+  {
+    "id": 501,
+    "name": "Greed's Gullet",
+    "imagePath": "assets/images/Greed's Gullet.png",
+    "desc": "Money = health!",
+    "effect": "Grants a Red Heart container for every 25 Coins Isaac has."
+  },
+  {
+    "id": 502,
+    "name": "Large Zit",
+    "imagePath": "assets/images/Large Zit.png",
+    "desc": "Creep shots",
+    "effect": "Adds a chance to fire a creep shot that deals double damage and leaves a trail of slowing white creep."
+  },
+  {
+    "id": 503,
+    "name": "Little Horn",
+    "imagePath": "assets/images/Little Horn.png",
+    "desc": "Big brother is watching",
+    "effect": "Adds a chance to fire a tear that summons Big Horn's hand to crush the first enemy it hits, instantly killing monsters or greatly damaging bosses."
+  },
+  {
+    "id": 504,
+    "name": "Brown Nugget",
+    "imagePath": "assets/images/Brown Nugget.png",
+    "desc": "Friendly fly",
+    "effect": "Spawns a stationary fly turret that lasts for the current room and fires tears at nearby enemies."
+  },
+  {
+    "id": 505,
+    "name": "Poke Go",
+    "imagePath": "assets/images/Poke Go.png",
+    "desc": "Gotta catch em...",
+    "effect": "Upon entering a room with enemies in it, has a chance to spawn a random friendly enemy that persists across rooms."
+  },
+  {
+    "id": 506,
+    "name": "Backstabber",
+    "imagePath": "assets/images/Backstabber.png",
+    "desc": "Watch your back!",
+    "effect": "Isaac's tears deal double damage and inflict bleeding on enemies if they're facing away from Isaac."
+  },
+  {
+    "id": 507,
+    "name": "Sharp Straw",
+    "imagePath": "assets/images/Sharp Straw.png",
+    "desc": "More blood!",
+    "effect": "Damages all enemies in the room. Has a chance to drop a Half Red Heart if an enemy is hit."
+  },
+  {
+    "id": 508,
+    "name": "Mom's Razor",
+    "imagePath": "assets/images/Mom's Razor.png",
+    "desc": "It's sharp!",
+    "effect": "Spawns an orbiting razor that deals contact damage and inflicts bleeding on enemies, causing them to slowly take damage over time."
+  },
+  {
+    "id": 509,
+    "name": "Bloodshot Eye",
+    "imagePath": "assets/images/Bloodshot Eye.png",
+    "desc": "Bloody friend",
+    "effect": "Spawns an orbital familiar that deals contact damage, blocks shots, and fires tears at enemies in its line of sight."
+  },
+  {
+    "id": 510,
+    "name": "Delirious",
+    "imagePath": "assets/images/Delirious.png",
+    "desc": "Unleash the power!",
+    "effect": "Delirium as a random friendly boss that fights for Isaac."
+  },
+  {
+    "id": 511,
+    "name": "Angry Fly",
+    "imagePath": "assets/images/Angry Fly.png",
+    "desc": "He's violent",
+    "effect": "Spawns a fly familiar that orbits around a random enemy and deals 30 damage per second to enemies it comes in contact with."
+  },
+  {
+    "id": 512,
+    "name": "Black Hole",
+    "imagePath": "assets/images/Black Hole.png",
+    "desc": "Nothing can escape",
+    "effect": "Throws a black hole on the ground which sucks in and damages enemies and destroys nearby obstacles."
+  },
+  {
+    "id": 513,
+    "name": "Bozo",
+    "imagePath": "assets/images/Bozo.png",
+    "desc": "Party time!",
+    "effect": "+0.1 flat damage, grants a Soul Heart. Enemies can randomly become briefly charmed or feared. Taking damage has a chance to spawn a Rainbow Poop."
+  },
+  {
+    "id": 514,
+    "name": "Broken Modem",
+    "imagePath": "assets/images/Broken Modem.png",
+    "desc": "Lag!",
+    "effect": "Enemies, enemy shots, tears, and pickups will briefly freeze in place at random intervals. The reward from clearing a room will sometimes be duplicated."
+  },
+  {
+    "id": 515,
+    "name": "Mystery Gift",
+    "imagePath": "assets/images/Mystery Gift.png",
+    "desc": "Wrapped up nice for you!",
+    "effect": "Spawns a random item from the current room's item pool, with a chance to spawn A Lump of Coal or The Poop instead."
+  },
+  {
+    "id": 516,
+    "name": "Sprinkler",
+    "imagePath": "assets/images/Sprinkler.png",
+    "desc": "Sprinkles.",
+    "effect": "Creates a stationary sprinkler for the current room that rotates and fires tears in 8 directions. The tears copy Isaac's stats and most tear effects."
+  },
+  {
+    "id": 517,
+    "name": "Fast Bombs",
+    "imagePath": "assets/images/Fast Bombs.png",
+    "desc": "Rapid bomb drops",
+    "effect": "+7 Bombs. Removes the delay between bomb placements, allowing them to be placed rapidly. Bombs will no longer knock each other away."
+  },
+  {
+    "id": 518,
+    "name": "Buddy in a Box",
+    "imagePath": "assets/images/Buddy in a Box.png",
+    "desc": "What could it be?!",
+    "effect": "Spawns a familiar with a random tear effect. The familiar is randomized at the start of each floor."
+  },
+  {
+    "id": 519,
+    "name": "Lil Delirium",
+    "imagePath": "assets/images/Lil Delirium.png",
+    "desc": "Delirious friend",
+    "effect": "Grants a familiar that transforms into another random familiar every 10 seconds."
+  },
+  {
+    "id": 520,
+    "name": "Jumper Cables",
+    "imagePath": "assets/images/Jumper Cables.png",
+    "desc": "Bloody recharge",
+    "effect": "Grants an active item charge every 15 enemies killed."
+  },
+  {
+    "id": 521,
+    "name": "Coupon",
+    "imagePath": "assets/images/Coupon.png",
+    "desc": "Allow 6 weeks for delivery",
+    "effect": "While held, guarantees one item in every Shop will be on sale. On use, makes a random item in the current room free."
+  },
+  {
+    "id": 522,
+    "name": "Telekinesis",
+    "imagePath": "assets/images/Telekinesis.png",
+    "desc": "Power of the mind",
+    "effect": "Any enemy shots that come near Isaac for the next three seconds are held in place then fired back."
+  },
+  {
+    "id": 523,
+    "name": "Moving Box",
+    "imagePath": "assets/images/Moving Box.png",
+    "desc": "Pack and unpack",
+    "effect": "If the box is empty, picks up items and pickups in a room and stores them. If the box is not empty, places all stored items and pickups in the current room. Can carry up to 10 items or pickups at once."
+  },
+  {
+    "id": 524,
+    "name": "Technology Zero",
+    "imagePath": "assets/images/Technology Zero.png",
+    "desc": "Static tears!",
+    "effect": "Connects Isaac's tears with electricity that can damage enemies."
+  },
+  {
+    "id": 525,
+    "name": "Leprosy",
+    "imagePath": "assets/images/Leprosy.png",
+    "desc": "You're tearing me apart!",
+    "effect": "Taking damage grants a body part orbital that blocks shots and deals contact damage, up to a maximum of three. The body parts are destroyed after blocking enough damage."
+  },
+  {
+    "id": 526,
+    "name": "7 Seals",
+    "imagePath": "assets/images/7 Seals.png",
+    "desc": "Lil harbingers!",
+    "effect": "Spawns a random Harbinger familiar that changes every 10 seconds. Harbingers have different behaviors and spawn themed Locusts."
+  },
+  {
+    "id": 527,
+    "name": "Mr. ME!",
+    "imagePath": "assets/images/Mr. ME!.png",
+    "desc": "Caaan do!",
+    "effect": "Summons a controllable ghost that can perform various tasks depending on what it targets."
+  },
+  {
+    "id": 528,
+    "name": "Angelic Prism",
+    "imagePath": "assets/images/Angelic Prism.png",
+    "desc": "Eclipsed by the moon",
+    "effect": "Spawns an orbital familiar with a large orbital radius. Tears that pass through the prism split into four multi-colored tears."
+  },
+  {
+    "id": 529,
+    "name": "Pop!",
+    "imagePath": "assets/images/Pop!.png",
+    "desc": "Eyeball tears!",
+    "effect": "Replaces Isaac's tears with eyeballs that can bounce off of each other. The eyeballs are not limited by range, and will instead dissipate when they stop moving or when hitting an enemy or obstacle."
+  },
+  {
+    "id": 530,
+    "name": "Death's List",
+    "imagePath": "assets/images/Death's List.png",
+    "desc": "Just hope you're not next...",
+    "effect": "Grants a pickup or stat upgrade if all enemies in a room are killed in the order they are marked."
+  },
+  {
+    "id": 531,
+    "name": "Haemolacria",
+    "imagePath": "assets/images/Haemolacria.png",
+    "desc": "I'm seeing red...",
+    "effect": "Tears are now fired in an arc. Upon hitting the floor, an obstacle, or an enemy, they burst into many smaller tears in all directions. Increases tear delay."
+  },
+  {
+    "id": 532,
+    "name": "Lachryphagy",
+    "imagePath": "assets/images/Lachryphagy.png",
+    "desc": "Feed them!",
+    "effect": "Isaac's tears decelerate as they travel. Upon stopping or hitting an obstacle, they burst into 8 tears in all directions. Tears can be fired into other tears to feed them, increasing their damage."
+  },
+  {
+    "id": 533,
+    "name": "Trisagion",
+    "imagePath": "assets/images/Trisagion.png",
+    "desc": "Smite thy enemy",
+    "effect": "Tears are replaced with piercing white blasts of light that deal less damage but can damage the same enemy multiple times."
+  },
+  {
+    "id": 534,
+    "name": "Schoolbag",
+    "imagePath": "assets/images/Schoolbag.png",
+    "desc": "Extra active item room",
+    "effect": "Allows Isaac to hold two active items."
+  },
+  {
+    "id": 535,
+    "name": "Blanket",
+    "imagePath": "assets/images/Blanket.png",
+    "desc": "You feel Safe",
+    "effect": "Grants one Soul Heart. Upon entering a boss room, grants a shield that blocks one hit, then disappears."
+  },
+  {
+    "id": 536,
+    "name": "Sacrificial Altar",
+    "imagePath": "assets/images/Sacrificial Altar.png",
+    "desc": "He demands a sacrifice",
+    "effect": "Sacrifices up to 2 familiars and spawns an item for each familiar sacrificed. Converts all friendly spiders and flies into coins"
+  },
+  {
+    "id": 537,
+    "name": "Lil Spewer",
+    "imagePath": "assets/images/Lil Spewer.png",
+    "desc": "Puking buddy",
+    "effect": "Drops a random pill, and spawns a familiar that charges up and fires creep. Using pills changes the creep type."
+  },
+  {
+    "id": 538,
+    "name": "Marbles",
+    "imagePath": "assets/images/Marbles.png",
+    "desc": "Choking hazard",
+    "effect": "Spawns 3 random trinkets. Taking damage has a 5% chance to swallow Isaac's currently held trinket, gaining its effect permanently."
+  },
+  {
+    "id": 539,
+    "name": "Mystery Egg",
+    "imagePath": "assets/images/Mystery Egg.png",
+    "desc": "Sacrificial insemination",
+    "effect": "Spawns an egg familiar, which hatches a random friendly monster when Isaac is hurt once per room. The power of the monster improves for each consecutive room cleared without taking damage."
+  },
+  {
+    "id": 540,
+    "name": "Flat Stone",
+    "imagePath": "assets/images/Flat Stone.png",
+    "desc": "Skipping tears",
+    "effect": "Tears bounce off the floor, creating splashes. Splashes deal 25% of Isaac's tear damage to all enemies in a small area."
+  },
+  {
+    "id": 541,
+    "name": "Marrow",
+    "imagePath": "assets/images/Marrow.png",
+    "desc": "HP up?",
+    "effect": "Grants one Bone Heart and spawns three Red Hearts."
+  },
+  {
+    "id": 542,
+    "name": "Slipped Rib",
+    "imagePath": "assets/images/Slipped Rib.png",
+    "desc": "Projectile shield",
+    "effect": "Spawns a bone familiar that circles around Isaac and reflects enemy shots."
+  },
+  {
+    "id": 543,
+    "name": "Hallowed Ground",
+    "imagePath": "assets/images/Hallowed Ground.png",
+    "desc": "Portable sanctuary",
+    "effect": "Spawns a white poop familiar, which turns into a White Poop when Isaac is hurt. White poop has an aura that increases tear fire rate and can block enemy shots. The aura also increases damage by 20% and gives homing."
+  },
+  {
+    "id": 544,
+    "name": "Pointy Rib",
+    "imagePath": "assets/images/Pointy Rib.png",
+    "desc": "Stabbing time",
+    "effect": "Spawns a bone familiar that hovers back and forth in front of Isaac, dealing damage equal to Isaac's damage."
+  },
+  {
+    "id": 545,
+    "name": "Book of the Dead",
+    "imagePath": "assets/images/Book of the Dead.png",
+    "desc": "Rise from the grave",
+    "effect": "Creates a friendly Bony, Black Bony, Bone Fly, Revenant, or an orbital bone for each enemy killed in the current room."
+  },
+  {
+    "id": 546,
+    "name": "Dad's Ring",
+    "imagePath": "assets/images/Dad's Ring.png",
+    "desc": "Father's blessing",
+    "effect": "Creates a ring of light around Isaac that petrifies enemies in contact."
+  },
+  {
+    "id": 547,
+    "name": "Divorce Papers",
+    "imagePath": "assets/images/Divorce Papers.png",
+    "desc": "Tears up + you feel empty",
+    "effect": "Grants one Bone Heart, +0.7 tears, spawns a Mysterious Paper."
+  },
+  {
+    "id": 548,
+    "name": "Jaw Bone",
+    "imagePath": "assets/images/Jaw Bone.png",
+    "desc": "Fetch!",
+    "effect": "Spawns a familiar that flies through the room while firing, dealing a flat 7 contact damage to enemies and retrieving pickups."
+  },
+  {
+    "id": 549,
+    "name": "Brittle Bones",
+    "imagePath": "assets/images/Brittle Bones.png",
+    "desc": "Everything hurts",
+    "effect": "Replaces all Red Heart Containers with 6 empty Bone Hearts. Upon losing a Bone Heart, Isaac fires bones in 8 directions and permanently gains a tears up. Upon losing a Bone Heart, Isaac fires bones in 8 directions and permanently gains a fire rate up."
+  },
+  {
+    "id": 550,
+    "name": "Broken Shovel 1 (handle)",
+    "imagePath": "assets/images/Broken Shovel 1 (handle).png",
+    "desc": "It feels cursed",
+    "effect": "While held, causes Mom to continuously attempt to stomp on Isaac. Activating makes her stop for the current room or wave. One of two parts necessary to create Mom's Shovel."
+  },
+  {
+    "id": 551,
+    "name": "Broken Shovel 2 (head)",
+    "imagePath": "assets/images/Broken Shovel 2 (head).png",
+    "desc": "It feels cursed",
+    "effect": "One of two parts necessary to create Mom's Shovel. No effect if somehow obtained on its own."
+  },
+  {
+    "id": 552,
+    "name": "Mom's Shovel",
+    "imagePath": "assets/images/Mom's Shovel.png",
+    "desc": "Lost but not forgotten",
+    "effect": "Creates a trapdoor that leads to the next floor. Unlocks The Forgotten when used on a mound of dirt that appears in Dark Room."
+  },
+  {
+    "id": 553,
+    "name": "Mucormycosis",
+    "imagePath": "assets/images/Mucormycosis.png",
+    "desc": "Spore shot",
+    "effect": "Gives Isaac the chance to fire spore tears that stick to enemies and blow up after a few seconds, dealing damage and poisoning nearby enemies and releasing more spores."
+  },
+  {
+    "id": 554,
+    "name": "2Spooky",
+    "imagePath": "assets/images/2Spooky.png",
+    "desc": "4me",
+    "effect": "Enemies near Isaac are afflicted with fear."
+  },
+  {
+    "id": 555,
+    "name": "Golden Razor",
+    "imagePath": "assets/images/Golden Razor.png",
+    "desc": "Pain from gain",
+    "effect": "Spends five Pennies to increase Isaac's damage by 1.2 for the current room."
+  },
+  {
+    "id": 556,
+    "name": "Sulfer",
+    "imagePath": "assets/images/Sulfer.png",
+    "desc": "Temporary demon form",
+    "effect": "Grants Brimstone for the current room."
+  },
+  {
+    "id": 557,
+    "name": "Fortune Cookie",
+    "imagePath": "assets/images/Fortune Cookie.png",
+    "desc": "Reusable fortunes",
+    "effect": "Gives Isaac a fortune, Soul Heart, Card, Rune, or trinket, similar to a Fortune Telling Machine. Fortunes are much more likely to be given than anything else."
+  },
+  {
+    "id": 558,
+    "name": "Eye Sore",
+    "imagePath": "assets/images/Eye Sore.png",
+    "desc": "More eyes",
+    "effect": "Causes Isaac to occasionally fire extra tears in random directions while shooting."
+  },
+  {
+    "id": 559,
+    "name": "120 Volt",
+    "imagePath": "assets/images/120 Volt.png",
+    "desc": "Zap!",
+    "effect": "Repeatedly zaps enemies that are close to Isaac."
+  },
+  {
+    "id": 560,
+    "name": "It Hurts",
+    "imagePath": "assets/images/It Hurts.png",
+    "desc": "No it doesn't...",
+    "effect": "Releases a ring of tears and increases fire rate for the current room when Isaac takes damage."
+  },
+  {
+    "id": 561,
+    "name": "Almond Milk",
+    "imagePath": "assets/images/Almond Milk.png",
+    "desc": "DMG down + tears up + you feel nutty",
+    "effect": "Quadruples fire rate, with ×0.3 damage multiplier. Each tear is given a random effect that alters its movement."
+  },
+  {
+    "id": 562,
+    "name": "Rock Bottom",
+    "imagePath": "assets/images/Rock Bottom.png",
+    "desc": "It's only up from there",
+    "effect": "Locks Isaac's attributes to their highest values reached."
+  },
+  {
+    "id": 563,
+    "name": "Nancy Bombs",
+    "imagePath": "assets/images/Nancy Bombs.png",
+    "desc": "Random blast +5 bombs",
+    "effect": "+5 Bombs. Each bomb gains 1-4 random bomb synergies."
+  },
+  {
+    "id": 564,
+    "name": "A Bar of Soap",
+    "imagePath": "assets/images/A Bar of Soap.png",
+    "desc": "Tears + shot speed up",
+    "effect": "+0.5 Tears, +0.2 Shot Speed."
+  },
+  {
+    "id": 565,
+    "name": "Blood Puppy",
+    "imagePath": "assets/images/Blood Puppy.png",
+    "desc": "What a cute little thing!",
+    "effect": "Spawns a familiar that chases enemies. After killing enough enemies, it becomes more powerful but will also try to hurt Isaac, it will also generate Half Red Hearts on enemy kills. It can increase in power one more stage after killing even more enemies. Dealing enough damage to it returns it to normal."
+  },
+  {
+    "id": 566,
+    "name": "Dream Catcher",
+    "imagePath": "assets/images/Dream Catcher.png",
+    "desc": "Sweet dreams",
+    "effect": "During the transition between floors, Isaac's nightmare shows the contents of the upcoming floor's Treasure Room, as well as the floor's boss. Grants a Half Soul Heart when entering a new floor."
+  },
+  {
+    "id": 567,
+    "name": "Paschal Candle",
+    "imagePath": "assets/images/Paschal Candle.png",
+    "desc": "Keep the flame burning",
+    "effect": "Gives Isaac a familiar that grants +0.4 Fire Rate for each consecutive room he's cleared without taking damage. The bonus stacks up to five times."
+  },
+  {
+    "id": 568,
+    "name": "Divine Intervention",
+    "imagePath": "assets/images/Divine Intervention.png",
+    "desc": "Double tap shield",
+    "effect": "Double tapping a fire key creates a shield that pushes away enemies and reflects enemy projectiles and lasers."
+  },
+  {
+    "id": 569,
+    "name": "Blood Oath",
+    "imagePath": "assets/images/Blood Oath.png",
+    "desc": "Bleed me dry",
+    "effect": "Stabs Isaac at the beginning of each floor, draining his Red Hearts. Increases damage and speed for the floor based on the amount drained."
+  },
+  {
+    "id": 570,
+    "name": "Playdough Cookie",
+    "imagePath": "assets/images/Playdough Cookie.png",
+    "desc": "Tasty rainbow",
+    "effect": "Grants multicolored tears. Each color comes with a different status or tear effect."
+  },
+  {
+    "id": 571,
+    "name": "Orphan Socks",
+    "imagePath": "assets/images/Orphan Socks.png",
+    "desc": "Speed up + your feet feel stronger",
+    "effect": "Prevents creep and floor spikes from damaging Isaac. Also gives Isaac +0.3 speed and 2 Soul Hearts."
+  },
+  {
+    "id": 572,
+    "name": "Eye of the Occult",
+    "imagePath": "assets/images/Eye of the Occult.png",
+    "desc": "DMG up + range up + controlled tears",
+    "effect": "+1 damage, +2 range, -0.16 shot speed. Isaac's tears can be controlled mid-flight with tear controls."
+  },
+  {
+    "id": 573,
+    "name": "Immaculate Heart",
+    "imagePath": "assets/images/Immaculate Heart.png",
+    "desc": "Halo of tears",
+    "effect": "Adds one Red Heart Container and fully restores health. x1.2 damage multiplier. Isaac will occasionally fire extra tears that orbit around him."
+  },
+  {
+    "id": 574,
+    "name": "Monstrance",
+    "imagePath": "assets/images/Monstrance.png",
+    "desc": "Purifying light",
+    "effect": "Isaac gains an aura that deals damage to enemies inside it."
+  },
+  {
+    "id": 575,
+    "name": "The Intruder",
+    "imagePath": "assets/images/The Intruder.png",
+    "desc": "Invasive friend",
+    "effect": "A familiar burrows in Isaac's head, firing 4 slowing tears. Upon taking damage, there's a chance it will burst out of Isaac's head, spawning blue spiders and chasing enemies for the current room."
+  },
+  {
+    "id": 576,
+    "name": "Dirty Mind",
+    "imagePath": "assets/images/Dirty Mind.png",
+    "desc": "Filthy friends",
+    "effect": "Destroying poop spawns Dip Familiars that follow Isaac and damage enemies. Destroying different types of poop spawns different Dips with special effects."
+  },
+  {
+    "id": 577,
+    "name": "Damocles",
+    "imagePath": "assets/images/Damocles.png",
+    "desc": "A king's fortune... but at what cost?",
+    "effect": "Spawns a sword above Isaac's head, which doubles all item pedestals. After Isaac takes damage, the sword can randomly fall at any point, instantly killing him."
+  },
+  {
+    "id": 578,
+    "name": "Free Lemonade",
+    "imagePath": "assets/images/Free Lemonade.png",
+    "desc": "Party time!",
+    "effect": "Creates a large pool of yellow creep beneath Isaac."
+  },
+  {
+    "id": 579,
+    "name": "Spirit Sword",
+    "imagePath": "assets/images/Spirit Sword.png",
+    "desc": "Divine blade",
+    "effect": "Instead of tears, Isaac swings a sword. Charging does a spin attack and fires a projectile, and a projectile is sometimes fired with normal swings if Isaac has no empty Red Heart Containers."
+  },
+  {
+    "id": 580,
+    "name": "Red Key",
+    "imagePath": "assets/images/Red Key.png",
+    "desc": "Explore the other side",
+    "effect": "Creates a Red Room adjacent to a viable wall, indicated by the outline of a door. These rooms have a 10% chance to be a special room."
+  },
+  {
+    "id": 581,
+    "name": "Psy Fly",
+    "imagePath": "assets/images/Psy Fly.png",
+    "desc": "Flamboyant protector",
+    "effect": "Spawns a fly orbital familiar that seeks out incoming enemy shots and destroys them."
+  },
+  {
+    "id": 582,
+    "name": "Wavy Cap",
+    "imagePath": "assets/images/Wavy Cap.png",
+    "desc": "Tears up. A mind changing experience!",
+    "effect": "Increases fire rate, decreases speed, and distorts the screen. All effects become more pronounced with repeated use, and wear off by clearing rooms."
+  },
+  {
+    "id": 583,
+    "name": "Rocket in a Jar",
+    "imagePath": "assets/images/Rocket in a Jar.png",
+    "desc": "Rocket propulsion +5 bombs",
+    "effect": "+5 Bombs. If Isaac is currently firing, placing a bomb will instead shoot a fast-moving, explosive rocket in the direction he's facing."
+  },
+  {
+    "id": 584,
+    "name": "Book of Virtues",
+    "imagePath": "assets/images/Book of Virtues.png",
+    "desc": "Spiritual companionship",
+    "effect": "Spawns a destroyable orbiting wisp familiar that fires tears and deals contact damage. Also acts as a passive item that causes other active items to spawn themed wisps."
+  },
+  {
+    "id": 585,
+    "name": "Alabaster Box",
+    "imagePath": "assets/images/Alabaster Box.png",
+    "desc": "A sacred offering",
+    "effect": "Spawns three Soul Hearts and two Angel Room items and is consumed. Starts with no charges, and can only be charged by picking up 6 Soul Hearts."
+  },
+  {
+    "id": 586,
+    "name": "The Stairway",
+    "imagePath": "assets/images/The Stairway.png",
+    "desc": "May you get what you came for",
+    "effect": "Generates a ladder at the start of every floor that leads to a unique Angel Room shop."
+  },
+  {
+    "id": 588,
+    "name": "Sol",
+    "imagePath": "assets/images/Sol.png",
+    "desc": "Radiant victory",
+    "effect": "Reveals the location of the Boss Room. Upon defeating a boss, activates XIX - The Sun, fully recharges Isaac's active item, grants bonus damage and luck for the rest of the floor, and removes curses."
+  },
+  {
+    "id": 589,
+    "name": "Luna",
+    "imagePath": "assets/images/Luna.png",
+    "desc": "The moon's blessing shines upon you",
+    "effect": "Adds an extra Secret Room and Super Secret Room to each floor. Secret Rooms contain a beam of light that increases Fire Rate for the current floor and gives a Half Soul Heart."
+  },
+  {
+    "id": 590,
+    "name": "Mercurius",
+    "imagePath": "assets/images/Mercurius.png",
+    "desc": "Speed up + you feel elusive",
+    "effect": "+0.4 speed. Doors stay open after entering a room, even in rooms with enemies."
+  },
+  {
+    "id": 591,
+    "name": "Venus",
+    "imagePath": "assets/images/Venus.png",
+    "desc": "HP up + you feel pretty",
+    "effect": "Adds one red Heart container. Heals 1 additional Red Heart. Enemies near Isaac become charmed."
+  },
+  {
+    "id": 592,
+    "name": "Terra",
+    "imagePath": "assets/images/Terra.png",
+    "desc": "Born to rock",
+    "effect": "+1 Damage. Replaces tears with rocks that deal variable damage, have increased knockback, and can destroy obstacles."
+  },
+  {
+    "id": 593,
+    "name": "Mars",
+    "imagePath": "assets/images/Mars.png",
+    "desc": "Double tap dash",
+    "effect": "Dash by double-tapping the movement key, becoming invulnerable and damaging enemies. There's a short cooldown before Isaac can dash again."
+  },
+  {
+    "id": 594,
+    "name": "Jupiter",
+    "imagePath": "assets/images/Jupiter.png",
+    "desc": "You're a gas giant!",
+    "effect": "+2 red Heart containers, -0.3 speed. Isaac builds speed while standing still, and releases poison gas clouds when he moves afterwards."
+  },
+  {
+    "id": 595,
+    "name": "Saturnus",
+    "imagePath": "assets/images/Saturnus.png",
+    "desc": "Ring of tears",
+    "effect": "Upon entering a room, a circle of tears orbits Isaac. Enemy tears have a chance to be caught in orbit, turning them friendly."
+  },
+  {
+    "id": 596,
+    "name": "Uranus",
+    "imagePath": "assets/images/Uranus.png",
+    "desc": "Ice tears",
+    "effect": "Isaac shoots ice tears, which slow enemies and freeze monsters they kill. Frozen enemies slide away and explode into ice shards when touched."
+  },
+  {
+    "id": 597,
+    "name": "Neptunus",
+    "imagePath": "assets/images/Neptunus.png",
+    "desc": "Open the floodgates",
+    "effect": "Isaac's mouth fills with tears over time while not firing, up to a cap. Holding the fire button will release all stored tears in rapid succession."
+  },
+  {
+    "id": 598,
+    "name": "Pluto",
+    "imagePath": "assets/images/Pluto.png",
+    "desc": "Size down",
+    "effect": "+0.7 tears. Significantly shrinks Isaac, allowing him to squeeze between objects and makes some enemy shots pass over him."
+  },
+  {
+    "id": 599,
+    "name": "Voodoo Head",
+    "imagePath": "assets/images/Voodoo Head.png",
+    "desc": "Extra curse rooms",
+    "effect": "Spawns an additional Curse Room on each floor. Curse Rooms have improved layouts."
+  },
+  {
+    "id": 600,
+    "name": "Eye Drops",
+    "imagePath": "assets/images/Eye Drops.png",
+    "desc": "Tears up",
+    "effect": "Increases the fire rate in Isaac's left eye, causing his eyes to fire at different rates."
+  },
+  {
+    "id": 601,
+    "name": "Act of Contrition",
+    "imagePath": "assets/images/Act of Contrition.png",
+    "desc": "Tears up, you feel forgiven",
+    "effect": "+0.7 tears, grants an Eternal Heart. Allows Angel Rooms to appear even if a Devil Deal has been taken before. Reduces the Devil/Angel room chance penalty for taking Red heart damage."
+  },
+  {
+    "id": 602,
+    "name": "Member Card",
+    "imagePath": "assets/images/Member Card.png",
+    "desc": "Exclusive access!",
+    "effect": "Adds a trapdoor to every Shop that leads to a second shop with a unique stock and marked-up prices."
+  },
+  {
+    "id": 603,
+    "name": "Battery Pack",
+    "imagePath": "assets/images/Battery Pack.png",
+    "desc": "Instant energy!",
+    "effect": "Recharges Isaac's currently held active item and drops 2-4 batteries."
+  },
+  {
+    "id": 604,
+    "name": "Mom's Bracelet",
+    "imagePath": "assets/images/Mom's Bracelet.png",
+    "desc": "Mother's strength",
+    "effect": "Lets Isaac pick up and throw rocks, TNT, Poops, friendly Dips, Bombs, and other obstacles."
+  },
+  {
+    "id": 605,
+    "name": "The Scooper",
+    "imagePath": "assets/images/The Scooper.png",
+    "desc": "Plop!",
+    "effect": "Summons The Peeper for the current room, which leaves a trail of red creep."
+  },
+  {
+    "id": 606,
+    "name": "Ocular Rift",
+    "imagePath": "assets/images/Ocular Rift.png",
+    "desc": "Stare into the abyss",
+    "effect": "Adds a chance to fire tears that create rifts where they land, which suck enemies, pickups, and shots towards them and damage enemies in the area."
+  },
+  {
+    "id": 607,
+    "name": "Boiled Baby",
+    "imagePath": "assets/images/Boiled Baby.png",
+    "desc": "Messy friend",
+    "effect": "Gives Isaac a familiar that fires chaotic bursts of tears in all directions."
+  },
+  {
+    "id": 608,
+    "name": "Freezer Baby",
+    "imagePath": "assets/images/Freezer Baby.png",
+    "desc": "Iced iced baby",
+    "effect": "Spawns a shooting familiar that has a chance to petrify enemies, and freezes monsters upon killing them."
+  },
+  {
+    "id": 609,
+    "name": "Eternal D6",
+    "imagePath": "assets/images/Eternal D6.png",
+    "desc": "???",
+    "effect": "Rerolls all items in the room. Each item has a 25% chance to disappear instead."
+  },
+  {
+    "id": 610,
+    "name": "Bird Cage",
+    "imagePath": "assets/images/Bird Cage.png",
+    "desc": "Fat buddy",
+    "effect": "The first time Isaac takes damage in a room, a familiar leaps on an enemy, dealing damage and releasing a rock wave. For the rest of the room, it chases enemies similar to Dead Bird."
+  },
+  {
+    "id": 611,
+    "name": "Larynx",
+    "imagePath": "assets/images/Larynx.png",
+    "desc": "Hear my pain",
+    "effect": "Isaac shouts, damaging and pushing away nearby enemies. The shout gets stronger the more charges the item has. Larynx gains 1 charge whenever Isaac takes damage, in addition to charging normally."
+  },
+  {
+    "id": 612,
+    "name": "Lost Soul",
+    "imagePath": "assets/images/Lost Soul.png",
+    "desc": "Protect him",
+    "effect": "Creates a ghostly familiar that closely follows behind Isaac. It dies in one hit, but respawns at the start of the next floor. Each time it survives until the next floor, it rewards Isaac with Soul Hearts, Eternal Hearts, or an Item."
+  },
+  {
+    "id": 614,
+    "name": "Blood Bombs",
+    "imagePath": "assets/images/Blood Bombs.png",
+    "desc": "Bloody blast + HP up",
+    "effect": "Grants a Red Heart container and restores 5 hearts. Bombs leave behind damaging red creep. Isaac can place Bombs at the cost of half a heart if he doesn't have any."
+  },
+  {
+    "id": 615,
+    "name": "Lil Dumpy",
+    "imagePath": "assets/images/Lil Dumpy.png",
+    "desc": "Puffy buddy",
+    "effect": "Spawns a Dumpy familiar that pushes away nearby enemies and projectiles just before Isaac is about to be hit, then falls asleep. He can be awoken by walking to him."
+  },
+  {
+    "id": 616,
+    "name": "Bird's Eye",
+    "imagePath": "assets/images/Bird's Eye.png",
+    "desc": "It burns",
+    "effect": "Gives a chance to shoot fires alongside tears that block enemy shots and deal damage to enemies that touch them."
+  },
+  {
+    "id": 617,
+    "name": "Lodestone",
+    "imagePath": "assets/images/Lodestone.png",
+    "desc": "Magnetizing tears",
+    "effect": "Gives Isaac the chance to fire tears that magnetize enemies they hit, causing them to attract nearby pickups and enemies, as well as tears/shots from all sources."
+  },
+  {
+    "id": 618,
+    "name": "Rotten Tomato",
+    "imagePath": "assets/images/Rotten Tomato.png",
+    "desc": "Delicious!",
+    "effect": "Adds a chance to fire tears that mark enemies with the Bait status effect. Enemies marked as bait are attacked by other enemies."
+  },
+  {
+    "id": 619,
+    "name": "Birthright",
+    "imagePath": "assets/images/Birthright.png",
+    "desc": "???",
+    "effect": "Grants a character-specific effect that enhances their special abilities."
+  },
+  {
+    "id": 621,
+    "name": "Red Stew",
+    "imagePath": "assets/images/Red Stew.png",
+    "desc": "Full HP + temporary DMG up",
+    "effect": "Refills all heart containers. Grants an enormous damage boost that wears off over time."
+  },
+  {
+    "id": 622,
+    "name": "Genesis",
+    "imagePath": "assets/images/Genesis.png",
+    "desc": "In the beginning",
+    "effect": "Removes all of Isaac's items and pickups and takes him to a unique Bedroom with some pickups and Chests and a trapdoor to the next floor. For every item Isaac lost, he gets to take an item from a set of three."
+  },
+  {
+    "id": 623,
+    "name": "Sharp Key",
+    "imagePath": "assets/images/Sharp Key.png",
+    "desc": "Open your enemies",
+    "effect": "Adds 5 Keys on pickup. Allows Isaac to throw his keys to deal damage to enemies, destroy obstacles, and open doors."
+  },
+  {
+    "id": 624,
+    "name": "Booster Pack",
+    "imagePath": "assets/images/Booster Pack.png",
+    "desc": "Collect them all!",
+    "effect": "Drops 5 random cards."
+  },
+  {
+    "id": 625,
+    "name": "Mega Mush",
+    "imagePath": "assets/images/Mega Mush.png",
+    "desc": "I'm a big boy now!",
+    "effect": "Gigantifies Isaac for 30 seconds, increasing damage and range while lowering tears, granting invulnerability, and allowing Isaac to crush enemies and obstacles he walks on. The effect persists between rooms."
+  },
+  {
+    "id": 626,
+    "name": "Knife Piece 1 (handle)",
+    "imagePath": "assets/images/Knife Piece 1 (handle).png",
+    "desc": "???",
+    "effect": "Combined with Knife Piece 2, creates a knife familiar that damages enemies and can open the door to the Corpse."
+  },
+  {
+    "id": 627,
+    "name": "Knife Piece 2 (blade)",
+    "imagePath": "assets/images/Knife Piece 2 (blade).png",
+    "desc": "???",
+    "effect": "Combined with Knife Piece 1, creates a knife familiar that damages enemies and can open the door to the Corpse."
+  },
+  {
+    "id": 628,
+    "name": "Death Certificate",
+    "imagePath": "assets/images/Death Certificate.png",
+    "desc": "Where am I?",
+    "effect": "Takes Isaac to an abandoned and expanded version of Home, which has one copy of every item in the game. After taking an item, Isaac returns to the room he used Death Certificate in."
+  },
+  {
+    "id": 629,
+    "name": "Bot Fly",
+    "imagePath": "assets/images/Bot Fly.png",
+    "desc": "Defense drone",
+    "effect": "Spawns an orbiting fly familiar that fires shielded tears at incoming enemy projectiles."
+  },
+  {
+    "id": 631,
+    "name": "Meat Cleaver",
+    "imagePath": "assets/images/Meat Cleaver.png",
+    "desc": "Slice but no dice",
+    "effect": "Splits all enemies in the room into two smaller versions of themselves with much less health."
+  },
+  {
+    "id": 632,
+    "name": "Evil Charm",
+    "imagePath": "assets/images/Evil Charm.png",
+    "desc": "Luck up + you feel protected",
+    "effect": "+2 luck. Provides immunity to burn, confusion, fear, and poison."
+  },
+  {
+    "id": 633,
+    "name": "Dogma",
+    "imagePath": "assets/images/Dogma.png",
+    "desc": "Ascended",
+    "effect": "Grants flight, +2 damage, and increases speed to 1.1. Grants enough health to have 6 full hearts, if possible. Grants the Holy Mantle effect for the room it was obtained in. Automatically given to Isaac after defeating Dogma."
+  },
+  {
+    "id": 634,
+    "name": "Purgatory",
+    "imagePath": "assets/images/Purgatory.png",
+    "desc": "Help from beyond",
+    "effect": "While in a room with enemies, spawns red cracks in the ground. Walking over these cracks summons ghosts that launch themselves at enemies and explode."
+  },
+  {
+    "id": 635,
+    "name": "Stitches",
+    "imagePath": "assets/images/Stitches.png",
+    "desc": "Bait and switch",
+    "effect": "Passively spawns a familiar that moves in the direction Isaac shoots. On use, Isaac swaps places with the familiar."
+  },
+  {
+    "id": 636,
+    "name": "R Key",
+    "imagePath": "assets/images/R Key.png",
+    "desc": "Time to start over",
+    "effect": "Brings Isaac back to the first floor of a new run, retaining all of his items."
+  },
+  {
+    "id": 637,
+    "name": "Knockout Drops",
+    "imagePath": "assets/images/Knockout Drops.png",
+    "desc": "They pack a punch!",
+    "effect": "Adds a chance to shoot a fist tear that has extremely high knockback and confuses enemies."
+  },
+  {
+    "id": 638,
+    "name": "Eraser",
+    "imagePath": "assets/images/Eraser.png",
+    "desc": "Erase thy enemy",
+    "effect": "Throws an eraser that instantly kills the first monster it hits, and prevents that monster from spawning for the rest of the run. Deals 15 damage to bosses, erasing that boss if fatal. Can only be used once per floor."
+  },
+  {
+    "id": 639,
+    "name": "Yuck Heart",
+    "imagePath": "assets/images/Yuck Heart.png",
+    "desc": "Gross!",
+    "effect": "Gives Isaac a Rotten Heart."
+  },
+  {
+    "id": 640,
+    "name": "Urn of Souls",
+    "imagePath": "assets/images/Urn of Souls.png",
+    "desc": "Unleash their sorrow",
+    "effect": "Spews a stream of damaging flame. Gains Soul Charges each time an enemy dies, which are used to fuel the urn."
+  },
+  {
+    "id": 641,
+    "name": "Akeldama",
+    "imagePath": "assets/images/Akeldama.png",
+    "desc": "Spill your guts",
+    "effect": "While in an uncleared room, Isaac forms a trail of bloody tears that drags behind him, bursting and dealing damage upon contact with enemies."
+  },
+  {
+    "id": 642,
+    "name": "Magic Skin",
+    "imagePath": "assets/images/Magic Skin.png",
+    "desc": "All your desires fulfilled",
+    "effect": "Consumes one heart container or two Soul Hearts to spawn an item and give Isaac a broken heart container that can never be filled. If Magic Skin isn't being held after being used, it is very likely to replace any future items."
+  },
+  {
+    "id": 643,
+    "name": "Revelation",
+    "imagePath": "assets/images/Revelation.png",
+    "desc": "Awaken your faith",
+    "effect": "Grants flight and two Soul Hearts. In addition to tears, Isaac can charge up and fire a powerful holy laser."
+  },
+  {
+    "id": 644,
+    "name": "Consolation Prize",
+    "imagePath": "assets/images/Consolation Prize.png",
+    "desc": "+1 to lowest stat",
+    "effect": "Increases Isaac's lowest stat and drops either 3 Coins, 1 Bomb, or 1 Key depending on what Isaac has the least of."
+  },
+  {
+    "id": 645,
+    "name": "Tinytoma",
+    "imagePath": "assets/images/Tinytoma.png",
+    "desc": "Itching for revenge",
+    "effect": "Gives Isaac a Teratoma orbital that blocks shots, deals contact damage, and splits into smaller versions of itself upon taking damage. The smaller versions break into blue spiders."
+  },
+  {
+    "id": 646,
+    "name": "Brimstone Bombs",
+    "imagePath": "assets/images/Brimstone Bombs.png",
+    "desc": "Demon blast +5 bombs",
+    "effect": "+5 Bombs. Bombs fire four Brimstone lasers in the cardinal directions upon exploding."
+  },
+  {
+    "id": 647,
+    "name": "4.5 Volt",
+    "imagePath": "assets/images/4.5 Volt.png",
+    "desc": "Beat the juice out of them!",
+    "effect": "Active items don't charge when clearing rooms. Instead, they're charged by dealing damage to enemies."
+  },
+  {
+    "id": 649,
+    "name": "Fruity Plum",
+    "imagePath": "assets/images/Fruity Plum.png",
+    "desc": "Bouncy friend",
+    "effect": "Gives Isaac a miniature Baby Plum familiar that propels itself diagonally around the room, firing tears behind itself as it travels."
+  },
+  {
+    "id": 650,
+    "name": "Plum Flute",
+    "imagePath": "assets/images/Plum Flute.png",
+    "desc": "Play time!",
+    "effect": "Summons the boss Baby Plum to fight for Isaac in the current room."
+  },
+  {
+    "id": 651,
+    "name": "Star of Bethlehem",
+    "imagePath": "assets/images/Star of Bethlehem.png",
+    "desc": "Follow the light",
+    "effect": "Spawns a star familiar that slowly travels towards the Boss Room, giving an aura that increases damage and tears and grants homing tears."
+  },
+  {
+    "id": 652,
+    "name": "Cube Baby",
+    "imagePath": "assets/images/Cube Baby.png",
+    "desc": "Kick it!",
+    "effect": "Spawns an ice cube familiar that slides around when walked into. It slows and deals contact damage, freezing monsters it kills."
+  },
+  {
+    "id": 653,
+    "name": "Vade Retro",
+    "imagePath": "assets/images/Vade Retro.png",
+    "desc": "Begone!",
+    "effect": "While held, enemies leave behind ghosts on death. Stronger enemies leave bigger ghosts. Using the item causes the ghosts to explode and damage nearby enemies, and instantly kills all ghost enemies with less than 50% HP."
+  },
+  {
+    "id": 654,
+    "name": "False PHD",
+    "imagePath": "assets/images/False PHD.png",
+    "desc": "Worse pills + evil up ",
+    "effect": "Converts good pills into bad pills and identifies all pills. Bad pills now have secondary positive effects. Grants one Black Heart."
+  },
+  {
+    "id": 655,
+    "name": "Spin to Win",
+    "imagePath": "assets/images/Spin to Win.png",
+    "desc": "Let it rip!",
+    "effect": "Gives +0.5 speed and greatly increases the rotation speed and damage of orbitals for 3 seconds. Passively gives Isaac a spinning top orbital that blocks enemy shots and deals contact damage."
+  },
+  {
+    "id": 657,
+    "name": "Vasculitis",
+    "imagePath": "assets/images/Vasculitis.png",
+    "desc": "Clogged enemies",
+    "effect": "Enemies explode into tears upon death, which inherit the effects of Isaac's tears."
+  },
+  {
+    "id": 658,
+    "name": "Giant Cell",
+    "imagePath": "assets/images/Giant Cell.png",
+    "desc": "Micro friends",
+    "effect": "Causes Isaac to spawn Minisaac familiars when he takes damage, which chase and shoot at nearby enemies."
+  },
+  {
+    "id": 659,
+    "name": "Tropicamide",
+    "imagePath": "assets/images/Tropicamide.png",
+    "desc": "Tear size + range up",
+    "effect": "+2.5 Range, Increases tear size."
+  },
+  {
+    "id": 660,
+    "name": "Card Reading",
+    "imagePath": "assets/images/Card Reading.png",
+    "desc": "A link to your future",
+    "effect": "Spawns two portals at the beginning of each floor that each lead to either the Boss Room, Treasure Room, Secret Room, or the Shop."
+  },
+  {
+    "id": 661,
+    "name": "Quints",
+    "imagePath": "assets/images/Quints.png",
+    "desc": "They lurk inside",
+    "effect": "The first five enemies killed in a room will spawn stationary shooting familiars where they died."
+  },
+  {
+    "id": 663,
+    "name": "Tooth and Nail",
+    "imagePath": "assets/images/Tooth and Nail.png",
+    "desc": "You feel prickly",
+    "effect": "Isaac periodically turns into a spiked statue, briefly becoming invulnerable and dealing contact damage."
+  },
+  {
+    "id": 664,
+    "name": "Binge Eater",
+    "imagePath": "assets/images/Binge Eater.png",
+    "desc": "All you can eat",
+    "effect": "+1 Red Heart Container and fully heals Isaac. Item pedestals also offer a random food item. Picking up a food item temporarily grants +3.6 damage and permanently boosts 2 stats."
+  },
+  {
+    "id": 665,
+    "name": "Guppy's Eye",
+    "imagePath": "assets/images/Guppy's Eye.png",
+    "desc": "An eye for secrets",
+    "effect": "Shows the contents of Chests, Fire Places, Grab Bags, and Shopkeepers before they're opened/destroyed."
+  },
+  {
+    "id": 667,
+    "name": "Strawman",
+    "imagePath": "assets/images/Strawman.png",
+    "desc": "A helping hand",
+    "effect": "Spawns a controllable Keeper to fight enemies alongside Isaac, functioning similarly to Jacob and Esau. If Keeper dies, he spawns 5 blue spiders and Strawman is removed from Isaac's inventory."
+  },
+  {
+    "id": 668,
+    "name": "Dad's Note",
+    "imagePath": "assets/images/Dad's Note.png",
+    "desc": "...",
+    "effect": "Sends Isaac on an Ascent toward Home. \n Cant spin down"
+  },
+  {
+    "id": 669,
+    "name": "Sausage",
+    "imagePath": "assets/images/Sausage.png",
+    "desc": "All stats up",
+    "effect": "Adds a Red Heart Container, fully heals Isaac, and gives +0.2 Speed, +0.5 Damage, +0.5 Tears, +2.5 Range, +0.2 Shot Speed, and +1.0 Luck. Increases the chance of encountering a Devil Room, Angel Room, and/or Planetarium each by 6.9%."
+  },
+  {
+    "id": 670,
+    "name": "Options[q]",
+    "imagePath": "assets/images/Options[q].png",
+    "desc": "There might be options",
+    "effect": "If a room gives a reward when cleared, there will be two different rewards to chose from. Taking one causes the other to disappear."
+  },
+  {
+    "id": 671,
+    "name": "Candy Heart",
+    "imagePath": "assets/images/Candy Heart.png",
+    "desc": "Power of love",
+    "effect": "Gives Isaac a permanent stat boost whenever he heals with Red Heart pickups."
+  },
+  {
+    "id": 672,
+    "name": "A Pound of Flesh",
+    "imagePath": "assets/images/A Pound of Flesh.png",
+    "desc": "Blood money",
+    "effect": "Devil deals now cost Coins, Shop items now cost health, and consumables in shops are free but surrounded by spikes."
+  },
+  {
+    "id": 673,
+    "name": "Redemption",
+    "imagePath": "assets/images/Redemption.png",
+    "desc": "Deliver me from evil",
+    "effect": "If Isaac enters a Devil Room but leaves without taking/opening anything in it, he gets +1 Damage and a Soul Heart at the start of the next floor."
+  },
+  {
+    "id": 674,
+    "name": "Spirit Shackles",
+    "imagePath": "assets/images/Spirit Shackles.png",
+    "desc": "Unfinished business",
+    "effect": "On death, Isaac's ghost is chained to his dead body and he can continue to fight with 1/2 of a heart, returning to life after 10 seconds. After it activates, it must be recharged by picking up a Soul Heart."
+  },
+  {
+    "id": 675,
+    "name": "Cracked Orb",
+    "imagePath": "assets/images/Cracked Orb.png",
+    "desc": "Shards of knowledge",
+    "effect": "Unlocks doors and reveals a random room on the map when Isaac takes damage."
+  },
+  {
+    "id": 676,
+    "name": "Empty Heart",
+    "imagePath": "assets/images/Empty Heart.png",
+    "desc": "It multiplies",
+    "effect": "If Isaac has one red heart or fewer at the beginning of a floor, he gains an empty red heart container."
+  },
+  {
+    "id": 677,
+    "name": "Astral Projection",
+    "imagePath": "assets/images/Astral Projection.png",
+    "desc": "The true out-of-body experience!",
+    "effect": "Causes Isaac to turn into a ghost if he gets hit while in an uncleared room, giving him flight and spectral tears and blocking the next hit he takes."
+  },
+  {
+    "id": 678,
+    "name": "C Section",
+    "imagePath": "assets/images/C Section.png",
+    "desc": "Fetus shots",
+    "effect": "Replaces tears with fetuses that chase down enemies and deal contact damage. Each shot requires a brief charge up."
+  },
+  {
+    "id": 679,
+    "name": "Lil Abaddon",
+    "imagePath": "assets/images/Lil Abaddon.png",
+    "desc": "Abyssal friend",
+    "effect": "Spawns a familiar that charges a miniature Maw Of The Void attack while Isaac shoots."
+  },
+  {
+    "id": 680,
+    "name": "Montezuma's Revenge",
+    "imagePath": "assets/images/Montezuma's Revenge.png",
+    "desc": "Oh no...",
+    "effect": "While firing, Isaac charges up a short-ranged Brimstone-like diarrhea beam that shoots behind him."
+  },
+  {
+    "id": 681,
+    "name": "Lil Portal",
+    "imagePath": "assets/images/Lil Portal.png",
+    "desc": "It hungers",
+    "effect": "A familiar that flies forward, consuming pickups in its path. Each one will increase its size and damage and spawn a Blue Fly. Every four pickups, it opens a portal that leads to an unexplored room."
+  },
+  {
+    "id": 682,
+    "name": "Worm Friend",
+    "imagePath": "assets/images/Worm Friend.png",
+    "desc": "Clingy buddy",
+    "effect": "Gives Isaac a Nerve Ending familiar that burrows out of the ground to grab and deal damage to enemies over time."
+  },
+  {
+    "id": 683,
+    "name": "Bone Spurs",
+    "imagePath": "assets/images/Bone Spurs.png",
+    "desc": "Break your enemies",
+    "effect": "Enemies spawn floating bones on death, which block shots and damage/repel enemies that touch them."
+  },
+  {
+    "id": 684,
+    "name": "Hungry Soul",
+    "imagePath": "assets/images/Hungry Soul.png",
+    "desc": "Out for blood",
+    "effect": "Enemies have a chance to spawn ghosts on death, which chase and deal contact damage to enemies and explode after a short time."
+  },
+  {
+    "id": 685,
+    "name": "Jar of Wisps",
+    "imagePath": "assets/images/Jar of Wisps.png",
+    "desc": "Your faith grows",
+    "effect": "Spawns random wisps that shoot various tears, block shots, and deal contact damage. The number of wisps spawned increases every time the jar is used."
+  },
+  {
+    "id": 686,
+    "name": "Soul Locket",
+    "imagePath": "assets/images/Soul Locket.png",
+    "desc": "Power of faith",
+    "effect": "Gives Isaac a permanent stat boost whenever he picks up a Soul Heart."
+  },
+  {
+    "id": 687,
+    "name": "Friend Finder",
+    "imagePath": "assets/images/Friend Finder.png",
+    "desc": "Best friends forever!",
+    "effect": "Spawns a random friendly monster that mimics Isaac's movements and attacks."
+  },
+  {
+    "id": 688,
+    "name": "Inner Child",
+    "imagePath": "assets/images/Inner Child.png",
+    "desc": "Let him free",
+    "effect": "Upon death, Isaac respawns in the current room with half of a Red Heart, a massive size down, and +0.2 Speed."
+  },
+  {
+    "id": 689,
+    "name": "Glitched Crown",
+    "imagePath": "assets/images/Glitched Crown.png",
+    "desc": "?????",
+    "effect": "Item pedestals cycle between 5 random items before being picked up."
+  },
+  {
+    "id": 690,
+    "name": "Belly Jelly",
+    "imagePath": "assets/images/Belly Jelly.png",
+    "desc": "Bounce away!",
+    "effect": "Causes enemies to bounce off of Isaac, dealing damage to them if they hit an enemy or obstacle. Also gives Isaac the chance to deflect enemy shots."
+  },
+  {
+    "id": 691,
+    "name": "Sacred Orb",
+    "imagePath": "assets/images/Sacred Orb.png",
+    "desc": "Destined for greatness",
+    "effect": "Prevents items of quality 0-1 from appearing, and items of quality 2 from appearing 33% of the time. Quest items are unaffected."
+  },
+  {
+    "id": 692,
+    "name": "Sanguine Bond",
+    "imagePath": "assets/images/Sanguine Bond.png",
+    "desc": "He awaits your offering",
+    "effect": "Spawns a special set of spikes in the Devil Room. Taking damage from the spikes has a chance to grant a reward."
+  },
+  {
+    "id": 693,
+    "name": "The Swarm",
+    "imagePath": "assets/images/The Swarm.png",
+    "desc": "Infest",
+    "effect": "Spawns eight orbital flies, which turn into Blue Flies after they block a shot. Each time a room is cleared, spawns another orbital fly."
+  },
+  {
+    "id": 694,
+    "name": "Heartbreak",
+    "imagePath": "assets/images/Heartbreak.png",
+    "desc": "Eternal sorrow",
+    "effect": "Grants 3 broken hearts and +0.25 damage for every broken heart Isaac has. Every otherwise fatal hit will add 2 more until Isaac has nothing but broken hearts."
+  },
+  {
+    "id": 695,
+    "name": "Bloody Gust",
+    "imagePath": "assets/images/Bloody Gust.png",
+    "desc": "May your rage bring haste",
+    "effect": "The first 6 times Isaac takes damage on a given floor, he gains Speed and Fire Rate for the rest of the floor, up to a maximum of +1.02 and +3.00, respectively."
+  },
+  {
+    "id": 696,
+    "name": "Salvation",
+    "imagePath": "assets/images/Salvation.png",
+    "desc": "Divine protection",
+    "effect": "Gives Isaac a halo that summons beams of light on enemies inside it. The halo grows larger the more times Isaac has taken damage this floor."
+  },
+  {
+    "id": 697,
+    "name": "Vanishing Twin",
+    "imagePath": "assets/images/Vanishing Twin.png",
+    "desc": "He wants revenge",
+    "effect": "Spawns a familiar that becomes a weaker clone of the floor's boss when entering the Boss Room. Defeating it drops an extra item. "
+  },
+  {
+    "id": 698,
+    "name": "Twisted Pair",
+    "imagePath": "assets/images/Twisted Pair.png",
+    "desc": "Double trouble!",
+    "effect": "Spawns two familiars that float on either side of Isaac and fire tears that use his tears, range, shot speed, and tear effects, and scale with damage."
+  },
+  {
+    "id": 699,
+    "name": "Azazel's Rage",
+    "imagePath": "assets/images/Azazel's Rage.png",
+    "desc": "Ancient power",
+    "effect": "Isaac builds rage every time a room is cleared. After four rooms, fires a large Brimstone laser when entering the next room."
+  },
+  {
+    "id": 700,
+    "name": "Echo Chamber",
+    "imagePath": "assets/images/Echo Chamber.png",
+    "desc": "I can see see the future future future",
+    "effect": "When Isaac uses a Card, Pill, or Rune, he also uses a copy of the previous three Cards/Pills/Runes he used after picking up Echo Chamber."
+  },
+  {
+    "id": 701,
+    "name": "Isaac's Tomb",
+    "imagePath": "assets/images/Isaac's Tomb.png",
+    "desc": "Buried memories",
+    "effect": "Spawns an Old Chest at the start of each floor."
+  },
+  {
+    "id": 702,
+    "name": "Vengeful Spirit",
+    "imagePath": "assets/images/Vengeful Spirit.png",
+    "desc": "Hot blooded",
+    "effect": "After taking damage, spawns an orbital wisp that lasts for the entire floor, up to a maximum of six. They fire tears but do not block shots."
+  },
+  {
+    "id": 703,
+    "name": "Esau Jr.",
+    "imagePath": "assets/images/Esau Jr..png",
+    "desc": "Lost brother",
+    "effect": "Swaps between the current character and Esau Jr., who has +2 flat damage and flight. Characters have independent items and health. Dying as either character ends the run."
+  },
+  {
+    "id": 704,
+    "name": "Berserk",
+    "imagePath": "assets/images/Berserk.png",
+    "desc": "Rip and tear ",
+    "effect": "Isaac goes berserk for 5 seconds, greatly increasing his speed, tears, and damage, but restricting him to using a melee weapon instead of his tears. This item charges by dealing damage to enemies instead of clearing rooms."
+  },
+  {
+    "id": 705,
+    "name": "Dark Arts",
+    "imagePath": "assets/images/Dark Arts.png",
+    "desc": "One with the shadows",
+    "effect": "Briefly grants +1 speed and makes Isaac invulnerable and intangible. When the effect ends, destroys all projectiles and damages all enemies Isaac ran through."
+  },
+  {
+    "id": 706,
+    "name": "Abyss",
+    "imagePath": "assets/images/Abyss.png",
+    "desc": "Come forth from the depths",
+    "effect": "Destroys all items in the room and gives Isaac a unique locust familiar for each item destroyed. Some items generate locusts with special effects."
+  },
+  {
+    "id": 707,
+    "name": "Supper",
+    "imagePath": "assets/images/Supper.png",
+    "desc": "HP up",
+    "effect": "Grants one full Red Heart container. Heals 1 additional Red Heart."
+  },
+  {
+    "id": 708,
+    "name": "Stapler",
+    "imagePath": "assets/images/Stapler.png",
+    "desc": "DMG up",
+    "effect": "+1 Damage. Prevents Isaac from firing tears from his left eye, like Cain."
+  },
+  {
+    "id": 709,
+    "name": "Suplex!",
+    "imagePath": "assets/images/Suplex!.png",
+    "desc": "Angel breaker",
+    "effect": "Isaac dashes forward and picks up the first enemy hit. After a moment, he slams them into the ground to deal damage and create a circular rock wave."
+  },
+  {
+    "id": 710,
+    "name": "Bag of Crafting",
+    "imagePath": "assets/images/Bag of Crafting.png",
+    "desc": "Make your destiny",
+    "effect": "Collects and holds up to 8 pickups, which can then be used to craft an item. The power level of the item is based on the quality of pickups used."
+  },
+  {
+    "id": 711,
+    "name": "Flip",
+    "imagePath": "assets/images/Flip.png",
+    "desc": "Twist of fate",
+    "effect": "Item pedestals have a second uninteractable \"ghostly\" item behind them. Activating will flip the real and ghostly items around. If playing as Tainted Lazarus, also flips between them and Dead Tainted Lazarus."
+  },
+  {
+    "id": 712,
+    "name": "Lemegeton",
+    "imagePath": "assets/images/Lemegeton.png",
+    "desc": "Item summoner",
+    "effect": "Spawns a wisp representing a random passive item, which orbits Isaac but can be destroyed. While the wisp is alive, Isaac gains that item's effects. Generation uses the current room's item pool 25% of the time, otherwise a random pool."
+  },
+  {
+    "id": 713,
+    "name": "Sumptorium",
+    "imagePath": "assets/images/Sumptorium.png",
+    "desc": "Blood to blood",
+    "effect": "Removes half a heart and creates a Clot familiar that mimics Isaac's movements and tear effects. As Tainted Eve, passively converts health into Clots while firing. Activating returns all Clots to health."
+  },
+  {
+    "id": 714,
+    "name": "Recall",
+    "imagePath": "assets/images/Recall.png",
+    "desc": "Come back",
+    "effect": "Retrieves the Forgotten's body from any distance. Only available as the Birthright effect for Tainted Forgotten."
+  },
+  {
+    "id": 715,
+    "name": "Hold",
+    "imagePath": "assets/images/Hold.png",
+    "desc": "Saved for later",
+    "effect": "Exclusive to Tainted ???. Allows him to save one poop bomb for later, allowing him to gather more over time."
+  },
+  {
+    "id": 716,
+    "name": "Keeper's Sack",
+    "imagePath": "assets/images/Keeper's Sack.png",
+    "desc": "Balls",
+    "effect": "Gives range, speed, or damage when buying things from a shop. Also spawns three coins and a Key on pickup."
+  },
+  {
+    "id": 717,
+    "name": "Keeper's Kin",
+    "imagePath": "assets/images/Keeper's Kin.png",
+    "desc": "Under a rock",
+    "effect": "Rocks and other Obstacles spawn blue spiders over time while in a room with enemies, and spawn two blue spiders when destroyed."
+  },
+  {
+    "id": 719,
+    "name": "Keeper's Box",
+    "imagePath": "assets/images/Keeper's Box.png",
+    "desc": "Portable shop",
+    "effect": "Spawns a random shop item or pickup which can be bought for its normal price."
+  },
+  {
+    "id": 720,
+    "name": "Everything Jar",
+    "imagePath": "assets/images/Everything Jar.png",
+    "desc": "Anything is possible",
+    "effect": "Spawns certain pickups based on how many charges it has. If fully charged, instead has one of many unique effects."
+  },
+  {
+    "id": 721,
+    "name": "TMTRAINER",
+    "imagePath": "assets/images/TMTRAINER.png",
+    "desc": "ZZaZZ ZZdZZiZZmZZhZZ ZZvZZ ZZoZZ ZZ ZZsZZlZZhZZsZZoZZaZZiZZ",
+    "effect": "Causes all future items to be \"glitched\", granting them completely random effects."
+  },
+  {
+    "id": 722,
+    "name": "Anima Sola",
+    "imagePath": "assets/images/Anima Sola.png",
+    "desc": "Repent",
+    "effect": "Chains down the nearest enemy for 5 seconds, preventing them from acting."
+  },
+  {
+    "id": 723,
+    "name": "Spindown Dice",
+    "imagePath": "assets/images/Spindown Dice.png",
+    "desc": "-1",
+    "effect": "Reduces the internal ID number of all items in the room by one, turning them into the item with that number."
+  },
+  {
+    "id": 724,
+    "name": "Hypercoagulation",
+    "imagePath": "assets/images/Hypercoagulation.png",
+    "desc": "Thick blooded",
+    "effect": "After Isaac takes damage from an enemy or donates health, launches Red Hearts from Isaac that despawn after 1.5 seconds."
+  },
+  {
+    "id": 725,
+    "name": "IBS",
+    "imagePath": "assets/images/IBS.png",
+    "desc": "Your stomach rumbles",
+    "effect": "Causes Isaac to throw poop, create buffing creep, or drop bombs while fighting enemies."
+  },
+  {
+    "id": 726,
+    "name": "Hemoptysis",
+    "imagePath": "assets/images/Hemoptysis.png",
+    "desc": "Double tap sneeze",
+    "effect": "Double-tapping a fire button causes Isaac to sneeze blood, dealing damage to enemies in front of him. Affected enemies are cursed and take more damage from Brimstone-like attacks."
+  },
+  {
+    "id": 727,
+    "name": "Ghost Bombs",
+    "imagePath": "assets/images/Ghost Bombs.png",
+    "desc": "Spooky blast +5 bombs",
+    "effect": "+5 Bombs. Bombs become spectral and spawn ghosts that deal contact damage to enemies and explode after 10 seconds."
+  },
+  {
+    "id": 728,
+    "name": "Gello",
+    "imagePath": "assets/images/Gello.png",
+    "desc": "Demonic gestation",
+    "effect": "Spawns a demon familiar for the current room that's attached to Isaac and moves and fires in the direction Isaac shoots, using Isaac's damage, tears, range, shot speed, and special tear effects."
+  },
+  {
+    "id": 729,
+    "name": "Decap Attack",
+    "imagePath": "assets/images/Decap Attack.png",
+    "desc": "Chuck away!",
+    "effect": "Throws Isaac's head, which is still able to fire tears at the spot it lands. Reactivating the item or stepping on the head reattaches it."
+  },
+  {
+    "id": 730,
+    "name": "Glass Eye",
+    "imagePath": "assets/images/Glass Eye.png",
+    "desc": "DMG + luck up",
+    "effect": "+0.75 damage, +1 luck."
+  },
+  {
+    "id": 731,
+    "name": "Stye",
+    "imagePath": "assets/images/Stye.png",
+    "desc": "DMG + range up",
+    "effect": "Tears fired from Isaac's right eye have +28% Damage, +6.5 Range, and -0.3 Shot Speed."
+  },
+  {
+    "id": 732,
+    "name": "Mom's Ring",
+    "imagePath": "assets/images/Mom's Ring.png",
+    "desc": "DMG up",
+    "effect": "+1 Damage. Drops a random Rune or Soul Stone upon pickup."
+  }
+]

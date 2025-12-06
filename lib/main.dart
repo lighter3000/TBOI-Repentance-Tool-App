@@ -21,16 +21,12 @@ void main() async{
 
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Load items async in a background isolate
-  final loadedItems = await Isolate.run(() => loadItems());
 
-
-  runApp(MyApp(items: loadedItems));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final List<Item> items;
-  const MyApp({super.key, required this.items});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -71,7 +67,7 @@ class MyApp extends StatelessWidget {
             onError: Colors.black,
           ),
         ),
-        home: MyHomePage(title: 'Spindown Dice App Home Page', items: items),
+        home: MyHomePage(title: 'Spindown Dice App Home Page'),
       ),
     );
   }
@@ -101,8 +97,7 @@ class MyAppState extends ChangeNotifier {
 }
 
 class MyHomePage extends StatefulWidget {
-  final List<Item> items;
-  const MyHomePage({super.key, required this.title, required this.items});
+  const MyHomePage({super.key, required this.title});
 
   final String title;
 
@@ -127,9 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
         page = MainPage();
         break;
       case 1:
-        page = SpindownPage(
-            items: widget.items
-          );
+        page = SpindownPage();
         break;
       case 2:
         page = SettingPage();

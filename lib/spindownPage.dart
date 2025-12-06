@@ -2,6 +2,7 @@ import 'dart:isolate';
 
 import 'package:application/backgroundWrapper.dart';
 import 'package:application/data/items.dart';
+import 'package:application/repository/item_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import "package:application/main.dart";
@@ -14,14 +15,13 @@ import 'globals.dart' as globals;
 
 
 class SpindownPage extends StatefulWidget {
-  
-  final List<Item> items;
-  SpindownPage({required this.items});
+  SpindownPage();
 
   
   
   @override
   State<SpindownPage> createState() => _SpindownPageState();
+
 }
 
 
@@ -32,8 +32,30 @@ class _SpindownPageState extends State<SpindownPage> {
 
   final ItemController _selectedItem = ItemController();
 
+  final ItemRepository _repo = ItemRepository();
+  List<Item> _itemsFromDb = [];
+  bool _loadingItems = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _repo.getAllItems().then((items) {
+      setState(() {
+        _itemsFromDb = items;
+        _loadingItems = false;
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
+
+    if (_loadingItems) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
     var appState = context.watch<MyAppState>();
 
     Color textColor = appState.showDarkText ? globals.textColorDark : globals.textColorLight;
@@ -214,7 +236,7 @@ class _SpindownPageState extends State<SpindownPage> {
                             controller: _scrollController,
                             scrollDirection: Axis.horizontal,
                             cacheExtent: 500,
-                            itemCount: widget.items.length,
+                            itemCount: _itemsFromDb.length,
                             itemBuilder: (context, index) {
                               return Container(
                                 margin: EdgeInsets.symmetric(horizontal: 8),
@@ -224,7 +246,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                     borderRadius: BorderRadius.circular(12),
                                     splashColor: Colors.transparent,
                                     onTap: () {
-                                        showDescription(index); // widget.items[index].id wont work, because some ids arent taken
+                                        showDescription(index); // _itemsFromDb[index].id wont work, because some ids arent taken
                                       },
                                       child: Ink(
                                         width: 150,
@@ -241,7 +263,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                           mainAxisAlignment: MainAxisAlignment.center,
                                           children: [
                                             Text(
-                                              widget.items[index].name,
+                                              _itemsFromDb[index].name,
                                               style: GoogleFonts.oswald(
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.w400,
@@ -255,15 +277,15 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 ],
                                               ),
                                             ),
-                                            //Text(widget.items[index].name, style: TextStyle(color: Colors.black)),
+                                            //Text(_itemsFromDb[index].name, style: TextStyle(color: Colors.black)),
                                             SizedBox(height: 2,),
                                             Image(
-                                              image: getCachedImage(widget.items[index].imagePath)
+                                              image: getCachedImage(_itemsFromDb[index].imagePath)
                                             ),
                                             SizedBox(height: 2,),
                                             if(appState.showItemId)
                                               Text(
-                                                "Item Id: ${widget.items[index].id}",
+                                                "Item Id: ${_itemsFromDb[index].id}",
                                                 style: GoogleFonts.oswald(
                                                   fontSize: 15,
                                                   fontWeight: FontWeight.w400,
@@ -277,7 +299,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                                   ],
                                                 ),
                                               ),
-                                              //Text("Item id: ${widget.items[index].id}", style: TextStyle(color: Colors.black),),
+                                              //Text("Item id: ${_itemsFromDb[index].id}", style: TextStyle(color: Colors.black),),
                                           ],
                                         )
                                       ),
@@ -323,7 +345,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 ),
                                               ),
                                               Text(
-                                                "ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}",
+                                                "ID: \t\t\t\t\t\t\t\t${_itemsFromDb[_selectedItem.index].id.toString()}",
                                                 style: GoogleFonts.oswald(
                                                   fontSize: 20,
                                                   fontWeight: FontWeight.w400,
@@ -338,7 +360,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                                 ),
                                               ),
                                               //Text("Name: \t${_selectedItem.name}"),
-                                              //Text("ID: \t\t\t\t\t\t\t\t${widget.items[_selectedItem.index].id.toString()}"),
+                                              //Text("ID: \t\t\t\t\t\t\t\t${_itemsFromDb[_selectedItem.index].id.toString()}"),
                                             ],
                                           ),
                                         ),
@@ -360,7 +382,7 @@ class _SpindownPageState extends State<SpindownPage> {
                                               */ // Not fully right yet
                                               Image(
                                                 fit: BoxFit.contain,
-                                                image: getCachedImage(widget.items[_selectedItem.index].imagePath),
+                                                image: getCachedImage(_itemsFromDb[_selectedItem.index].imagePath),
                                               ),
                                             ],
                                           ),
@@ -419,7 +441,7 @@ class _SpindownPageState extends State<SpindownPage> {
   }
 
   void scrollToItemId(int itemId) {
-    final index = widget.items.indexWhere((item) => item.id == itemId);
+    final index = _itemsFromDb.indexWhere((item) => item.id == itemId);
 
     if (index == -1) return; // Not found
 
@@ -434,7 +456,7 @@ class _SpindownPageState extends State<SpindownPage> {
   }
 
   void scrollToItemName(String itemName) {
-    final index = widget.items.indexWhere((item) => item.name.toLowerCase().contains(itemName.toLowerCase()));
+    final index = _itemsFromDb.indexWhere((item) => item.name.toLowerCase().contains(itemName.toLowerCase()));
 
     if (index == -1) return; // Not found
 
@@ -449,7 +471,7 @@ class _SpindownPageState extends State<SpindownPage> {
   }
 
   void showDescription(int index) {
-    _selectedItem.setItem(index, widget.items[index]);
+    _selectedItem.setItem(index, _itemsFromDb[index]);
     setState(() {
       
     });
@@ -462,13 +484,3 @@ class _SpindownPageState extends State<SpindownPage> {
     return _imageCache[path]!;
   }
 }
-
-/*
-
-TextField(
-                                controller: _ItemDescriptionController,
-                                readOnly: true,
-                                maxLines: null,
-                              ),
-
-                              */
